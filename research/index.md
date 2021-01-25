@@ -74,27 +74,46 @@ A complete list of publications can be found on my [institution profile page](ht
 [Bull2013]: https://dl.acm.org/doi/10.5555/2486788.2486934 "Studios in Software Engineering Education: Towards an Evaluable Model"
 
 <!-- Styled textual references -->
-| <!-- --> | <!-- --> |
-| -------- | -------- |
-| \[1\] | Wesley Hutchinson, Sumi Helal, and Christopher Bull. [GP Benchmark: Engineering a Crowd-Sourcing Platform for Real-Time Understanding of Personality and Cognitive Biases in Clinical Error][Hutchinson2020]. In: _2020 IEEE First International Workshop on Requirements Engineering for Well-Being, Aging, and Health (REWBAH)_. 2020, pp. 41–46. |
-| \[2\] | Mahsa Honary et al. [What Happens in Peer-Support, Stays in Peer-Support: Software Architecture for Peer-Sourcing in Mental Health][honary2020what]. In: _2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)_. 2020, pp. 644–653. |
-| \[3\] | Alistair Sutcliffe et al. [Known and unknown requirements in healthcare][sutcliffe2020known]. In: _Requirements engineering_ 25.1 (2020), pp. 1–20. |
-| \[4\] | Sumi Helal and Christopher N Bull. [From Smart Homes to Smart-ready Homes and Communities][helal2019smart]. In: _Dementia and geriatric cognitive disorders_ 47.3 (2019), pp. 157–163. |
-| \[5\] | Bran Knowles et al. [Examining Interdependencies and Constraints in Co-Creation][knowles2019examining]. In: _Proceedings of the 2019 Designing Interactive Systems Conference (DIS '19)_. ACM. 2019, pp. 291–302. |
-| \[6\] | Emma D Wilson et al. [Persuasive Health: Back to the Future][wilson2019persuasive]. In: _Proceedings of the 13th EAI International Conference on Pervasive Computing Technologies for Healthcare_. ACM. 2019, pp. 426–434. |
-| \[7\] | Mateusz Mikusz et al. [Supporting Older Adults Using Privacy-Aware IoT Analytics][mikusz2019supporting]. In: _Living in the Internet of Things: Cybersecurity of the IoT_ (2019). |
-| \[8\] | Peter Shaw et al. [Helping to Tackle Social Isolation and Loneliness of Older Adults Using Mobile Applications][shaw2019helping]. In: _Proceedings of the 20th International Workshop on Mobile Computing Systems and Applications_. ACM. 2019, pp. 185–185. |
-| \[9\] | Gemma Stringer et al. [Can you detect early dementia from an email? A proof of principle study of daily computer use to detect cognitive and functional decline][Stringer2018]. In: _International Journal of Geriatric Psychiatry_ 33.7 (2018), pp. 867–874. |
-| \[10\] | Róisín McNaney et al. [StammerApp: Designing a Mobile Application to Support Self-Reflection and Goal Setting for People Who Stammer][mcnaney2018stammerapp]. In: _Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems_. ACM. 2018, p. 267. |
-| \[11\] | Christopher N. Bull et al. [Designing Mobile Applications for Older Adults][bull2018designing]. In: _19th International Workshop on Mobile Computing Systems and Applications (HotMobile’18)_ (2018). |
-| \[12\] | Christopher N. Bull et al. [Mobile Age: Open Data Mobile Apps to Support Independent Living][Bull2017]. In: _Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA ’17)_. ACM, 2017, pp. 2410–2415. |
-| \[13\] | Ann  Gledson  et  al. [Combining  Mouse  and  Keyboard  Events  with  Higher  Level  Desktop Actions to Detect Mild Cognitive Impairment][Gledson2016]. In: _Proceedings of the International Conference on Healthcare Informatics (ICHI '16)_. IEEE, 2016, pp. 139–145. |
-| \[14\] | Christopher Bull et al. [Combining data mining and text mining for detection of early stage dementia: the SAMS framework][Bull2016]. In: _Resources and ProcessIng of linguistic and extra-linguistic Data from people with various forms of cognitive/psychiatric impairments (RaPID ’16) workshop at the 10th International Conference on Language Resources and Evaluation (LREC ’16)_. Portorož, Slovenia: ELRA, 2016. |
-| \[15\] | Christopher Neil Bull. [Studios in software engineering education][bull2016studios]. _PhD thesis_. Lancaster University, 2016. |
-| \[16\] | Jaejoon Lee et al. [Software Design Studio: A Practical Example][Lee2015]. In: _Proceedings of the 37th International Conference on Software Engineering (ICSE '15)_. Florence, Italy: IEEE, May 2015, pp. 389–397. |
-| \[17\] | Pete Sawyer et al. [Dementia and Social Sustainability: Challenges for Software Engineering][Sawyer2015]. In: _Proceedings of the 37th International Conference on Software Engineering (ICSE '15)_. Florence, Italy: IEEE, May 2015, pp. 527–530. |
-| \[18\] | Alistair Sutcliffe et al. [Discovering Affect-Laden Requirements to Achieve System Acceptance][Sutcliffe2014]. In: _Proceedings of the 22nd IEEE International Requirements Engineering Conference(RE’14)_. Karlskrona, Sweden: IEEE, 2014, pp. 173–182. |
-| \[19\] | Christopher N. Bull and Jon Whittle. [Supporting Reflective Practice in Software Engineering Education through a Studio-Based Approach][Bull2014a]. In: _IEEE Software_ 31.4 (2014), pp. 44–50. |
-| \[20\] | Christopher N. Bull and Jon Whittle. [Observations of a Software Engineering Studio: Reflecting  with  the  Studio  Framework][Bull2014].  In: _Proceedings of the 27th Conference on Software Engineering Education and Training (CSEE&T ’14)_. Klagenfurt, Austria: IEEE, 2014, pp. 74–83. _[\[Best Paper Award\]](https://conferences.computer.org/cseet/)_. |
-| \[21\] | Jon Whittle et al. [Teaching in a software design studio: Implications for modeling education][Whittle2014]. In: _CEUR Workshop Proceedings_. Vol. 1346. 2014, pp. 12–21. |
-| \[22\] | Christopher  N.  Bull,  Jon  Whittle,  and  Leon  Cruickshank. [Studios  in  Software  Engineering Education: Towards an Evaluable Model][Bull2013]. In: _Proceedings of the 35th International Conference on Software Engineering (ICSE '13)_. San Francisco, CA, USA: IEEE Press, 2013, pp. 1063–1072. |
+\[1\] Wesley Hutchinson, Sumi Helal, and Christopher Bull. [GP Benchmark: Engineering a Crowd-Sourcing Platform for Real-Time Understanding of Personality and Cognitive Biases in Clinical Error][Hutchinson2020]. In: _2020 IEEE First International Workshop on Requirements Engineering for Well-Being, Aging, and Health (REWBAH)_. 2020, pp. 41–46.
+
+\[2\] Mahsa Honary et al. [What Happens in Peer-Support, Stays in Peer-Support: Software Architecture for Peer-Sourcing in Mental Health][honary2020what]. In: _2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)_. 2020, pp. 644–653.
+
+\[3\] Alistair Sutcliffe et al. [Known and unknown requirements in healthcare][sutcliffe2020known]. In: _Requirements engineering_ 25.1 (2020), pp. 1–20.
+
+\[4\] Sumi Helal and Christopher N Bull. [From Smart Homes to Smart-ready Homes and Communities][helal2019smart]. In: _Dementia and geriatric cognitive disorders_ 47.3 (2019), pp. 157–163.
+
+\[5\] Bran Knowles et al. [Examining Interdependencies and Constraints in Co-Creation][knowles2019examining]. In: _Proceedings of the 2019 Designing Interactive Systems Conference (DIS '19)_. ACM. 2019, pp. 291–302.
+
+\[6\] Emma D Wilson et al. [Persuasive Health: Back to the Future][wilson2019persuasive]. In: _Proceedings of the 13th EAI International Conference on Pervasive Computing Technologies for Healthcare_. ACM. 2019, pp. 426–434.
+
+\[7\] Mateusz Mikusz et al. [Supporting Older Adults Using Privacy-Aware IoT Analytics][mikusz2019supporting]. In: _Living in the Internet of Things: Cybersecurity of the IoT_ (2019).
+
+\[8\] Peter Shaw et al. [Helping to Tackle Social Isolation and Loneliness of Older Adults Using Mobile Applications][shaw2019helping]. In: _Proceedings of the 20th International Workshop on Mobile Computing Systems and Applications_. ACM. 2019, pp. 185–185.
+
+\[9\] Gemma Stringer et al. [Can you detect early dementia from an email? A proof of principle study of daily computer use to detect cognitive and functional decline][Stringer2018]. In: _International Journal of Geriatric Psychiatry_ 33.7 (2018), pp. 867–874.
+
+\[10\] Róisín McNaney et al. [StammerApp: Designing a Mobile Application to Support Self-Reflection and Goal Setting for People Who Stammer][mcnaney2018stammerapp]. In: _Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems_. ACM. 2018, p. 267.
+
+\[11\] Christopher N. Bull et al. [Designing Mobile Applications for Older Adults][bull2018designing]. In: _19th International Workshop on Mobile Computing Systems and Applications (HotMobile’18)_ (2018).
+
+\[12\] Christopher N. Bull et al. [Mobile Age: Open Data Mobile Apps to Support Independent Living][Bull2017]. In: _Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA ’17)_. ACM, 2017, pp. 2410–2415.
+
+\[13\] Ann  Gledson  et  al. [Combining  Mouse  and  Keyboard  Events  with  Higher  Level  Desktop Actions to Detect Mild Cognitive Impairment][Gledson2016]. In: _Proceedings of the International Conference on Healthcare Informatics (ICHI '16)_. IEEE, 2016, pp. 139–145.
+
+\[14\] Christopher Bull et al. [Combining data mining and text mining for detection of early stage dementia: the SAMS framework][Bull2016]. In: _Resources and ProcessIng of linguistic and extra-linguistic Data from people with various forms of cognitive/psychiatric impairments (RaPID ’16) workshop at the 10th International Conference on Language Resources and Evaluation (LREC ’16)_. Portorož, Slovenia: ELRA, 2016.
+
+\[15\] Christopher Neil Bull. [Studios in software engineering education][bull2016studios]. _PhD thesis_. Lancaster University, 2016.
+
+\[16\] Jaejoon Lee et al. [Software Design Studio: A Practical Example][Lee2015]. In: _Proceedings of the 37th International Conference on Software Engineering (ICSE '15)_. Florence, Italy: IEEE, May 2015, pp. 389–397.
+
+\[17\] Pete Sawyer et al. [Dementia and Social Sustainability: Challenges for Software Engineering][Sawyer2015]. In: _Proceedings of the 37th International Conference on Software Engineering (ICSE '15)_. Florence, Italy: IEEE, May 2015, pp. 527–530.
+
+\[18\] Alistair Sutcliffe et al. [Discovering Affect-Laden Requirements to Achieve System Acceptance][Sutcliffe2014]. In: _Proceedings of the 22nd IEEE International Requirements Engineering Conference(RE’14)_. Karlskrona, Sweden: IEEE, 2014, pp. 173–182.
+
+\[19\] Christopher N. Bull and Jon Whittle. [Supporting Reflective Practice in Software Engineering Education through a Studio-Based Approach][Bull2014a]. In: _IEEE Software_ 31.4 (2014), pp. 44–50.
+
+\[20\] Christopher N. Bull and Jon Whittle. [Observations of a Software Engineering Studio: Reflecting  with  the  Studio  Framework][Bull2014].  In: _Proceedings of the 27th Conference on Software Engineering Education and Training (CSEE&T ’14)_. Klagenfurt, Austria: IEEE, 2014, pp. 74–83. _[\[Best Paper Award\]](https://conferences.computer.org/cseet/)_.
+
+\[21\] Jon Whittle et al. [Teaching in a software design studio: Implications for modeling education][Whittle2014]. In: _CEUR Workshop Proceedings_. Vol. 1346. 2014, pp. 12–21.
+
+\[22\] Christopher  N.  Bull,  Jon  Whittle,  and  Leon  Cruickshank. [Studios  in  Software  Engineering Education: Towards an Evaluable Model][Bull2013]. In: _Proceedings of the 35th International Conference on Software Engineering (ICSE '13)_. San Francisco, CA, USA: IEEE Press, 2013, pp. 1063–1072.
