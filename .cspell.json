@@ -16,6 +16,11 @@
         "yml",
         "javascript"
     ],
+    "import": [
+        "./node_modules/cspell-dict-html-symbol-entities/cspell-ext.json",
+        "./node_modules/cspell-dict-medicalterms/cspell-ext.json",
+        "./node_modules/cspell-dict-scientific-terms-us/cspell-ext.json"
+    ],
     "ignorePaths": [
         "**.lock",
         ".git/**",
@@ -61,6 +66,10 @@
         "Deafway",
         "ORCID",
         "UCREL",
-        "Lancs"
+        "Lancs",
+        // LGBTQIA+
+        "biphobia",
+        "LGBTQIA",
+        "safehomeally"
     ]
 }

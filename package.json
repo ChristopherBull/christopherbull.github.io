@@ -1,0 +1,24 @@
+{
+  "name": "christopherbull.github.io",
+  "version": "1.0.0",
+  "description": "Christopher Bull's personal website",
+  "scripts": {
+    "spell": "cspell \"**/*.md\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherBull/christopherbull.github.io.git"
+  },
+  "author": "Christopher Bull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherBull/christopherbull.github.io/issues"
+  },
+  "homepage": "https://github.com/ChristopherBull/christopherbull.github.io#readme",
+  "devDependencies": {
+    "cspell": "^5.2.2",
+    "cspell-dict-html-symbol-entities": "^1.1.2",
+    "cspell-dict-medicalterms": "^1.1.2",
+    "cspell-dict-scientific-terms-us": "^1.1.2"
+  }
+}

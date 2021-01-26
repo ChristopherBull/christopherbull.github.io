@@ -1,6 +1,7 @@
 # Christopher Bull's Personal Website
 
-This website serves as a professional (and personal) profile.
+This website serves as a professional (and personal) profile:\
+[https://christopherbull.github.io/](https://christopherbull.github.io/)
 
 ## GitHub Pages (Jekyll)
 
