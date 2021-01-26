@@ -1,0 +1,66 @@
+{
+    "language": "en",
+    "dictionaries": [
+        "en-gb",
+        "companies",
+        "softwareTerms",
+        "typescript", // inc. JS
+        "html",
+        "css",
+        "misc"
+    ],
+    "enabledLanguageIds": [
+        "markdown",
+        "plaintext",
+        "text",
+        "yml",
+        "javascript"
+    ],
+    "ignorePaths": [
+        "**.lock",
+        ".git/**",
+        ".vscode/**",
+        "node_modules/**",
+        "package.json",
+        // Ruby, Jekyll
+        "_site/**",
+        ".bundle/**",
+        "vendor/**"
+    ],
+    "words": [
+        // People
+        "Sumi",
+        "Helal",
+        "Jaejoon",
+        "Mahsa",
+        "Honary",
+        "Mateusz",
+        "Mikusz",
+        "Róisín",
+        "McNaney",
+        "Floriane",
+        "Dahman",
+        "Gledson",
+        // Places
+        "Karlskrona",
+        "Portorož",
+        "Whyndyke",
+        // Projects
+        "Goshna",
+        "SAMS",
+        // Conferences, publishers, funders, etc
+        "CEUR",
+        "COMPSAC",
+        "CSEE",
+        "ELRA",
+        "EPSRC",
+        "ICSE",
+        "LREC",
+        "REWBAH",
+        // Organisations, websites, etc
+        "Deafway",
+        "ORCID",
+        "UCREL",
+        "Lancs"
+    ]
+}
