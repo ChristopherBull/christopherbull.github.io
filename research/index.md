@@ -45,6 +45,18 @@ Mobile Age aimed to ensure the inclusion of older adults in digital public servi
 
 The SAMS project (Software Architecture for Mental health Self-management) aimed to detect early markers of mild cognitive impairment and neurodegenerative diseases, such as Alzheimer's disease, through participants' computer use \[[9][Stringer2018]\]. The aim is to enable earlier treatment and better quality of life for patients. This is achieved through a variety of novel data capture techniques (for low-level mouse and keyboard interactions, as well as higher-level contextual information). This is then analysed to determine patterns of usage through data mining \[[13][Gledson2016]\] and natural language processing (NLP) \[[14][Bull2016]\], particularly Propositional Idea Density. We found that passive monitoring of computer use behaviours can indicate early cognitive impairment [in submission]. Significant work also explored the requirements engineering aspects of working in such as a sensitive context \[[3][sutcliffe2020known],[17][Sawyer2015],[18][Sutcliffe2014]\]. My main responsibilities were the design and development of the secure data capture software, the design and development of an NLP tool, coordination of development activities with Manchester University, ethical transmission and storage of participant data, project support software, and the NLP of participant data.
 
+#### Studios in Software Engineering Education
+
+| <!-- --> | <!-- --> |
+| -------- | -------- |
+| Position | PhD Student, [HighWire CDT](https://epsrc.ukri.org/research/ourportfolio/themes/digitaleconomy/activities/cdts/) / Software Engineering – SCC, Lancaster University (2010-2015) |
+| Funder | EPSRC |
+| Site | [highwire.lancaster.ac.uk](http://highwire.lancaster.ac.uk/) |
+
+My PhD research explored the education of software engineers using a studio-based approach \[[22][Bull2013]\]. This research was grounded in transferring knowledge of design education into a software engineering context \[[22][Bull2013],[19][Bull2014a]\].
+
+This PhD also gave me experience of teaching and implementing a studio-based Software Engineering course \[[15][bull2016studios],[16][Lee2015],[20][Bull2014],[21][Whittle2014]\].
+
 ## References
 
 A complete list of publications can be found on my [institution profile page](https://www.lancaster.ac.uk/people-profiles/christopher-bull), or through one of my [Researcher IDs](#researcher-ids).
