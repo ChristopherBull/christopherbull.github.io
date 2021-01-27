@@ -14,8 +14,10 @@ __Active Projects:__
 
 - [SPACE: Suicide Prevention using Analytics and Cybernetic Elements](#space-suicide-prevention-using-analytics-and-cybernetic-elements) &mdash; Passive monitoring of mental health behaviours through pervasive technologies to provide earlier support and intervention.
 - [Peer-Sourcing](#peer-sourcing) &mdash; A new paradigm and software architecture for sourcing peers, with a privacy and distributed focus.
+- [Cue 2 Action](#cue-2-action) &mdash; Persuasive health, adaptive behaviour change, and patient engagement.
 - [GP Benchmark](#gp-benchmark) &mdash; Website for General Practitioners (GPs) to engage and reflect on simulated medical cases to explore prevalence of certain decision-making biases.
 - [Goshna](#goshna) &mdash; Accessible airport gate announcements for people who are Deaf or Hard of Hearing.
+- [Whyndyke Garden Village](#whyndyke-garden-village) &mdash; Designing smart-ready lifelong healthy living homes and communities for an NHS Healthy new town.
 
 __Past Projects:__
 
@@ -46,6 +48,15 @@ I am one of the chief co-designers of SPACE, along with service users and other 
 
 We have created a new technique for identifying and allocating peer interactions \[[2][honary2020what]\]. The software architecture for Peer-Sourcing was designed to enable mental health peer-support across various support-capable individuals and communities. Peer-sourcing has similarities to crowd-sourcing systems, though has several unique requirements (e.g., decentralised, low numbers of peers with heterogeneous attributes, high task urgency, and synchronous interactions). This work was an indirect output of the [SPACE project](#space-suicide-prevention-using-analytics-and-cybernetic-elements).
 
+### Cue 2 Action
+
+| <!-- --> | <!-- --> |
+| -------- | -------- |
+| Position | Senior Research Associate, Digital Health – SCC, Lancaster University (2019+) |
+| Site | [www.digitalhealthlancaster.xyz/cue-2-action/](https://www.digitalhealthlancaster.xyz/cue-2-action/) |
+
+An individual's behaviours and lifestyle accounts for a significant proportion of a person's health. Cue 2 Action is investigating whether systems and control theory can be used to provide a theoretical basis for persuasive health \[[6][wilson2019persuasive]\]; persuasive techniques could be dynamic based on context, persuasion effectiveness, and rule adherence. This early-stage work is exploring the theoretical underpinning and feasibility of using such a system in other health applications/systems.
+
 ### GP Benchmark
 
 | <!-- --> | <!-- --> |
@@ -64,6 +75,15 @@ This project is part of the PhD of practising GP Wesley Hutchinson. I contribute
 | Site | [www.digitalhealthlancaster.xyz/goshna/](https://www.digitalhealthlancaster.xyz/goshna/) |
 
 This mobile application provides accessible airport gate announcements for people who are Deaf or Hard of Hearing. It is a lightweight design that hooks into existing airport gate infrastructure to capture spoken announcements, convert to text (with moderation, if required), then pushes notifications to the mobile application. We have coordinated with a local Deaf community charity for the engagement and co-design activities with Deaf service users.
+
+### Whyndyke Garden Village
+
+| <!-- --> | <!-- --> |
+| -------- | -------- |
+| Position | Senior Research Associate, Digital Health – SCC, Lancaster University (2018+) |
+| Site | [www.digitalhealthlancaster.xyz/whyndyke-garden-village](https://www.digitalhealthlancaster.xyz/whyndyke-garden-village) |
+
+This village is an NHS Healthy new town which will utilise smart-ready homes and communities \[[4][helal2019smart]\]. Some of the village priorities include pushing telehealth, healthy communities, and creating dementia-friendly homes for lifelong living. My contributions have so far focused on exploring the digital plumbing for smart-ready, configurable, lifelong living homes. Additionally, I have supervised undergraduate projects exploring novel individual and community engagements in the context of this village.
 
 ### StammerApp
 
