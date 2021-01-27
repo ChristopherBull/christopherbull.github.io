@@ -14,6 +14,7 @@ __Active Projects:__
 
 - [SPACE: Suicide Prevention using Analytics and Cybernetic Elements](#space-suicide-prevention-using-analytics-and-cybernetic-elements) &mdash; Passive monitoring of mental health behaviours through pervasive technologies to provide earlier support and intervention.
 - [Peer-Sourcing](#peer-sourcing) &mdash; A new paradigm and software architecture for sourcing peers, with a privacy and distributed focus.
+- [GP Benchmark](#gp-benchmark) &mdash; Website for General Practitioners (GPs) to engage and reflect on simulated medical cases to explore prevalence of certain decision-making biases.
 - [Goshna](#goshna) &mdash; Accessible airport gate announcements for people who are Deaf or Hard of Hearing.
 
 __Past Projects:__
@@ -44,6 +45,16 @@ I am one of the chief co-designers of SPACE, along with service users and other 
 | Position | Senior Research Associate, Digital Health – SCC, Lancaster University (2019+) |
 
 We have created a new technique for identifying and allocating peer interactions \[[2][honary2020what]\]. The software architecture for Peer-Sourcing was designed to enable mental health peer-support across various support-capable individuals and communities. Peer-sourcing has similarities to crowd-sourcing systems, though has several unique requirements (e.g., decentralised, low numbers of peers with heterogeneous attributes, high task urgency, and synchronous interactions). This work was an indirect output of the [SPACE project](#space-suicide-prevention-using-analytics-and-cybernetic-elements).
+
+### GP Benchmark
+
+| <!-- --> | <!-- --> |
+| -------- | -------- |
+| Position | Senior Research Associate, Digital Health – SCC, Lancaster University (2019+) |
+
+GP Benchmark is a website for General Practitioners to engage and reflect on simulated medical cases to explore prevalence of certain decision-making biases \[[1][Hutchinson2020]\].
+
+This project is part of the PhD of practising GP Wesley Hutchinson. I contribute to the design and development of various areas of this project.
 
 ### Goshna
 
