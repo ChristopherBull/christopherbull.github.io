@@ -35,6 +35,7 @@ Professionally:
 
 - [LinkedIn](https://www.linkedin.com/in/christophernbull/)
 - [Lancaster University](https://www.lancaster.ac.uk/people-profiles/christopher-bull)
+- Researcher IDs ([Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-9811-4190))
 
 Informally:
 

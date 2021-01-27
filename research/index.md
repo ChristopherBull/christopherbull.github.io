@@ -1,21 +1,60 @@
 # Research
 
-_This webpage is under construction._
-
----
-
-## Researcher IDs
-
-- [Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en)
-- [ORCID](https://orcid.org/0000-0002-9811-4190)
+I am interested in the sensing, understanding, and actioning of digital health data to radically transform how people live their lives. My research interests lie in designing, developing, and evaluating secure health informatics and cybernetics platforms and ecosystem elements as a digital health infrastructure &mdash; crossing software engineering and pervasive technologies. This includes digital phenotyping, assistive and diagnostic healthcare technologies, and systems for healthcare professionals. I use co-design/creation methods to create solutions applicable to patients, service users, and health professionals. I have an interest in ethical challenges of healthcare technologies and applying mixed methods to complex problems.
 
 ## Projects
 
-### Active Projects
+I have worked on numerous health projects and directly contributed to research spanning several disciplines, including Systems and Software Engineering, Data Science, and Participant Engagement.
 
-### Past Projects
+I currently work in Digital Health at Lancaster University. In this position I work on numerous Digital Health projects that are of strategic importance to Lancaster's Digital Health Centre. My main focus is the design and development of ecosystem elements, pervasive healthcare technologies, and cybernetics/informatics platforms.
 
-#### StammerApp
+The following projects are those which I have had significant or fundamental contributions:
+
+__Active Projects:__
+
+- [SPACE: Suicide Prevention using Analytics and Cybernetic Elements](#space-suicide-prevention-using-analytics-and-cybernetic-elements) &mdash; Passive monitoring of mental health behaviours through pervasive technologies to provide earlier support and intervention.
+- [Peer-Sourcing](#peer-sourcing) &mdash; A new paradigm and software architecture for sourcing peers, with a privacy and distributed focus.
+- [Goshna](#goshna) &mdash; Accessible airport gate announcements for people who are Deaf or Hard of Hearing.
+
+__Past Projects:__
+
+- [StammerApp](#stammerapp) &mdash; A mobile application to support people who stammer, created with user-centred design.
+- [Mobile Age (H2020)](#mobile-age) &mdash; Platforms and mobile applications to ensure the inclusion of older adults in digital public services, including a focus on independent living and reducing social isolation.
+- [SAMS (EPSRC)](#sams) &mdash; Desktop computer software for passive monitoring and identification of Alzheimer's disease and Mild Cognitive Impairment through data mining and natural language processing.
+- [Studios in Software Engineering Education (PhD)](#studios-in-software-engineering-education) &mdash; Exploring and implementing an alternative pedagogical approach in Software Engineering, studio-based learning.
+
+### SPACE: Suicide Prevention using Analytics and Cybernetic Elements
+
+| <!-- --> | <!-- --> |
+| -------- | -------- |
+| Position | Senior Research Associate, Digital Health – SCC, Lancaster University (2018+) |
+| Funder | Lancashire and South Cumbria Integrated Care System (NHS, UK) |
+| Site | [www.digitalhealthlancaster.xyz/space/](https://www.digitalhealthlancaster.xyz/space/) |
+
+SPACE is a mental health monitoring and suicide prevention platform, designed to be a Learning Health System with mobile sensing and elements of Clinical Decision Support and alerting. This project aims to enhance health professional capacity in overseeing service users and facilitate the provision of timely interventions. The core of the system is about passively monitoring the behaviours and activities of service users who are in contact with mental health services through pervasive technologies (primarily their mobile phones).
+
+We have designed, delivered, and analysed workshops with people with lived-experience of suicide and mental health professionals, gaining further insights into working with these people in an important area.
+
+I am one of the chief co-designers of SPACE, along with service users and other colleagues, and currently its only developer. Development has consisted of mobile sensing and reporting, pervasive systems development, analytics, ethical and privacy considerations, and a dashboard for health professionals.
+
+### Peer-Sourcing
+
+| <!-- --> | <!-- --> |
+| -------- | -------- |
+| Position | Senior Research Associate, Digital Health – SCC, Lancaster University (2019+) |
+
+We have created a new technique for identifying and allocating peer interactions \[[2][honary2020what]\]. The software architecture for Peer-Sourcing was designed to enable mental health peer-support across various support-capable individuals and communities. Peer-sourcing has similarities to crowd-sourcing systems, though has several unique requirements (e.g., decentralised, low numbers of peers with heterogeneous attributes, high task urgency, and synchronous interactions). This work was an indirect output of the [SPACE project](#space-suicide-prevention-using-analytics-and-cybernetic-elements).
+
+### Goshna
+
+| <!-- --> | <!-- --> |
+| -------- | -------- |
+| Position | Senior Research Associate, Digital Health – SCC, Lancaster University (2018+) |
+| Site | [www.digitalhealthlancaster.xyz/goshna/](https://www.digitalhealthlancaster.xyz/goshna/) |
+
+This mobile application provides accessible airport gate announcements for people who are Deaf or Hard of Hearing. It is a lightweight design that hooks into existing airport gate infrastructure to capture spoken announcements, convert to text (with moderation, if required), then pushes notifications to the mobile application. We have coordinated with a local Deaf community charity for the engagement and co-design activities with Deaf service users.
+
+### StammerApp
 
 | <!-- --> | <!-- --> |
 | -------- | -------- |
@@ -25,7 +64,7 @@ StammerApp is a mobile application to support people  who  stammer, through prac
 
 The application was developed by Floriane Dahman, who was co-supervised by Róisín McNaney and myself. We published the workshop analysis, design recommendations, and an evaluation of the application \[[10][mcnaney2018stammerapp]\].
 
-#### Mobile Age
+### Mobile Age
 
 | <!-- --> | <!-- --> |
 | -------- | -------- |
@@ -35,7 +74,7 @@ The application was developed by Floriane Dahman, who was co-supervised by Róis
 
 Mobile Age aimed to ensure the inclusion of older adults in digital public services by developing user-friendly mobile applications based on open government data. To achieve this, Mobile Age developed a platform to allow developers to more easily create apps aimed at older adults \[[11][bull2018designing]\]. It performed a series of co-creation activities \[[5][knowles2019examining]\] to develop demonstrator apps to fulfil the needs of participants, whist demoing the functionality of the platform \[[12][Bull2017]\]. Lancaster's specific aim was to improve independent living (through reducing social isolation and loneliness) – the first demonstrator app aimed to improve social inclusion \[[8][shaw2019helping]\]. My responsibilities on the project included: design and facilitation of co-creation activities with older adults; development of an analytics Software-as-a-Service (SaaS) module for 3rd party developers to use when creating their own Mobile Age apps \[[7][mikusz2019supporting]\]; development of demonstrator apps and RESTful services; liaise and coordinate with partner institutions; and writing EU project deliverable reports.
 
-#### SAMS
+### SAMS
 
 | <!-- --> | <!-- --> |
 | -------- | -------- |
@@ -45,7 +84,7 @@ Mobile Age aimed to ensure the inclusion of older adults in digital public servi
 
 The SAMS project (Software Architecture for Mental health Self-management) aimed to detect early markers of mild cognitive impairment and neurodegenerative diseases, such as Alzheimer's disease, through participants' computer use \[[9][Stringer2018]\]. The aim is to enable earlier treatment and better quality of life for patients. This is achieved through a variety of novel data capture techniques (for low-level mouse and keyboard interactions, as well as higher-level contextual information). This is then analysed to determine patterns of usage through data mining \[[13][Gledson2016]\] and natural language processing (NLP) \[[14][Bull2016]\], particularly Propositional Idea Density. We found that passive monitoring of computer use behaviours can indicate early cognitive impairment [in submission]. Significant work also explored the requirements engineering aspects of working in such as a sensitive context \[[3][sutcliffe2020known],[17][Sawyer2015],[18][Sutcliffe2014]\]. My main responsibilities were the design and development of the secure data capture software, the design and development of an NLP tool, coordination of development activities with Manchester University, ethical transmission and storage of participant data, project support software, and the NLP of participant data.
 
-#### Studios in Software Engineering Education
+### Studios in Software Engineering Education
 
 | <!-- --> | <!-- --> |
 | -------- | -------- |
@@ -57,9 +96,11 @@ My PhD research explored the education of software engineers using a studio-base
 
 This PhD also gave me experience of teaching and implementing a studio-based Software Engineering course \[[15][bull2016studios],[16][Lee2015],[20][Bull2014],[21][Whittle2014]\].
 
+---
+
 ## References
 
-A complete list of publications can be found on my [institution profile page](https://www.lancaster.ac.uk/people-profiles/christopher-bull), or through one of my [Researcher IDs](#researcher-ids).
+A complete list of publications can be found on my [institution profile page](https://www.lancaster.ac.uk/people-profiles/christopher-bull), or through one of my researcher IDs ([Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-9811-4190)).
 
 <!-- Reference IDs, links, and link title -->
 [Hutchinson2020]: https://doi.org/10.1109/REWBAH51211.2020.00012 "GP Benchmark: Engineering a Crowd-Sourcing Platform for Real-Time Understanding of Personality and Cognitive Biases in Clinical Error"
