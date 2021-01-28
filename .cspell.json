@@ -74,6 +74,9 @@
         // LGBTQIA+
         "biphobia",
         "LGBTQIA",
-        "safehomeally"
+        "safehomeally",
+        // Other
+        "markdownlint",
+        "webp"
     ]
 }
