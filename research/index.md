@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # Research
 
 I am interested in the sensing, understanding, and actioning of digital health data to radically transform how people live their lives. My research interests lie in designing, developing, and evaluating secure health informatics and cybernetics platforms and ecosystem elements as a digital health infrastructure &mdash; crossing software engineering and pervasive technologies. This includes digital phenotyping, assistive and diagnostic healthcare technologies, and systems for healthcare professionals. I use co-design/creation methods to create solutions applicable to patients, service users, and health professionals. I have an interest in ethical challenges of healthcare technologies and applying mixed methods to complex problems.
@@ -131,7 +132,7 @@ This PhD also gave me experience of teaching and implementing a studio-based Sof
 
 ## References
 
-A complete list of publications can be found on my [institution profile page](https://www.lancaster.ac.uk/people-profiles/christopher-bull), or through one of my researcher IDs ([Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-9811-4190)).
+A complete list of publications can be found on my [institution profile page](https://www.lancaster.ac.uk/people-profiles/christopher-bull), or through one of my researcher IDs ( [<span style="white-space: nowrap"><img src="https://scholar.google.co.uk/favicon.ico" alt="Google Scholar logo" style="height:.8em;" /> Google</span> Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en), [<span style="white-space: nowrap"><img src="https://orcid.org/favicon.ico" alt="ORCID logo" style="height:.8em;" /> ORCID</span>](https://orcid.org/0000-0002-9811-4190)).
 
 <!-- Reference IDs, links, and link title -->
 [Hutchinson2020]: https://doi.org/10.1109/REWBAH51211.2020.00012 "GP Benchmark: Engineering a Crowd-Sourcing Platform for Real-Time Understanding of Personality and Cognitive Biases in Clinical Error"

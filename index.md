@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # Professional Profile
 
 ## Research
@@ -31,12 +32,8 @@ Program committees. -->
 
 ## Contact Me
 
-Professionally:
-
-- [LinkedIn](https://www.linkedin.com/in/christophernbull/)
-- [Lancaster University](https://www.lancaster.ac.uk/people-profiles/christopher-bull)
-- Researcher IDs ([Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-9811-4190))
-
-Informally:
-
-- Twitter: @[VirtualChrisB](https://twitter.com/VirtualChrisB)
+- [<img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn logo" style="height:.8em;" /> LinkedIn](https://www.linkedin.com/in/christophernbull/)
+- [<img src="https://www.lancaster.ac.uk/favicon.ico" alt="Lancaster University logo" style="height:.8em;" /> Lancaster University](https://www.lancaster.ac.uk/people-profiles/christopher-bull)
+- [<img src="https://scholar.google.co.uk/favicon.ico" alt="Google Scholar logo" style="height:.8em;" /> Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en)
+- [<img src="https://orcid.org/favicon.ico" alt="ORCID logo" style="height:.8em;" /> ORCID](https://orcid.org/0000-0002-9811-4190)
+- [<img src="https://www.twitter.com/favicon.ico" alt="Twitter logo" style="height:.8em;" /> Twitter: @VirtualChrisB](https://twitter.com/VirtualChrisB)
