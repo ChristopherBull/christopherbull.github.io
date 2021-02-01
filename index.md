@@ -41,13 +41,33 @@ __Programme Committees:__
 
 ## Contact Me
 
-<!-- Leave whitespace between links, to make more touch-friendly -->
-<img src="https://www.linkedin.com/favicon.ico" alt="" style="height:1em;vertical-align:middle;" /> [LinkedIn](https://www.linkedin.com/in/christophernbull/)
+<!-- Leave whitespace between links, to make more touch-friendly. Also reserve space to avoid text re-flowing after an icon is loaded. -->
+<div style="float:left;clear:both;min-height:1em;min-width:1em;margin-left:1.5em;margin-right:.5em;">
+    <img src="https://www.linkedin.com/favicon.ico" alt="" style="height:1em;vertical-align:middle;" />
+</div>
 
-<img src="https://www.lancaster.ac.uk/favicon.ico" alt="" style="height:1em;vertical-align:middle;" /> [Lancaster University](https://www.lancaster.ac.uk/people-profiles/christopher-bull)
+[LinkedIn](https://www.linkedin.com/in/christophernbull/)
 
-<img src="https://scholar.google.co.uk/favicon.ico" alt="" style="height:1em;vertical-align:middle;" /> [Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en)
+<div style="float:left;min-height:1em;min-width:1em;margin-left:1.5em;margin-right:.5em;">
+    <img src="https://www.lancaster.ac.uk/favicon.ico" alt="" style="height:1em;vertical-align:middle;" />
+</div>
 
-<img src="https://orcid.org/favicon.ico" alt="" style="height:1em;vertical-align:middle;" /> [ORCID](https://orcid.org/0000-0002-9811-4190)
+[Lancaster University](https://www.lancaster.ac.uk/people-profiles/christopher-bull)
 
-<img src="https://www.twitter.com/favicon.ico" alt="" style="height:1em;vertical-align:middle;" /> [Twitter: @VirtualChrisB](https://twitter.com/VirtualChrisB)
+<div style="float:left;min-height:1em;min-width:1em;margin-left:1.5em;margin-right:.5em;">
+    <img src="https://scholar.google.co.uk/favicon.ico" alt="" style="height:1em;vertical-align:middle;" />
+</div>
+
+[Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en)
+
+<div style="float:left;min-height:1em;min-width:1em;margin-left:1.5em;margin-right:.5em;">
+    <img src="https://orcid.org/favicon.ico" alt="" style="height:1em;vertical-align:middle;" />
+</div>
+
+[ORCID](https://orcid.org/0000-0002-9811-4190)
+
+<div style="float:left;min-height:1em;min-width:1em;margin-left:1.5em;margin-right:.5em;">
+    <img src="https://www.twitter.com/favicon.ico" alt="" style="height:1em;vertical-align:middle;" />
+</div>
+
+[Twitter: @VirtualChrisB](https://twitter.com/VirtualChrisB)
