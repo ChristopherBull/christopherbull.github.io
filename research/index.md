@@ -160,7 +160,7 @@ A complete list of publications can be found on my [institution profile page](ht
 [Bull2014a]: https://doi.org/10.1109/MS.2014.52 "Supporting Reflective Practice in Software Engineering Education through a Studio-Based Approach"
 [Bull2014]: https://doi.org/10.1109/CSEET.2014.6816784 "Observations of a Software Engineering Studio: Reflecting with the Studio Framework"
 [Whittle2014]: http://ceur-ws.org/Vol-1346/edusymp2014_paper_1.pdf "Teaching in a software design studio: Implications for modeling education"
-[Bull2013]: https://dl.acm.org/doi/10.5555/2486788.2486934 "Studios in Software Engineering Education: Towards an Evaluable Model"
+[Bull2013]: https://doi.org/10.1109/ICSE.2013.6606656 "Studios in Software Engineering Education: Towards an Evaluable Model"
 
 <!-- Styled textual references -->
 \[1\] Wesley Hutchinson, Sumi Helal, and Christopher Bull. [GP Benchmark: Engineering a Crowd-Sourcing Platform for Real-Time Understanding of Personality and Cognitive Biases in Clinical Error][Hutchinson2020]. In: _2020 IEEE First International Workshop on Requirements Engineering for Well-Being, Aging, and Health (REWBAH)_. 2020, pp. 41–46.
