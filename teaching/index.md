@@ -1,10 +1,20 @@
-# Teaching
+---
+layout: single
+title: Teaching
+permalink: /teaching/
+---
+
+<!-- markdownlint-disable MD033 -->
+
+I am committed to high-quality teaching and promote studio education, or Studio-Based Learning (SBL), a teaching method I [researched and helped to successfully implement](http://www.research.lancs.ac.uk/portal/en/publications/studios-in-software-engineering-education(a6a4d34e-cb6e-4eba-b558-03a8a10d2831).html) throughout Software Engineering at Lancaster University. Studio-Based Learning is a hands-on project- and problem-based teaching method which revolves around coaching students, inspired by architecture/design/art studios. It particularly encourages reflective practice, peer-learning, intra- and inter-group collaboration, multi-discipline teams, and teaches numerous skills for future Software Engineering leaders. Studio education is a strong approach for multi-disciplinary teams and thinking broadly about problems. I have been awarded a Best Paper award in this area ([CSEE&T 2014](https://conferences.computer.org/cseet/)) and continue to engage in both an educational and research perspective (Distinguished Reviewer Award, CSEE&T 2020).
+
+I have experience teaching on a variety of undergraduate modules and have provided supervisory/mentorship roles to several students.
 
 Current students should refer to the University's official course pages for the most up-to-date information.
 
 I take equality, equity, and diversity very seriously. I provide my position and some of my actions on a [dedicated page](../equality.md). I am also more than happy to be [contacted](../index.md#contact-me) in relation to this.
 
-## Taught courses
+## <i class="fas fa-chalkboard-teacher fa-fw" aria-hidden="true" style="margin-right:.5em;"></i>Taught courses
 
 **Studio-based Teaching:**
 
