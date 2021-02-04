@@ -43,6 +43,7 @@ __Programme Committees (Chair):__
 
 __Programme Committees:__
 
+- Systems and Software Product Line Conference (SPLC) _[[2021](https://splc2021.net/committees/program-committees)]_
 - International Conference on Software Engineering: Joint Track on Software Engineering Education and Training (ICSE-JSEET) _[[2021](https://conf.researchr.org/committee/icse-2021/icse-2021-software-engineering-in-education-and-training-program-committee)]_
 - Workshop on Design Contributions to Pervasive Healthcare (DCPH) _[[2020](https://pervasivehealth.org/design-contributions-pervasive-healthcare-workshop/)]_
 - Conference on Software Engineering Education and Training (CSEE&T) _[[2019](https://hicss.hawaii.edu/tracks-54/software-engineering-education/), [2020](https://ase.in.tum.de/cseet2020/index.php/program-committee/)]_
