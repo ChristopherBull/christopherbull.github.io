@@ -7,7 +7,7 @@ permalink: /profile/
 
 ## <i class="fas fa-university fa-fw" aria-hidden="true" style="margin-right:.5em;"></i>Affiliation
 
-**Lancaster University** (2014-current) &mdash; Senior Research Associate in the [Centre on Digital Health and Quality of Life Technologies](https://www.digitalhealthlancaster.xyz/).
+**Lancaster University** (2014-current) &mdash; Senior Research Associate in the [Centre on Digital Health and Quality of Life Technologies](https://www.digitalhealthlancaster.xyz/), within the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
 
 ## <i class="fas fa-users fa-fw" aria-hidden="true" style="margin-right:.5em;"></i>Academic Service
 
