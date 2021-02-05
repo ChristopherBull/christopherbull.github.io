@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: assets/images/home_splash.jpg
+  overlay_image: assets/images/home_splash.webp
 excerpt: "Christopher Bull is an interdisciplinary researcher working in Digital Health, Software Engineering, and Pervasive Systems."
 feature_row:
   - image_path: assets/images/feature_research_small.webp
