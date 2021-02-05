@@ -2,6 +2,7 @@
 layout: single
 title: Academic Profile
 permalink: /profile/
+author_profile: true
 ---
 <!-- markdownlint-disable MD033 -->
 

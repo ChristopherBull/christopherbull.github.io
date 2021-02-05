@@ -2,6 +2,7 @@
 layout: single
 title: Research
 permalink: /research/
+toc: true
 ---
 
 <!-- markdownlint-disable MD033 -->
