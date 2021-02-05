@@ -58,7 +58,7 @@ feature_row:
     <img src="https://scholar.google.co.uk/favicon.ico" alt="" style="height:1em;vertical-align:middle;" />
 </div>
 
-[Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en)
+[Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ)
 
 <div aria-hidden="true" style="float:left;min-height:1em;min-width:1em;margin-left:1.5em;margin-right:.5em;">
     <img src="https://orcid.org/favicon.ico" alt="" style="height:1em;vertical-align:middle;" />
