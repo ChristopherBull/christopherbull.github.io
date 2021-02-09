@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 locale: "en-GB"
 name: "Christopher Bull"
 title: "Christopher Bull"
@@ -44,3 +44,6 @@ social:
     - "https://www.linkedin.com/in/christophernbull"
 plugins:
   - jekyll-include-cache
+atom_feed:
+  # Hide atom_feed until blog/news items added and browseable
+  hide: true
