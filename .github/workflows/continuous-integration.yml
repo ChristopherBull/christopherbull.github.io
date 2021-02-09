@@ -33,3 +33,30 @@ jobs:
         run: npm ci
       - name: Check spelling
         run: npm run spell
+  
+  lint:
+    name: Linting
+    runs-on: ubuntu-latest
+    # Wait for first job (for dep cache)
+    needs: spelling
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js (LTS)
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        id: cache-npm
+        with:
+          path: |
+            ~/.npm
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install dependencies (if no cache hit)
+        if: steps.cache-npm.outputs.cache-hit != 'true'
+        run: npm ci
+      - name: Do linting
+        run: npm run lint

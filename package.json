@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Christopher Bull's personal website",
   "scripts": {
-    "spell": "cspell \"**/*.md\""
+    "spell": "cspell \"**/*.md\"",
+    "lint": "markdownlint-cli2 \"**/*.md\" \"!node_modules\" \"!vendor\" \"!_site\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
     "cspell": "^5.2.2",
     "cspell-dict-html-symbol-entities": "^1.1.2",
     "cspell-dict-medicalterms": "^1.1.2",
-    "cspell-dict-scientific-terms-us": "^1.1.2"
+    "cspell-dict-scientific-terms-us": "^1.1.2",
+    "markdownlint-cli2": "^0.0.13"
   }
 }
