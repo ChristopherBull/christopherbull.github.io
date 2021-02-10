@@ -16,6 +16,8 @@ jobs:
       LHCI_VER: 0.7.x
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
       # Build site
       - uses: ruby/setup-ruby@v1
         with:
