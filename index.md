@@ -12,19 +12,19 @@ feature_row:
     title: "Research"
     excerpt: "Research projects, my research philosophy, and publications."
     url: "/research/"
-    btn_label: "Read More"
+    btn_label: "Research"
     btn_class: "btn--primary"
   - image_path: /assets/images/feature_teaching_small.webp
     title: "Teaching"
     excerpt: "Courses I teach, information for students, and pedagogical approaches (especially Studios)."
     url: "/teaching/"
-    btn_label: "Read More"
+    btn_label: "Teaching"
     btn_class: "btn--primary"
   - image_path: /assets/images/feature_profile_small.webp
     title: "Academic Profile"
     excerpt: "Academic service, positions, and related experiences."
     url: "/profile/"
-    btn_label: "Read More"
+    btn_label: "Academic Profile"
     btn_class: "btn--primary"
 ---
 
