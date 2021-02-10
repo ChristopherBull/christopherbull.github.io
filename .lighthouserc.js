@@ -6,8 +6,9 @@ module.exports = {
     assert: {
       preset: 'lighthouse:recommended',
       assertions: {
-        // Cannot check http2 on local Http server through Lighthouse CI
+        // Cannot check these tests on local Http server through Lighthouse CI
         'uses-http2': 'off',
+        'canonical': 'off',
       },
     },
     upload: {
