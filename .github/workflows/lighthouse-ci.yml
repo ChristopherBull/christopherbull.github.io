@@ -40,6 +40,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-lighthouse-
       - name: Run the Lighthouse CI
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
         run: |
           npm install @lhci/cli@$LHCI_VER
           npx lhci autorun
