@@ -11,9 +11,9 @@ module.exports = {
       preset: 'lighthouse:recommended',
       assertions: {
         // Cannot check these tests on local Http server through Lighthouse CI
-        'uses-http2': 'off',
-        'uses-long-cache-ttl': 'off',
-        'canonical': 'off',
+        'uses-http2': ['off', {}],
+        'uses-long-cache-ttl': ['off', {}],
+        canonical: ['off', {}],
       },
     },
     upload: {
