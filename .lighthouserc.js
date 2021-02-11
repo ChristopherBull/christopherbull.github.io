@@ -1,6 +1,10 @@
 module.exports = {
   ci: {
     collect: {
+      // Specify URLs to avoid LHCI reporting an error only seen in CI/localhost
+      // ('canonical==off' does not appear to prevent the error):
+      // "Document does not have a valid `rel=canonical` Relative URL (/)"
+      url: ['http://localhost/'],
       staticDistDir: './_site',
     },
     assert: {
