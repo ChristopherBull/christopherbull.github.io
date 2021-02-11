@@ -4,7 +4,7 @@ module.exports = {
       // Specify URLs to avoid LHCI reporting an error only seen in CI/localhost
       // ('canonical==off' does not appear to prevent the error):
       // "Document does not have a valid `rel=canonical` Relative URL (/)"
-      url: ['http://localhost/'],
+      url: ['http://localhost:4000/'],
       startServerCommand: 'bundle exec jekyll serve',
     },
     assert: {
