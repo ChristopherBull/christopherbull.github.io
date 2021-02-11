@@ -1,5 +1,7 @@
 # Christopher Bull's Personal Website
 
+![Tests](https://github.com/ChristopherBull/christopherbull.github.io/workflows/Tests/badge.svg) ![Lighthouse](https://github.com/ChristopherBull/christopherbull.github.io/workflows/Lighthouse/badge.svg)
+
 This website serves as a professional (and personal) profile:\
 [https://christopherbull.github.io/](https://christopherbull.github.io/)
 
