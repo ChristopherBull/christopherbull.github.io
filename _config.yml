@@ -47,3 +47,14 @@ plugins:
 atom_feed:
   # Hide atom_feed until blog/news items added and browseable
   hide: true
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/christophernbull/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/VirtualChrisB"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ChristopherBull"
