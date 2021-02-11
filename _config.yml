@@ -1,13 +1,13 @@
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 locale: "en-GB"
-name: "Christopher Bull"
+name: "Dr Christopher Bull"
 title: "Christopher Bull"
 subtitle: "Researcher of Digital Health and Software Engineering"
-logo: /assets/images/Chris_Bull_2018_500px.webp
+logo: /assets/images/Chris_Bull_2018_100px.webp
 description: "Dr Christopher Bull is a Senior Researcher in Digital Health and Software Engineering."
 show_downloads: false
 author:
-  name: "Christopher Bull"
+  name: "Dr Christopher Bull"
   avatar: "/assets/images/Chris_Bull_2018_500px.webp"
   # bio: "I am a researcher." # Note: Markdown is allowed
   location: "Lancaster, UK"
@@ -38,7 +38,7 @@ twitter:
   username: "VirtualChrisB"
 social:
   type: Person
-  name: "Christopher Bull"
+  name: "Dr Christopher Bull"
   links:
     - "https://twitter.com/VirtualChrisB"
     - "https://www.linkedin.com/in/christophernbull"
