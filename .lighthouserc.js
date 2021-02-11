@@ -5,7 +5,7 @@ module.exports = {
       // ('canonical==off' does not appear to prevent the error):
       // "Document does not have a valid `rel=canonical` Relative URL (/)"
       url: ['http://localhost/'],
-      staticDistDir: './_site',
+      startServerCommand: 'bundle exec jekyll serve',
     },
     assert: {
       preset: 'lighthouse:recommended',
