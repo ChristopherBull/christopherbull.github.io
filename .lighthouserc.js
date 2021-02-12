@@ -4,6 +4,9 @@ module.exports = {
       url: ['http://localhost:4000/'],
       startServerCommand: 'bundle exec jekyll serve',
       settings: {
+        // Skip Progressive Web App audit in final report
+        onlyCategories: ['performance', 'accessibility', 'best-practices', 'seo'],
+        // Skip audits in the Lighthouse report
         // Cannot check these tests on local Http server through Lighthouse CI
         skipAudits: ['canonical', 'uses-http2', 'uses-long-cache-ttl'],
       },
