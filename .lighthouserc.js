@@ -10,6 +10,10 @@ module.exports = {
     },
     assert: {
       preset: 'lighthouse:no-pwa',
+      assertions: {
+        // Default recommended is 0.9, but the theme has unavoidable limitations
+        'categories:performance': ['warn', { minScore: 0.8 }],
+      },
     },
     upload: {
       target: 'temporary-public-storage',
