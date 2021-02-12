@@ -81,6 +81,7 @@
         "safehomeally",
         // Other
         "markdownlint",
+        "unminified",
         "webp"
     ]
 }
