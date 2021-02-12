@@ -9,7 +9,7 @@ module.exports = {
       },
     },
     assert: {
-      preset: 'lighthouse:recommended',
+      preset: 'lighthouse:no-pwa',
     },
     upload: {
       target: 'temporary-public-storage',
