@@ -60,3 +60,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ChristopherBull"
+    - label: "Equality Statement"
+      icon: "fas fa-fw fa-balance-scale"
+      url: "/equality.html"
