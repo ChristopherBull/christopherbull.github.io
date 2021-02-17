@@ -174,9 +174,9 @@ A complete list of publications can be found on my [institution profile page](ht
 
 \[2\] Mahsa Honary et al. [What Happens in Peer-Support, Stays in Peer-Support: Software Architecture for Peer-Sourcing in Mental Health][honary2020what]. In: _2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)_. 2020, pp. 644–653.
 
-\[3\] Alistair Sutcliffe et al. [Known and unknown requirements in healthcare][sutcliffe2020known]. In: _Requirements engineering_ 25.1 (2020), pp. 1–20.
+\[3\] Alistair Sutcliffe et al. [Known and unknown requirements in healthcare][sutcliffe2020known]. In: _Requirements Engineering_ 25.1 (2020), pp. 1–20.
 
-\[4\] Sumi Helal and Christopher N Bull. [From Smart Homes to Smart-ready Homes and Communities][helal2019smart]. In: _Dementia and geriatric cognitive disorders_ 47.3 (2019), pp. 157–163.
+\[4\] Sumi Helal and Christopher N Bull. [From Smart Homes to Smart-ready Homes and Communities][helal2019smart]. In: _Dementia and Geriatric Cognitive Disorders_ 47.3 (2019), pp. 157–163.
 
 \[5\] Bran Knowles et al. [Examining Interdependencies and Constraints in Co-Creation][knowles2019examining]. In: _Proceedings of the 2019 Designing Interactive Systems Conference (DIS '19)_. ACM. 2019, pp. 291–302.
 
