@@ -10,3 +10,6 @@ vendor/
 
 # Node, npm (e.g., cSpell)
 node_modules
+
+# Lighthouse CI
+.lighthouseci/
