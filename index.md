@@ -32,7 +32,7 @@ feature_row:
 
 <!-- markdownlint-disable MD033 -->
 
-## <i class="fas fa-pen fa-fw" aria-hidden="true" style="margin-right:.5em;"></i>Technical Blogs
+## <i class="fas fa-pen fa-fw headingIcon" aria-hidden="true"></i>Technical Blogs
 
 [Merging Android Unit and Instrumented Code Coverage Reports Offline, using JaCoCo](https://medium.com/@VirtualChrisBull/merging-android-unit-and-instrumented-code-coverage-reports-offline-using-jacoco-6ceb4b4881d1)
 
