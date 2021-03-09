@@ -14,7 +14,7 @@ Current students should refer to the University's official course pages for the 
 
 I take equality, equity, and diversity very seriously. I provide my position and some of my actions on a [dedicated page](../equality.md). I am also more than happy to be [contacted](../index.md#contact-me) in relation to this.
 
-## <i class="fas fa-chalkboard-teacher fa-fw" aria-hidden="true" style="margin-right:.5em;"></i>Taught courses
+## <i class="fas fa-chalkboard-teacher fa-fw headingIcon" aria-hidden="true"></i>Taught courses
 
 **Studio-based Teaching:**
 
