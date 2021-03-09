@@ -1,0 +1,11 @@
+li.refItem {
+    padding-left: .5em;
+}
+li.refItem::marker {
+    content: "[" counter(list-item, decimal) "]";
+}
+li.refItem:target {
+    background-color: #eaf3ff;
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+}
