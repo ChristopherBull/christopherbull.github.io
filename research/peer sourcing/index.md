@@ -4,9 +4,14 @@ title: Peer-Sourcing
 permalink: /research/peer-sourcing/
 sidebar:
   - title: "Project Summary"
-    text: "A new paradigm and software architecture for sourcing peers, with a privacy and distributed focus"
+    text: "A new paradigm and software architecture for sourcing peers, with a privacy and distributed focus."
   - title: "Collaborators"
-    text: "Mahsa Honary<br>Jaejoon Lee<br>Jiangtao Wang<br>Sumi Helal"
+    text: "<ul class=\"projCollaborators\">
+      <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Mahsa Honary</li>
+      <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Jaejoon Lee</li>
+      <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Jiangtao Wang</li>
+      <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Sumi Helal</li>
+      </ul>"
 ---
 
 <!-- markdownlint-disable MD033 -->

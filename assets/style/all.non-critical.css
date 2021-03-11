@@ -12,3 +12,20 @@ li.refItem:target {
     transition: all 1s linear;
     -webkit-transition: all 1s linear;
 }
+.projCollaborators {
+    list-style-type:none;
+    padding-left:0;
+}
+.projCollaboratorListImg, .projCollaboratorsFaPlaceholder {
+    display: inline-block;
+}
+.projCollaboratorListImg {
+    border-radius: 50%;
+    width:2em !important;
+    height:2em;
+    margin-right:.5em;
+}
+.projCollaboratorsFaPlaceholder {
+    vertical-align: middle;
+    margin-right:.25em;
+}
