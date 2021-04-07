@@ -54,3 +54,4 @@ __Past Projects:__
 - [Mobile Age (H2020)](/research/mobile-age/) &mdash; Platforms and mobile applications to ensure the inclusion of older adults in digital public services, including a focus on independent living and reducing social isolation.
 - [SAMS (EPSRC)](/research/sams/) &mdash; Desktop computer software for passive monitoring and identification of Alzheimer's disease and Mild Cognitive Impairment through data mining and natural language processing.
 - [Studios in Software Engineering Education (PhD)](/research/studio-education/) &mdash; Exploring and implementing an alternative pedagogical approach in Software Engineering, studio-based learning.
+- [CoffeeTable: Collaborative Tabletop Java IDE](/research/coffee-table/) &mdash; A working vision for the future of collaborative IDEs. It uses the physical desk space between people to create a simple, playful, and collaborative software development environment.
