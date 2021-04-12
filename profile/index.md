@@ -8,7 +8,9 @@ author_profile: true
 
 ## <i class="fas fa-university fa-fw headingIcon" aria-hidden="true"></i>Affiliation
 
-**Lancaster University** (2014-current) &mdash; Senior Research Associate in the [Centre on Digital Health and Quality of Life Technologies](https://www.digitalhealthlancaster.xyz/), within the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
+**Lancaster University** (2014-2021) &mdash; Senior Research Associate in the [Centre on Digital Health and Quality of Life Technologies](https://www.digitalhealthlancaster.xyz/), within the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
+
+**Newcastle University** (upcoming: 2021) &mdash; Lecturer in Computer Science ([OpenLab](https://openlab.ncl.ac.uk/) at the [School of Computing](https://www.ncl.ac.uk/computing/)), researching and teaching Digital Health and Software Engineering. *I will be starting this position at the end of June 2021.*
 
 ## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>Academic Service
 
