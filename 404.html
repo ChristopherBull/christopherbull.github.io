@@ -32,7 +32,7 @@ layout: default
   background-repeat: no-repeat;
   background-size: cover;
   opacity: .02;
-  z-index: -1;
+  z-index: 1;
 }
 
 .overlay {
@@ -43,7 +43,7 @@ layout: default
       rgba(0, 0, 0, 0.3) 50%,
       rgba(0, 0, 0, 0) 100%);
   background-size: auto 4px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .overlay::before {
@@ -118,8 +118,8 @@ layout: default
 </style>
 
 <div class="terminal">
-  <div class="noise">.</div>
-  <div class="overlay">.</div>
+  <div class="noise"></div>
+  <div class="overlay"></div>
   <div class="terminal-content">
     <h1>Error <span class="errorcode">404</span></h1>
     <p class="output">The page you are looking for might have been removed, had its name changed or is temporarily unavailable.</p>
