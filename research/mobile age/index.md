@@ -17,7 +17,7 @@ sidebar:
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Lucas Introna</li>
     </ul>"
   - title: "Links"
-    text: "<ul>
+    text: "<ul class=\"projLinkList\">
     <li><a href=\"https://mobile-age.eu/\">Project Site</a></li>
     <li><a href=\"https://twitter.com/mobileageeu\">Project's Twitter</a></li>
     </ul>"

@@ -12,7 +12,7 @@ sidebar:
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Sumi Helal</li>
     </ul>"
   - title: "Links"
-    text: "<ul>
+    text: "<ul class=\"projLinkList\">
     <li><a href=\"https://www.whyndyke.xyz/\">Village Website</a></li>
     <li><a href=\"https://www.digitalhealthlancaster.xyz/whyndyke-garden-village/\">Project Site</a></li>
     </ul>"

@@ -32,7 +32,7 @@ sidebar:
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Clive Ballard</li>
     </ul>"
   - title: "Links"
-    text: "<ul><li><a href=\"http://ucrel.lancs.ac.uk/sams/\">Project Site</a></li></ul>"
+    text: "<ul class=\"projLinkList\"><li><a href=\"http://ucrel.lancs.ac.uk/sams/\">Project Site</a></li></ul>"
 ---
 
 <!-- markdownlint-disable MD033 -->

@@ -12,7 +12,8 @@ li.refItem:target {
     transition: all 1s linear;
     -webkit-transition: all 1s linear;
 }
-.projCollaborators {
+.projCollaborators,
+.projLinkList {
     list-style-type:none;
     padding-left:0;
 }
@@ -28,4 +29,10 @@ li.refItem:target {
 .projCollaboratorsFaPlaceholder {
     vertical-align: middle;
     margin-right:.25em;
+}
+.projLinkList li::before {
+    content: "\f0c1";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: .5em;
 }

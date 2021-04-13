@@ -15,7 +15,7 @@ sidebar:
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Leon Cruickshank</li>
     </ul>"
   - title: "Links"
-    text: "<ul><li><a href=\"http://highwire.lancaster.ac.uk/\">HighWire CDT</a></li></ul>"
+    text: "<ul class=\"projLinkList\"><li><a href=\"http://highwire.lancaster.ac.uk/\">HighWire CDT</a></li></ul>"
 ---
 
 <!-- markdownlint-disable MD033 -->
