@@ -8,14 +8,12 @@ sidebar:
   - title: "Position"
     text: "PhD Student&mdash;HighWire CDT and Software Engineering, SCC, Lancaster University (2010-2015)"
   - title: "Funding"
-    text: "<a href=\"https://epsrc.ukri.org/research/ourportfolio/themes/digitaleconomy/activities/cdts/\">EPSRC (Digital Economy Programme)</a>"
+    text: "<a href=\"https://epsrc.ukri.org/research/ourportfolio/themes/digitaleconomy/activities/cdts/\">HighWire CDT (EPSRC)</a>"
   - title: "PhD Supervisors"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Jon Whittle</li>
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Leon Cruickshank</li>
     </ul>"
-  - title: "Links"
-    text: "<ul class=\"projLinkList\"><li><a href=\"http://highwire.lancaster.ac.uk/\">HighWire CDT</a></li></ul>"
 ---
 
 <!-- markdownlint-disable MD033 -->
