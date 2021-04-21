@@ -5,11 +5,9 @@ permalink: /research/mobile-age/
 sidebar:
   - title: "Project Summary"
     text: "Platforms and mobile applications to ensure the inclusion of older adults in digital public services, including a focus on independent living and reducing social isolation."
-  - title: "Position"
-    text: "Senior Research Associate&mdash;
-          Pervasive Systems, SCC, Lancaster University (2016-2018)"
   - title: "Funding"
-    text: "<a href=\"https://cordis.europa.eu/project/id/693319\">EU Horizon 2020</a>"
+    text: "<a href=\"https://cordis.europa.eu/project/id/693319\">EU Horizon 2020</a><br>
+    Senior Research Associate (2016-18)"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Niall Hayes <i>[PI]</i></li>

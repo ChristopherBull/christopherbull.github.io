@@ -8,7 +8,7 @@ sidebar:
   - title: "Project Summary"
     text: "A working vision for the future of collaborative IDEs. It uses the physical desk space between people to create a simple, playful, and collaborative software development environment."
   - title: "Funding"
-    text: "<a href=\"https://epsrc.ukri.org/research/ourportfolio/themes/digitaleconomy/activities/cdts/\">HighWire CDT (EPSRC)</a>"
+    text: "<a href=\"https://epsrc.ukri.org/research/ourportfolio/themes/digitaleconomy/activities/cdts/\">EPSRC (HighWire CDT)</a>"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>John Hardy</li>

@@ -6,7 +6,7 @@ sidebar:
   - title: "Project Summary"
     text: "Designing smart-ready lifelong healthy living homes and communities for an NHS Healthy new town."
   - title: "Position"
-    text: "Senior Research Associate&mdash;Digital Health, SCC, Lancaster University (2018-2021)"
+    text: "Senior Research Associate (2018-21)"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Sumi Helal</li>

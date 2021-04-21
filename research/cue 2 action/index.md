@@ -5,8 +5,6 @@ permalink: /research/cue-2-action/
 sidebar:
   - title: "Project Summary"
     text: "Persuasive health, adaptive behaviour change, and patient engagement."
-  - title: "Position"
-    text: "Senior Research Associate&mdash;Digital Health, SCC, Lancaster University (2019+)"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Emma Wilson <i>[Lead]</i></li>

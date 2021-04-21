@@ -5,10 +5,8 @@ permalink: /research/sams/
 sidebar:
   - title: "Project Summary"
     text: "Desktop computer software for passive monitoring and identification of Alzheimer's disease and Mild Cognitive Impairment through data mining and natural language processing."
-  - title: "Position"
-    text: "Research Associate&mdash;Software Engineering, SCC, Lancaster University (2014-2016)"
   - title: "Funding"
-    text: "<a href=\"https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/K015796/1\">EPSRC</a>"
+    text: "<a href=\"https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/K015796/1\">EPSRC</a><br>Research Associate (2014-16)"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
     Lancaster University:

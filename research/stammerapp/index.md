@@ -6,7 +6,7 @@ sidebar:
   - title: "Project Summary"
     text: "A mobile application to support people who stammer, created with user-centred design."
   - title: "Position"
-    text: "Supervisor / Senior Research Associate&mdash;Digital Health, SCC, Lancaster University (2018)"
+    text: "Supervisor / Senior Research Associate"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Róisín McNaney <i>[Lead]</i></li>

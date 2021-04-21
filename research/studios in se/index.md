@@ -5,10 +5,8 @@ permalink: /research/studio-education/
 sidebar:
   - title: "Project Summary"
     text: "Exploring and implementing an alternative pedagogical approach in Software Engineering, studio-based learning."
-  - title: "Position"
-    text: "PhD Student&mdash;HighWire CDT and Software Engineering, SCC, Lancaster University (2010-2015)"
   - title: "Funding"
-    text: "<a href=\"https://epsrc.ukri.org/research/ourportfolio/themes/digitaleconomy/activities/cdts/\">HighWire CDT (EPSRC)</a>"
+    text: "<a href=\"https://epsrc.ukri.org/research/ourportfolio/themes/digitaleconomy/activities/cdts/\">EPSRC (HighWire CDT)</a><br>PhD Student (2010-15)"
   - title: "PhD Supervisors"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Jon Whittle</li>

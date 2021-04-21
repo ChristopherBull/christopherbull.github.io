@@ -6,7 +6,7 @@ sidebar:
   - title: "Project Summary"
     text: "Accessible airport gate announcements for people who are Deaf or Hard of Hearing."
   - title: "Position"
-    text: "Senior Research Associate&mdash;Digital Health, SCC, Lancaster University (2018+)"
+    text: "Senior Research Associate (2018-21)"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Sumi Helal <i>[Lead]</i></li>

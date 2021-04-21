@@ -5,8 +5,6 @@ permalink: /research/space/
 sidebar:
   - title: "Project Summary"
     text: "Passive monitoring of mental health behaviours through pervasive technologies to provide earlier support and intervention."
-  - title: "Position"
-    text: "Senior Research Associate&mdash;Digital Health, SCC, Lancaster University (2018+)"
   - title: "Funding"
     text: "Lancashire and South Cumbria Integrated Care System (NHS, UK)"
   - title: "Collaborators"
