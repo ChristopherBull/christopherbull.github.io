@@ -9,7 +9,7 @@ permalink: /research/
 
 I am interested in the sensing, understanding, and actioning of digital health data to radically transform how people live their lives. My research interests lie in designing, developing, and evaluating secure health informatics and cybernetics platforms and ecosystem elements as a digital health infrastructure&mdash;crossing software engineering and pervasive technologies. This includes digital phenotyping, assistive and diagnostic healthcare technologies, and systems for healthcare professionals. I use co-design/creation methods to create solutions applicable to patients, service users, and health professionals. I have an interest in ethical challenges of healthcare technologies and applying mixed methods to complex problems.
 
-## Select Publications
+## <i class="fas fa-scroll fa-fw headingIcon" aria-hidden="true"></i>Select Publications
 
 A complete list of publications can be found on my [institution profile page](/profile/), or through one of my researcher IDs ([Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-9811-4190)).
 
@@ -31,7 +31,7 @@ A complete list of publications can be found on my [institution profile page](/p
 - <p markdown="1" style="margin-bottom:.3em;">**Supporting Reflective Practice in Software Engineering Education through a Studio-Based Approach**</p><p markdown="1" style="margin-bottom:.3em;">*Christopher Bull*, Jon Whittle</p>2014 \| IEEE Software \| [DOI](https://doi.org/10.1109/MS.2014.52)
 - <p markdown="1" style="margin-bottom:.3em;">**Observations of a Software Engineering Studio: Reflecting with the Studio Framework**</p><p markdown="1" style="margin-bottom:.3em;">*Christopher Bull*, Jon Whittle</p>2014 \| Conference on Software Engineering Education and Training (CSEE&T '14) \| [DOI](https://doi.org/10.1109/CSEET.2014.6816784) \| [PDF](https://eprints.lancs.ac.uk/id/eprint/69405/1/cseet14main_mainid33_p_22860_e276bb6_20626_preprint.pdf) \| [<span aria-hidden="true">🏆</span> Best Paper Award](https://conferences.computer.org/cseet/)
 
-## Projects
+## <i class="fas fa-flask fa-fw headingIcon" aria-hidden="true"></i>Projects
 
 I have worked on numerous health projects and directly contributed to research spanning several disciplines, including Systems and Software Engineering, Data Science, and Participant Engagement.
 
