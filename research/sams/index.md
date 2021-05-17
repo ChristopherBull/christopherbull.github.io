@@ -9,26 +9,10 @@ sidebar:
     text: "<a href=\"https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/K015796/1\">EPSRC</a><br>Research Associate (2014-16)"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
-    Lancaster University:
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Pete Sawyer <i>[PI]</i></li>
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Paul Rayson</li>
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Alistair Sutcliffe</li>
-
-    Manchester University:
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Alistair Burns</li>
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Iracema Leroi</li>
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Gemma Stringer</li>
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Samuel Couth</li>
-
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>John Keane</li>
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Xiao-Jun Zeng</li>
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Ann Gledson</li>
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Joseph Mellor</li>
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Dommy Asfiandy</li>
-
-    King's College London:
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Clive Ballard</li>
-    </ul>"
+    </ul><i class=\"fas fa-angle-right fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><a href=\"http://ucrel.lancs.ac.uk/sams/team.php\">View more collaborators</a>"
   - title: "Links"
     text: "<ul class=\"projLinkList\"><li><a href=\"http://ucrel.lancs.ac.uk/sams/\">Project Site</a></li></ul>"
 ---
