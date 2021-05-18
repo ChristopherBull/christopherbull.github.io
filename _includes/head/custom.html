@@ -1,4 +1,13 @@
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="preload" href="/assets/style/all.non-critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/assets/style/all.non-critical.css"></noscript>
-<script type="text/javascript" src="/assets/js/custom-all-pages.js" defer></script>
+{% if page.page_css %}
+  {% for stylesheet in page.page_css %}
+    <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+  {% endfor %}
+{% endif %}
+{% if page.page_js %}
+  {% for script in page.page_js %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
