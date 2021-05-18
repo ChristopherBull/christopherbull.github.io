@@ -19,6 +19,8 @@ Jekyll automatically converts valid Markdown files into HTML pages 🚀
 
 2\) Now install the dependencies: `bundle install` (or `bundle update` to update an existing `Gemfile.lock` file)
 
+You may need to install Dev tools if an error occurs, e.g., with Ubuntu: `sudo apt install ubuntu-dev-tools`
+
 Note: A `Gemfile` is already included in this repository, but a minimal working example only needs to [include these lines](https://github.com/github/pages-gem):
 
 ```Gemfile
