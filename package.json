@@ -21,6 +21,6 @@
     "cspell-dict-html-symbol-entities": "^1.1.2",
     "cspell-dict-medicalterms": "^1.1.2",
     "cspell-dict-scientific-terms-us": "^1.1.2",
-    "markdownlint-cli2": "^0.0.13"
+    "markdownlint-cli2": "^0.1.3"
   }
 }
