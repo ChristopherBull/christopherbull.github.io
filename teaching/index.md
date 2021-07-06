@@ -10,11 +10,18 @@ I am committed to high-quality teaching and promote studio education, or Studio-
 
 I have experience teaching on a variety of undergraduate modules and have provided supervisory/mentorship roles to several students.
 
-Current students should refer to the University's official course pages for the most up-to-date information.
-
 I take equality, equity, and diversity very seriously. I provide my position and some of my actions on a [dedicated page](../equality.md). I am also more than happy to be [contacted](../index.md#contact-me) in relation to this.
 
 ## <i class="fas fa-chalkboard-teacher fa-fw headingIcon" aria-hidden="true"></i>Taught courses
+
+### Current Courses
+
+Current students should refer to the University's official course pages for the most up-to-date information.
+
+- CSC3131: Building Systems for People _[2021]_
+- 2nd year team projects _[2021]_
+
+### Past Courses
 
 **Studio-based Teaching:**
 

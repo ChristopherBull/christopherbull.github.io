@@ -33,9 +33,9 @@ A complete list of publications can be found on my [institution profile page](/p
 
 ## <i class="fas fa-flask fa-fw headingIcon" aria-hidden="true"></i>Projects
 
-I have worked on numerous health projects and directly contributed to research spanning several disciplines, including Systems and Software Engineering, Data Science, and Participant Engagement.
+I have worked on numerous health projects and directly contributed to research spanning several disciplines, including Systems and Software Engineering, Data Science, and HCI.
 
-I currently work in Digital Health at Lancaster University. In this position I work on numerous Digital Health projects that are of strategic importance to Lancaster's Digital Health Centre. My main focus is the design and development of ecosystem elements, pervasive healthcare technologies, and cybernetics/informatics platforms.
+I currently work in Digital Health. My main focus is the design and development of ecosystem elements, pervasive healthcare technologies, and cybernetics/informatics platforms.
 
 The following projects are those which I have had significant or fundamental contributions:
 
