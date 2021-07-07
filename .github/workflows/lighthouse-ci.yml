@@ -13,7 +13,7 @@ jobs:
     name: Audit
     runs-on: ubuntu-latest
     env:
-      LHCI_VER: 0.7.x
+      LHCI_VER: 0.8.x
     steps:
       - uses: actions/checkout@v2
         with:
