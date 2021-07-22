@@ -18,8 +18,8 @@ I take equality, equity, and diversity very seriously. I provide my position and
 
 Current students should refer to the University's official course pages for the most up-to-date information.
 
-- CSC3131: Building Systems for People _[2021]_
-- CSC2033: 2nd year team projects _[2021]_
+- [CSC3131: Building Systems for People](https://www.ncl.ac.uk/undergraduate/modules/csc3131) _[2021]_
+- [CSC2033: Software Engineering Team Project](https://www.ncl.ac.uk/undergraduate/modules/csc2033) _[2021]_
 
 ### Past Courses
 
