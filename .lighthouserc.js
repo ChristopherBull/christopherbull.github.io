@@ -33,6 +33,9 @@ module.exports = {
         'unused-css-rules': 'off',
         'unused-javascript': 'off',
         'uses-text-compression': 'off',
+        // Skipping for now - Strict CSP  (using the hashes technique due to this being a static site). Also may break site if theme updates script tags.
+        // https://web.dev/strict-csp/ : "hashes for sourced scripts are not well-supported across browsers" (yet)
+        'csp-xss': 'off',
       },
     },
     upload: {
