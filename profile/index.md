@@ -20,7 +20,7 @@ __Programme Committees (Chair):__
 
 __Programme Committees:__
 
-- Systems and Software Product Line Conference (SPLC) _[[2022](http://2022.splc.net/), [2021](https://splc2021.net/committees/program-committees)]_
+- Systems and Software Product Line Conference (SPLC) _[[2022](http://2022.splc.net/committees/program-committees/), [2021](https://splc2021.net/committees/program-committees)]_
 - Requirements Engineering for Well-Being, Aging, and Health (REWBAH) _[[2021](https://sites.google.com/view/rewbah2021)]_
 - International Conference on Software Engineering: Joint Track on Software Engineering Education and Training (ICSE-JSEET) _[[2021](https://conf.researchr.org/committee/icse-2021/icse-2021-software-engineering-in-education-and-training-program-committee)]_
 - Workshop on Design Contributions to Pervasive Healthcare (DCPH) _[[2020](https://pervasivehealth.org/design-contributions-pervasive-healthcare-workshop/)]_
