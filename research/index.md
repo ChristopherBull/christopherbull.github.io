@@ -41,14 +41,15 @@ The following projects are those which I have had significant or fundamental con
 
 __Active Projects:__
 
+- [IDEA-FAST (H2020, IMI)](/research/idea-fast/) &mdash; Identifying digital endpoints for fatigue and sleep for people living with chronic conditions.
 - [SPACE: Suicide Prevention using Analytics and Cybernetic Elements](/research/space/) &mdash; Passive monitoring of mental health behaviours through pervasive technologies to provide earlier support and intervention.
 - [Peer-Sourcing](/research/peer-sourcing/) &mdash; A new paradigm and software architecture for sourcing peers, with a privacy and distributed focus.
-- [Cue 2 Action](/research/cue-2-action/) &mdash; Persuasive health, adaptive behaviour change, and patient engagement.
-- [GP Benchmark](/research/gp-benchmark/) &mdash; Website for General Practitioners (GPs) to engage and reflect on simulated medical cases to explore prevalence of certain decision-making biases.
-- [Goshna](/research/goshna/) &mdash; Accessible airport gate announcements for people who are Deaf or Hard of Hearing.
 
 __Past Projects:__
 
+- [Cue 2 Action](/research/cue-2-action/) &mdash; Persuasive health, adaptive behaviour change, and patient engagement.
+- [GP Benchmark](/research/gp-benchmark/) &mdash; Website for General Practitioners (GPs) to engage and reflect on simulated medical cases to explore prevalence of certain decision-making biases.
+- [Goshna](/research/goshna/) &mdash; Accessible airport gate announcements for people who are Deaf or Hard of Hearing.
 - [Whyndyke Garden Village](/research/whyndyke-garden-village/) &mdash; Designing smart-ready lifelong healthy living homes and communities for an NHS Healthy new town.
 - [StammerApp](/research/stammerapp/) &mdash; A mobile application to support people who stammer, created with user-centred design.
 - [Mobile Age (H2020)](/research/mobile-age/) &mdash; Platforms and mobile applications to ensure the inclusion of older adults in digital public services, including a focus on independent living and reducing social isolation.
