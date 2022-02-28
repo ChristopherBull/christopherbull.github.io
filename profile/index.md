@@ -14,11 +14,11 @@ _[Previously at]_ **Lancaster University** (2014-2021) &mdash; Senior Research A
 
 ## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>Academic Service
 
-__Programme Committees (Chair):__
+**Programme Committees (Chair):**
 
 - Digital Health as a Service Symposium (DHaaSS) _[[Posters and Demo Chair 2020](https://conferences.computer.org/services/2020/symposia/dhaass.html)]_
 
-__Programme Committees:__
+**Programme Committees:**
 
 - Systems and Software Product Line Conference (SPLC) _[[2022](http://2022.splc.net/committees/program-committees/), [2021](https://splc2021.net/committees/program-committees)]_
 - Requirements Engineering for Well-Being, Aging, and Health (REWBAH) _[[2021](https://sites.google.com/view/rewbah2021)]_
