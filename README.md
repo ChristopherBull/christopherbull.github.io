@@ -17,9 +17,9 @@ Jekyll automatically converts valid Markdown files into HTML pages 🚀
 
 1a\) It is optional, though recommended, to [configure Bundler's install path](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/#configure-bundler-install-path) to use the project's subdirectory: `bundle config set --local path 'vendor/bundle'`
 
-2\) Now install the dependencies: `bundle install` (or `bundle update` to update an existing `Gemfile.lock` file)
+1b\) You may need to install Dev tools (to avoid errors in the next step), e.g., with Ubuntu: `sudo apt install ubuntu-dev-tools`
 
-You may need to install Dev tools if an error occurs, e.g., with Ubuntu: `sudo apt install ubuntu-dev-tools`
+2\) Now install the dependencies: `bundle install` (or `bundle update` to update an existing `Gemfile.lock` file)
 
 Note: A `Gemfile` is already included in this repository, but a minimal working example only needs to [include these lines](https://github.com/github/pages-gem):
 
