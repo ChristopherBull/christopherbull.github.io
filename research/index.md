@@ -56,3 +56,17 @@ __Past Projects:__
 - [SAMS (EPSRC)](/research/sams/) &mdash; Desktop computer software for passive monitoring and identification of Alzheimer's disease and Mild Cognitive Impairment through data mining and natural language processing.
 - [Studios in Software Engineering Education (PhD)](/research/studio-education/) &mdash; Exploring and implementing an alternative pedagogical approach in Software Engineering, studio-based learning.
 - [CoffeeTable: Collaborative Tabletop Java IDE](/research/coffee-table/) &mdash; A working vision for the future of collaborative IDEs. It uses the physical desk space between people to create a simple, playful, and collaborative software development environment.
+
+## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>PhD Supervision
+
+Current PhD students and their research topics:
+
+- __Nada Altwala__: Conversational Agents to Support People with Dementia
+- __Remco Benthem De Grave__: Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices
+- __Viana Zhang__: Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing
+- __Lenia Margariti__: Personal and Environmental Data to Improve Wellbeing and User Experience in the Built Environment
+- __Sami Alghamdi__: Design Tools to Support Novice Programming Learners
+
+Future PhD students:
+
+- __Jake Hobbs__: Augmented Reality Surgical Applications for Operating Theatres
