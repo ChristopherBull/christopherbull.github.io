@@ -62,9 +62,9 @@ __Past Projects:__
 Current PhD students and their research topics:
 
 - __Nada Altwala__: Conversational Agents to Support People with Dementia
-- __Remco Benthem De Grave__: Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices
-- __Viana Zhang__: Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing
-- __Lenia Margariti__: Personal and Environmental Data to Improve Wellbeing and User Experience in the Built Environment
+- __[Remco Benthem De Grave](https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/)__: Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices
+- __[Viana Zhang](https://openlab.ncl.ac.uk/people/viana-nijia-zhang/)__: Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing
+- __[Lenia Margariti](https://openlab.ncl.ac.uk/people/lenia-margariti/)__: Personal and Environmental Data to Improve Wellbeing and User Experience in the Built Environment
 - __Sami Alghamdi__: Design Tools to Support Novice Programming Learners
 
 Future PhD students:
