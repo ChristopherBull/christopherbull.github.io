@@ -16,6 +16,7 @@ _[Previously at]_ **Lancaster University** (2014-2021) &mdash; Senior Research A
 
 **Programme Committees (Chair):**
 
+- Conference on Human Factors in Computing Systems (CHI) - ‘Accessibility and Aging’ subcommittee Associate Chair (AC) _[[2023](https://chi2023.acm.org/subcommittees/accessibility-and-aging/)]_
 - Digital Health as a Service Symposium (DHaaSS) _[[Posters and Demo Chair 2020](https://conferences.computer.org/services/2020/symposia/dhaass.html)]_
 
 **Programme Committees:**
