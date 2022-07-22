@@ -18,8 +18,7 @@ I take equality, equity, and diversity very seriously. I provide my position and
 
 Current students should refer to the University's official course pages for the most up-to-date information.
 
-- [CSC2033: Software Engineering Team Project](https://www.ncl.ac.uk/undergraduate/modules/csc2033) _[2021]_
-- [CSC3131: Building Systems for People](https://www.ncl.ac.uk/undergraduate/modules/csc3131) _[2021]_
+- [CSC2033: Software Engineering Team Project](https://www.ncl.ac.uk/undergraduate/modules/csc2033) _[2021-23]_
 
 ### Past Courses
 
@@ -29,8 +28,9 @@ Current students should refer to the University's official course pages for the 
 - SCC.230: Software Design Studio Project I (Core Studio) _[2013-19]_
 - SCC.330: Software Design Studio Project II _[2014-15]_
 
-**Lecture:**
+**Lecture & Lab Practicals:**
 
+- [CSC3131: Building Systems for People](https://www.ncl.ac.uk/undergraduate/modules/csc3131) _[2021-22]_
 - CSc.242: Software Engineering _[2013-14]_
 - Guest lectures:
   - "Responsible Software Engineering and Practical Implications in Health" (SCC.204: Software Design) _[Dec 2019]_
