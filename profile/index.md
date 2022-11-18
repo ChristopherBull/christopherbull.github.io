@@ -12,6 +12,14 @@ author_profile: true
 
 _[Previously at]_ **Lancaster University** (2014-2021) &mdash; Senior Research Associate in the [Centre on Digital Health and Quality of Life Technologies](https://www.digitalhealthlancaster.xyz/), within the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
 
+## Contacting Me
+
+_Research enquiries_: Reach out to me using any contact details listed on this page. I am open to speculative research collaboration opportunities, particularly those that span digital health, HCI, and systems design/development. Check out my [research section](/research/) to get a flavour of previous research activities.
+
+_Students_: Please contact me using the contact information listed on the [institutional webpages](#affiliation).
+
+_Reference request_: If you are looking to request a Reference Letter, please read my [reference request policy](/reference-request/) to ensure that I can write you a prompt letter.
+
 ## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>Academic Service
 
 **Programme Committees (Chair, Associate Chair):**
