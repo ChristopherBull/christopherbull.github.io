@@ -42,9 +42,9 @@ jobs:
           path: |
             ~/.npm
             node_modules
-          key: ${{ runner.os }}-$NODE_VER-lighthouse-$LHCI_VER
+          key: ${{ runner.os }}-node$NODE_VER-lighthouse-$LHCI_VER
           restore-keys: |
-            ${{ runner.os }}-$NODE_VER-lighthouse-
+            ${{ runner.os }}-node$NODE_VER-lighthouse-
       - name: Run the Lighthouse CI
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

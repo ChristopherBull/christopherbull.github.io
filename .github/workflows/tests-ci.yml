@@ -2,6 +2,9 @@ name: Tests
 
 on: [push, pull_request]
 
+env:
+  NODE_VER: 16
+
 jobs:
   spelling:
     name: Spelling
@@ -11,7 +14,7 @@ jobs:
       - name: Use Node.js (LTS)
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: ${{ env.NODE_VER }}
       - name: Cache dependencies
         uses: actions/cache@v3
         id: cache-npm
@@ -19,9 +22,9 @@ jobs:
           path: |
             ~/.npm
             node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node$NODE_VER-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-node$NODE_VER-
       - name: Install dependencies (if no cache hit)
         if: steps.cache-npm.outputs.cache-hit != 'true'
         run: npm ci
@@ -38,7 +41,7 @@ jobs:
       - name: Use Node.js (LTS)
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: ${{ env.NODE_VER }}
       - name: Cache dependencies
         uses: actions/cache@v3
         id: cache-npm
@@ -46,9 +49,9 @@ jobs:
           path: |
             ~/.npm
             node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node$NODE_VER-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-node$NODE_VER-
       - name: Install dependencies (if no cache hit)
         if: steps.cache-npm.outputs.cache-hit != 'true'
         run: npm ci
