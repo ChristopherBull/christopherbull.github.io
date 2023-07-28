@@ -7,13 +7,13 @@ jobs:
     name: Spelling
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Use Node.js (LTS)
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '16'
       - name: Cache dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-npm
         with:
           path: |
@@ -34,13 +34,13 @@ jobs:
     # Wait for first job (for dep cache)
     needs: spelling
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Use Node.js (LTS)
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '16'
       - name: Cache dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-npm
         with:
           path: |
