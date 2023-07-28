@@ -25,7 +25,7 @@ jobs:
       # Build site
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: $RUBY_VER
+          ruby-version: '$RUBY_VER'
           bundler-cache: true
       - name: Install build dependencies
         run: bundle install
