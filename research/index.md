@@ -42,11 +42,12 @@ The following projects are those which I have had significant or fundamental con
 __Active Projects:__
 
 - [IDEA-FAST (H2020, IMI2)](/research/idea-fast/) &mdash; Identifying digital endpoints for fatigue and sleep for people living with chronic conditions.
-- [SPACE: Suicide Prevention using Analytics and Cybernetic Elements](/research/space/) &mdash; Passive monitoring of mental health behaviours through pervasive technologies to provide earlier support and intervention.
-- [Peer-Sourcing](/research/peer-sourcing/) &mdash; A new paradigm and software architecture for sourcing peers, with a privacy and distributed focus.
+- [Generative AI in Computing Education](/research/gen-ai-comp-education/) &mdash; Understanding the opportunities and challenges of integrating Generative AI into programming education.
 
 __Past Projects:__
 
+- [SPACE: Suicide Prevention using Analytics and Cybernetic Elements](/research/space/) &mdash; Passive monitoring of mental health behaviours through pervasive technologies to provide earlier support and intervention.
+- [Peer-Sourcing](/research/peer-sourcing/) &mdash; A new paradigm and software architecture for sourcing peers, with a privacy and distributed focus.
 - [Cue 2 Action](/research/cue-2-action/) &mdash; Persuasive health, adaptive behaviour change, and patient engagement.
 - [GP Benchmark](/research/gp-benchmark/) &mdash; Website for General Practitioners (GPs) to engage and reflect on simulated medical cases to explore prevalence of certain decision-making biases.
 - [Goshna](/research/goshna/) &mdash; Accessible airport gate announcements for people who are Deaf or Hard of Hearing.
