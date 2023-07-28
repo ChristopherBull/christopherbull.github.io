@@ -13,6 +13,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 GP Benchmark is a website for General Practitioners to engage and reflect on simulated medical cases to explore prevalence of certain decision-making biases \[[1][Hutchinson2020]\].
 

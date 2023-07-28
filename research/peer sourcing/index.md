@@ -15,6 +15,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 We have created a new technique for identifying and allocating peer interactions \[[1][honary2020what]\]. The software architecture for Peer-Sourcing was designed to enable mental health peer-support across various support-capable individuals and communities. Peer-sourcing has similarities to crowd-sourcing systems, though has several unique requirements (e.g., decentralised, low numbers of peers with heterogeneous attributes, high task urgency, and synchronous interactions). This work was an indirect output of the [SPACE project](#space-suicide-prevention-using-analytics-and-cybernetic-elements).
 

@@ -22,6 +22,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 Mobile Age aimed to ensure the inclusion of older adults in digital public services by developing user-friendly mobile applications based on open government data. To achieve this, Mobile Age developed a platform to allow developers to more easily create apps aimed at older adults \[[1][bull2018designing]\]. It performed a series of co-creation activities \[[2][knowles2019examining]\] to develop demonstrator apps to fulfil the needs of participants, whist demoing the functionality of the platform \[[3][Bull2017]\].
 

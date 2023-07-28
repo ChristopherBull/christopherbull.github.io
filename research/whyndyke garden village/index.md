@@ -19,6 +19,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 This village is an NHS Healthy new town which will utilise smart-ready homes and communities \[[1][helal2019smart]\]. Some of the village priorities include pushing telehealth, healthy communities, and creating dementia-friendly homes for lifelong living. My contributions have so far focused on exploring the digital plumbing for smart-ready, configurable, lifelong living homes. Additionally, I have supervised undergraduate projects exploring novel individual and community engagements in the context of this village.
 

@@ -15,6 +15,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 StammerApp is a mobile application to support people  who  stammer, through practice exercises and information. The application idea and design emerged from user-centred design research with people who stammer, culminating in a set of design recommendations for the development of tools to support people who stammer in their everyday interactions. These recommendations were demonstrated through our StammerApp prototype.
 

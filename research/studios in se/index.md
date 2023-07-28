@@ -15,6 +15,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 My PhD research explored the education of software engineers using a studio-based approach \[[6][Bull2013]\]. This research was grounded in transferring knowledge of design education into a software engineering context \[[6][Bull2013], [3][Bull2014a]\]. One of the main outputs of this work was the creation of the "Studio Framework" \[[1][bull2016studios], [6][Bull2013]\], which provides nine properties that reflect categories from a Grounded Theory analysis of interviews with educators from architecture, art, and design studios&mdash;prior to this, there were no shared and agreed definitions of Studio-based learning. A simple example of this tension is that some people believe it is the physical space that is important for a Studio, whilst others believe it is the activities or people that make a Studio space. At this point, you may be asking "so what"?
 

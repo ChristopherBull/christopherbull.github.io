@@ -18,6 +18,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 The SAMS project (Software Architecture for Mental health Self-management) aimed to detect early markers of mild cognitive impairment and neurodegenerative diseases, such as Alzheimer's disease, through participants' computer use \[[1][Stringer2018]\]. The aim is to enable earlier treatment and better quality of life for patients. This is achieved through a variety of novel data capture techniques (for low-level mouse and keyboard interactions, as well as higher-level contextual information). This is then analysed to determine patterns of usage through data mining \[[2][Gledson2016]\] and natural language processing (NLP) \[[3][Bull2016]\], particularly Propositional Idea Density.
 

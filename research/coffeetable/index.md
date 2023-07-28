@@ -18,6 +18,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 ![CoffeeTable example usage](/assets/images/projects/coffeetable/banner_slim.webp)
 

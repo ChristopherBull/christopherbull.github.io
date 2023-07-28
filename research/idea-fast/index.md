@@ -22,6 +22,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 IDEA-FAST aims to identify digital biomarkers that assess fatigue, sleep, and activities in daily living in neurodegenerative disorders and immune-mediated inflammatory diseases. These digital endpoints are being identified for the following neurodegenerative diseases (NDD): Parkinson's Disease (PD), Huntington's Disease (HD), and for the following immune-mediated inflammatory diseases (IMID): Rheumatoid Arthritis (RA), Systemic Lupus Erythematosus (SLE), Primary Sjögren's Syndrome (PSS), and Inflammatory Bowel Disease (IBD).
 

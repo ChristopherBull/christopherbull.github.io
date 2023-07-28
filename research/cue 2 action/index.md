@@ -18,6 +18,7 @@ sidebar:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD051 -->
 
 An individual's behaviours and lifestyle accounts for a significant proportion of a person's health. Cue 2 Action is investigating whether systems and control theory can be used to provide a theoretical basis for persuasive health \[[1][wilson2019persuasive]\]; persuasive techniques could be dynamic based on context, persuasion effectiveness, and rule adherence. This early-stage work is exploring the theoretical underpinning and feasibility of using such a system in other health applications/systems.
 
