@@ -18,7 +18,8 @@ I take equality, equity, and diversity very seriously. I provide my position and
 
 Current students should refer to the University's official course pages for the most up-to-date information.
 
-- [CSC2033: Software Engineering Team Project](https://www.ncl.ac.uk/undergraduate/modules/csc2033) _[2021-23]_
+- [CSC2033: Software Engineering Team Project](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2033) _[2021-24]_
+- [CSC8428: Software Design Lifecycle](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC8428) _[2023]_
 
 ### Past Courses
 
