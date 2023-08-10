@@ -8,6 +8,8 @@ sidebar:
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
       <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Ahmed Kharrufa</li>
+      <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Sami Alghamdi</li>
+      <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Abeer Aziz</li>
       </ul>"
 ---
 
