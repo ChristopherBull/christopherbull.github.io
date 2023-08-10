@@ -13,8 +13,8 @@ sidebar:
     </ul>"
   - title: "Links"
     text: "<ul class=\"projLinkList\">
-    <li><a href=\"https://www.whyndyke.xyz/\">Village Website</a></li>
-    <li><a href=\"https://www.digitalhealthlancaster.xyz/whyndyke-garden-village/\">Project Site</a></li>
+    <li><a href=\"https://staging-digitalhealthlancaster-xyz.stackstaging.com/whyndyke-garden-village/\">Project Site</a></li>
+    <li><a href=\"https://www.england.nhs.uk/ourwork/innovation/healthy-new-towns/demonstrator-sites/whyndyke/\">NHS Healthy New Town, Whyndyke</a></li>
     </ul>"
 ---
 

@@ -15,7 +15,7 @@ sidebar:
     </ul>"
   - title: "Links"
     text: "<ul class=\"projLinkList\">
-    <li><a href=\"https://www.digitalhealthlancaster.xyz/goshna/\">Project Site</a></li>
+    <li><a href=\"https://staging-digitalhealthlancaster-xyz.stackstaging.com/goshna/\">Project Site</a></li>
     </ul>"
 ---
 

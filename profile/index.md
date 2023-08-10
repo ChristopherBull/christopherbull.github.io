@@ -10,7 +10,7 @@ author_profile: true
 
 **Newcastle University** (2021-current) &mdash; Lecturer in Computer Science ([OpenLab](https://openlab.ncl.ac.uk/) at the [School of Computing](https://www.ncl.ac.uk/computing/)), researching and teaching Digital Health and Software Engineering.
 
-_[Previously at]_ **Lancaster University** (2014-2021) &mdash; Senior Research Associate in the [Centre on Digital Health and Quality of Life Technologies](https://www.digitalhealthlancaster.xyz/), within the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
+<!-- _[Previously at]_ **Lancaster University** (2014-2021) &mdash; Senior Research Associate in the [Centre on Digital Health and Quality of Life Technologies](https://staging-digitalhealthlancaster-xyz.stackstaging.com/), within the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/). -->
 
 ## Contacting Me
 
