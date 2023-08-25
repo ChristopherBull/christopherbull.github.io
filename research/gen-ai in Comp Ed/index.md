@@ -23,6 +23,6 @@ We have been exploring the pedagogical impact and opportunities of integrating G
 ## References
 
 <!-- Reference IDs, links, and link title|venue|year -->
-[bull2023]: #ref-bull2023 "Generative AI Assistants in Software Development Education | IEEE Software | 2024"
+[bull2023]: #ref-bull2023 "Generative AI Assistants in Software Development Education: A vision for integrating Generative AI into educational practice, not instinctively defending against it. | IEEE Software | 2024"
 
-1. {:.refItem #ref-bull2023} Christopher Bull and Ahmed Kharrufa. [Generative AI Assistants in Software Development Education](https://arxiv.org/abs/2303.13936). _IEEE Software_. 2024. \[PREPRINT\]
+1. {:.refItem #ref-bull2023} Christopher Bull and Ahmed Kharrufa. [Generative AI Assistants in Software Development Education: A vision for integrating Generative AI into educational practice, not instinctively defending against it](https://ieeexplore.ieee.org/abstract/document/10213396). _IEEE Software_. \| [DOI](https://doi.org/10.1109/MS.2023.3300574) \| [arXiv](https://arxiv.org/abs/2303.13936)
