@@ -3,16 +3,16 @@ name: Tests
 on: [push, pull_request]
 
 env:
-  NODE_VER: 16
+  NODE_VER: 20
 
 jobs:
   spelling:
     name: Spelling
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Use Node.js (LTS)
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VER }}
       - name: Cache dependencies
@@ -37,9 +37,9 @@ jobs:
     # Wait for first job (for dep cache)
     needs: spelling
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Use Node.js (LTS)
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VER }}
       - name: Cache dependencies

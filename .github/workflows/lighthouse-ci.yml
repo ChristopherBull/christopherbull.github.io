@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       RUBY_VER: '3.2'
-      NODE_VER: 18
+      NODE_VER: 20
       LHCI_VER: 0.12.x
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           # Fix for LHCI status checks not appearing for commits/pull_reqs
           # https://github.com/GoogleChrome/lighthouse-ci/issues/172
@@ -33,7 +33,7 @@ jobs:
         run: bundle exec jekyll build
       # Lighthouse audit
       - name: Use Node.js (LTS) for Lighthouse CI
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VER }}
       - name: Cache Node dependencies
