@@ -42,6 +42,7 @@ The following projects are those which I have had significant or fundamental con
 __Active Projects:__
 
 - [IDEA-FAST (H2020, IMI2)](/research/idea-fast/) &mdash; Identifying digital endpoints for fatigue and sleep for people living with chronic conditions.
+- [NortHFutures (EPSRC)](/research/NortHFutures/) &mdash; The Northern Health Futures Hub, which facilitates and accelerates responsible, human-centred Digital Health research and development, with a focus on regional healthcare needs.
 - [Generative AI in Computing Education](/research/gen-ai-comp-education/) &mdash; Understanding the opportunities and challenges of integrating Generative AI into programming education.
 
 __Past Projects:__
