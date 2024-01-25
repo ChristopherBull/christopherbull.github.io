@@ -63,9 +63,10 @@ __Past Projects:__
 
 Current PhD students and their research topics:
 
+- __[Sami Alghamdi](https://openlab.ncl.ac.uk/people/sami-alghamdi/)__: Design Tools to Support Novice Programming Learners
 - __Nada Altwala__: Conversational Agents to Support People with Dementia
 - __[Remco Benthem De Grave](https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/)__: Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices
-- __[Viana Zhang](https://openlab.ncl.ac.uk/people/viana-nijia-zhang/)__: Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing
-- __[Lenia Margariti](https://openlab.ncl.ac.uk/people/lenia-margariti/)__: Personal and Environmental Data to Improve Wellbeing and User Experience in the Built Environment
-- __[Sami Alghamdi](https://openlab.ncl.ac.uk/people/sami-alghamdi/)__: Design Tools to Support Novice Programming Learners
+- __Chinomnso Ekwedike__: Generative AI in Computing Education
 - __[Jake Hobbs](https://openlab.ncl.ac.uk/people/jake-hobbs/)__: Augmented Reality Surgical Applications for Operating Theatres
+- __[Yiwen Shang](https://openlab.ncl.ac.uk/people/yiwen-shang/)__: Impacts of Social Media on Mental Wellbeing
+- __[Viana Zhang](https://openlab.ncl.ac.uk/people/viana-nijia-zhang/)__: Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing
