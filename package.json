@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/ChristopherBull/christopherbull.github.io#readme",
   "devDependencies": {
-    "@commitlint/cli": "^18.6.1",
-    "@commitlint/config-conventional": "^18.6.3",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "cspell": "^8.7.0",
     "cspell-dict-html-symbol-entities": "^1.1.2",
     "cspell-dict-medicalterms": "^1.1.3",
