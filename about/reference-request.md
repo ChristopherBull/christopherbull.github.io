@@ -21,7 +21,7 @@ Yes -- please [send me a request](#request-a-letter-of-recommendation).
 
 Yes -- If you are a PhD student I have supervised, for example, or had some form of substantial interaction, please [send me a request](#request-a-letter-of-recommendation).
 
-### ❔ Undergraduate and Masters Students
+### ？Undergraduate and Masters Students
 
 Potentially -- I do not automatically write reference letters for students. Here are some examples of when I feel it is appropriate to write a letter of recommendation for you:
 
