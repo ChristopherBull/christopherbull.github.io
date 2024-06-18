@@ -12,7 +12,7 @@ If you are looking to request a reference letter from me (also known as a Letter
 
 I write reference letters for anyone I work or collaborate with.
 
-Students may also request a letter, though it is expected that a request is coming [from someone who has some substantive interactions with me](#-undergraduate-and-masters-students). I do not write reference letters for everyone that requests one, because I receive a lot of reference requests.
+Students may also request a letter, though it is expected that a request is coming [from someone who has some substantive interactions with me](#undergraduate-and-masters-students). I do not write reference letters for everyone that requests one, because I receive a lot of reference requests.
 
 ### ✔ Employees and Collaborators
 
