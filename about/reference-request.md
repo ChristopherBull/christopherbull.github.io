@@ -3,6 +3,7 @@ layout: single
 title: Reference Request Policy
 permalink: /reference-request/
 toc: true
+toc_sticky: true
 ---
 
 If you are looking to request a reference letter from me (also known as a Letter of Recommendation), please read this page to understand if I can write a reference for you and what I require from you to be able to write a good reference letter.

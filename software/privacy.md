@@ -1,8 +1,9 @@
 ---
 layout: single
-classes: wide
 title: Privacy Policy
 permalink: /software/privacy.html
+toc: true
+toc_sticky: true
 ---
 
 <!-- markdownlint-disable MD033 -->

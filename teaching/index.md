@@ -2,6 +2,8 @@
 layout: single
 title: Teaching
 permalink: /teaching/
+toc: true
+toc_sticky: true
 ---
 
 <!-- markdownlint-disable MD033 -->

@@ -1,8 +1,9 @@
 ---
 layout: single
-classes: wide
 title: Research
 permalink: /research/
+toc: true
+toc_sticky: true
 ---
 
 <!-- markdownlint-disable MD033 -->

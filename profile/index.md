@@ -3,6 +3,8 @@ layout: single
 title: Academic Profile
 permalink: /profile/
 author_profile: true
+toc: true
+toc_sticky: true
 ---
 <!-- markdownlint-disable MD033 -->
 
