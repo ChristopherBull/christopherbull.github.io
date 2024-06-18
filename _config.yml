@@ -28,9 +28,9 @@ author:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://fediscience.org/@ChrisBull"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/VirtualChrisB"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/VirtualChrisB"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ChristopherBull"
@@ -41,14 +41,14 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-Z9C1WJKHNL"
-twitter:
-  username: "VirtualChrisB"
+# twitter:
+#   username: "VirtualChrisB"
 social:
   type: Person
   name: "Dr Christopher Bull"
   links:
     - "https://fediscience.org/@ChrisBull"
-    - "https://twitter.com/VirtualChrisB"
+    # - "https://twitter.com/VirtualChrisB"
     - "https://www.linkedin.com/in/christophernbull"
 plugins:
   - jekyll-include-cache
@@ -63,9 +63,9 @@ footer:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://fediscience.org/@ChrisBull"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/VirtualChrisB"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/VirtualChrisB"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ChristopherBull"
