@@ -11,7 +11,7 @@ toc_sticky: true
 This is the privacy policy for the Clear Links browser extension:
 
 - <i class="fab fa-chrome fa-fw" aria-hidden="true"></i> [Chrome](https://chrome.google.com/webstore/detail/clear-links/banknjcfbmhcbebgekpcenheaghfcood)
-- <i class="fab fa-firefox fa-fw" aria-hidden="true"></i> Firefox (forthcoming)
+- <i class="fab fa-firefox fa-fw" aria-hidden="true"></i> [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/clear-web-links/)
 - <i class="fab fa-github fa-fw" aria-hidden="true"></i> [Source code](https://github.com/ChristopherBull/Clear-Links)
 
 ## Summary
