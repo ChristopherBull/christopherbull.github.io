@@ -70,4 +70,8 @@ Current PhD students and their research topics:
 - __Chinomnso Ekwedike__: Generative AI in Computing Education
 - __[Jake Hobbs](https://openlab.ncl.ac.uk/people/jake-hobbs/)__: Augmented Reality Surgical Applications for Operating Theatres
 - __[Yiwen Shang](https://openlab.ncl.ac.uk/people/yiwen-shang/)__: Impacts of Social Media on Mental Wellbeing
+- __Nick Smith__: Reminiscence Therapy for People with Dementia Using Virtual Reality
+
+Past PhD students and their research topics:
+
 - __[Viana Zhang](https://openlab.ncl.ac.uk/people/viana-nijia-zhang/)__: Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing
