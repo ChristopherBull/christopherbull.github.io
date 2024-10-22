@@ -10,8 +10,8 @@ sidebar:
     Work Package 4"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Prof. Abigail Durrant <i>[Co-Director]</i></li>
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Prof. Naeem Soomro <i>[Co-Director]</i></li>
+    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div>Prof. Abigail Durrant<br><i>[Co-Director]</i></div></li>
+    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div>Prof. Naeem Soomro<br><i>[Co-Director]</i></div></li>
     </ul>
     <p>Over 50+ partners.</p>"
   - title: "Links"

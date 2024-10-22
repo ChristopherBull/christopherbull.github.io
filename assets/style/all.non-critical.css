@@ -18,7 +18,7 @@ li.refItem:target {
     padding-left:0;
 }
 .projCollaboratorListImg, .projCollaboratorsFaPlaceholder {
-    display: inline-block;
+    float: left;
 }
 .projCollaboratorListImg {
     border-radius: 50%;
