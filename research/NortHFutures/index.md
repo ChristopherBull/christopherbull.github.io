@@ -23,6 +23,8 @@ sidebar:
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD051 -->
 
+![NortHFutures logo](/assets/images/projects/NortHFutures/NortHFutures-Wordmark-Dark.svg)
+
 The **NortHFutures** Hub facilitates the research, development, and acceleration of responsibly designed, human-centred, and data-rich healthcare technologies. The hub aims to cultivate an entrepreneurial and vibrant community across the UK's North East and North Cumbria (NENC) that addresses regional healthcare needs, and promotes leadership in Digital Health.
 
 I work on the Translational Research Work Package, aiming to cultivate research and development across topics that are relevant to the NENC.
