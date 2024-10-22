@@ -16,7 +16,6 @@ sidebar:
     </ul>"
   - title: "Links"
     text: "<ul class=\"projLinkList\">
-    <li><a href=\"https://mobile-age.eu/\">Project Site</a></li>
     <li><a href=\"https://twitter.com/mobileageeu\">Project's Twitter</a></li>
     </ul>"
 ---
