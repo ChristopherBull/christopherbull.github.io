@@ -62,15 +62,18 @@ __Past Projects:__
 
 ## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>PhD Supervision
 
-Current PhD students and their research topics:
+Current PhD students:
 
-- __[Sami Alghamdi](https://openlab.ncl.ac.uk/people/sami-alghamdi/)__: Design Tools to Support Novice Programming Learners
 - __Nada Altwala__: Conversational Agents to Support People with Dementia
 - __[Remco Benthem De Grave](https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/)__: Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices
-- __Chinomnso Ekwedike__: Generative AI in Computing Education
 - __[Jake Hobbs](https://openlab.ncl.ac.uk/people/jake-hobbs/)__: Augmented Reality Surgical Applications for Operating Theatres
-- __[Yiwen Shang](https://openlab.ncl.ac.uk/people/yiwen-shang/)__: Impacts of Social Media on Mental Wellbeing
 - __[Nick Smith](https://openlab.ncl.ac.uk/people/nicholas-smith/)__: Reminiscence Therapy for People with Dementia Using Virtual Reality
+
+Current Co-Supervised PhD Students:
+
+- __[Sami Alghamdi](https://openlab.ncl.ac.uk/people/sami-alghamdi/)__: Design Tools to Support Novice Programming Learners
+- __Chinomnso Ekwedike__: Generative AI in Computing Education
+- __[Yiwen Shang](https://openlab.ncl.ac.uk/people/yiwen-shang/)__: Impacts of Social Media on Mental Wellbeing
 
 Past PhD students and their research topics:
 
