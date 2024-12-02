@@ -37,3 +37,9 @@ _Reference request_: If you are looking to request a Reference Letter, please re
 - Requirements Engineering for Well-Being, Aging, and Health (REWBAH) _[[2021](https://sites.google.com/view/rewbah2021)]_
 - Workshop on Design Contributions to Pervasive Healthcare (DCPH) _[[2020](https://pervasivehealth.org/design-contributions-pervasive-healthcare-workshop/)]_
 - Conference on Urban Internet of Things (Urb-IoT) _[[2020](https://urbaniot.eai-conferences.org/2020/technical-program-committee/), [2019](https://urbaniot2019.eai-conferences.org/29-2/)]_
+
+## <i class="fas fa-award fa-fw headingIcon" aria-hidden="true"></i>Professional Recognitions
+
+**Fellow of the Higher Education Academy (FHEA)**\
+<!-- _Awarded_: 2024\ -->
+Recognising my commitment to high-quality teaching and learning in higher education.

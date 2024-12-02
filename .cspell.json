@@ -82,7 +82,7 @@
         "StammerApp",
         // Web addresses
         "digitalhealthlancaster",
-        // Conferences, publishers, funders, etc
+        // Academic acronyms/initialisms: Conferences, publishers, funders, etc
         "CEUR",
         "COMPSAC",
         "CSEE",
@@ -90,6 +90,7 @@
         "EduSymp",
         "ELRA",
         "EPSRC",
+        "FHEA",
         "ICSE",
         "SEET",
         "JSEET",
