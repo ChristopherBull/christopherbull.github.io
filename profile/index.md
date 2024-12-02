@@ -24,12 +24,12 @@ _Reference request_: If you are looking to request a Reference Letter, please re
 
 ## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>Academic Service
 
-**Programme Committees (Chair, Associate Chair):**
+### Programme Committee Chairs
 
 - Conference on Human Factors in Computing Systems (CHI) - ‘Accessibility and Aging’ subcommittee Associate Chair (AC) _[[2025](https://chi2025.acm.org/subcommittees/selecting-a-subcommittee/#accessibility_and_aging), [2023](https://chi2023.acm.org/subcommittees/accessibility-and-aging/)]_
 - Digital Health as a Service Symposium (DHaaSS) _[[Posters and Demo Chair 2020](https://conferences.computer.org/services/2020/symposia/dhaass.html)]_
 
-**Programme Committees:**
+### Programme Committees
 
 - Conference on Software Engineering Education and Training (CSEE&T) _[[2025](https://conf.researchr.org/committee/icse-2025/cseet-2025-papers-program-committee), [2023](https://conf.researchr.org/committee/cseet-2023/program-committee), [2020](https://ase.in.tum.de/cseet2020/index.php/program-committee/), [2019](https://hicss.hawaii.edu/tracks-54/software-engineering-education/)]_
 - International Conference on Software Engineering: Joint Track on Software Engineering Education and Training (ICSE SEET) _[[2024](https://conf.researchr.org/committee/icse-2024/icse-2024-joint-track-on-software-engineering-education-and-training-joint-track-on-software-engineering-education-and-training), [2023](https://conf.researchr.org/committee/icse-2023/icse-2023-joint-track-on-software-engineering-education-and-training-joint-track-on-software-engineering-education-and-training), [2021](https://conf.researchr.org/committee/icse-2021/icse-2021-software-engineering-in-education-and-training-program-committee)]_
