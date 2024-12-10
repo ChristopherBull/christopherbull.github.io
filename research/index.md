@@ -12,7 +12,7 @@ I am interested in the sensing, understanding, and actioning of digital health d
 
 ## <i class="fas fa-scroll fa-fw headingIcon" aria-hidden="true"></i>Select Publications
 
-A complete list of publications can be found on my [institution profile page](/profile/), or through one of my researcher IDs ([Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-9811-4190)).
+A complete list of publications can be found through one of my researcher IDs ([<i class="fa-brands fa-google-scholar" aria-hidden="true"></i> Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en), [<i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID](https://orcid.org/0000-0002-9811-4190), [Semantic Scholar](https://www.semanticscholar.org/author/Christopher-Bull/144395439)).
 
 ### Software Architectures and Analytics, with Privacy and Trust, in Digital Health
 
