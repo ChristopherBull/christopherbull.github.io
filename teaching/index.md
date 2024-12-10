@@ -18,8 +18,6 @@ I take equality, equity, and diversity very seriously. I provide my position and
 
 ### Current Courses
 
-Current students should refer to the University's official course pages for the most up-to-date information.
-
 - [CSC2033: Software Engineering Team Project](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2033) _[2021+]_
 - [CSC3131: Development and Operations of Systems](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3131) _[2021, 2025+]_
 
