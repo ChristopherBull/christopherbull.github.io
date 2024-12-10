@@ -32,7 +32,7 @@ A complete list of publications can be found through one of my researcher IDs ([
 - <p markdown="1" style="margin-bottom:.3em;">**Supporting Reflective Practice in Software Engineering Education through a Studio-Based Approach**</p><p markdown="1" style="margin-bottom:.3em;">*Christopher Bull*, Jon Whittle</p>2014 \| IEEE Software \| [DOI](https://doi.org/10.1109/MS.2014.52)
 - <p markdown="1" style="margin-bottom:.3em;">**Observations of a Software Engineering Studio: Reflecting with the Studio Framework**</p><p markdown="1" style="margin-bottom:.3em;">*Christopher Bull*, Jon Whittle</p>2014 \| Conference on Software Engineering Education and Training (CSEE&T '14) \| [DOI](https://doi.org/10.1109/CSEET.2014.6816784) \| [PDF](https://eprints.lancs.ac.uk/id/eprint/69405/1/cseet14main_mainid33_p_22860_e276bb6_20626_preprint.pdf) \| [<span aria-hidden="true">🏆</span> Best Paper Award](https://conferences.computer.org/cseet/)
 
-## <i class="fas fa-flask fa-fw headingIcon" aria-hidden="true"></i>Projects
+## <i class="fas fa-flask fa-fw headingIcon" aria-hidden="true"></i>Research Projects
 
 I have worked on numerous health projects and directly contributed to research spanning several disciplines, including Systems and Software Engineering, Data Science, and HCI.
 
@@ -60,21 +60,21 @@ __Past Projects:__
 - [Studios in Software Engineering Education (PhD)](/research/studio-education/) &mdash; Exploring and implementing an alternative pedagogical approach in Software Engineering, studio-based learning.
 - [CoffeeTable: Collaborative Tabletop Java IDE](/research/coffee-table/) &mdash; A working vision for the future of collaborative IDEs. It uses the physical desk space between people to create a simple, playful, and collaborative software development environment.
 
-## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>PhD Supervision
+## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>PhD Researcher Supervision
 
-Current PhD students:
+### Current
 
 - __Nada Altwala__: Conversational Agents to Support People with Dementia
 - __[Remco Benthem De Grave](https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/)__: Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices
 - __[Jake Hobbs](https://openlab.ncl.ac.uk/people/jake-hobbs/)__: Augmented Reality Surgical Applications for Operating Theatres
 - __[Nick Smith](https://openlab.ncl.ac.uk/people/nicholas-smith/)__: Reminiscence Therapy for People with Dementia Using Virtual Reality
 
-Current Co-Supervised PhD Students:
+### Current (Co-supervised)
 
 - __[Sami Alghamdi](https://openlab.ncl.ac.uk/people/sami-alghamdi/)__: Design Tools to Support Novice Programming Learners
 - __Chinomnso Ekwedike__: Generative AI in Computing Education
 - __[Yiwen Shang](https://openlab.ncl.ac.uk/people/yiwen-shang/)__: Impacts of Social Media on Mental Wellbeing
 
-Past PhD students and their research topics:
+### Past
 
-- __[Viana Zhang](https://openlab.ncl.ac.uk/people/viana-nijia-zhang/)__: Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing
+- __[Viana Zhang](https://openlab.ncl.ac.uk/people/viana-nijia-zhang/)__ (2024): Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing
