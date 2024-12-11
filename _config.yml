@@ -52,6 +52,7 @@ social:
     - "https://www.linkedin.com/in/christophernbull"
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
 atom_feed:
   # Hide atom_feed until blog/news items added and browseable
   hide: true
