@@ -50,6 +50,7 @@ social:
     - "https://fediscience.org/@ChrisBull"
     # - "https://twitter.com/VirtualChrisB"
     - "https://www.linkedin.com/in/christophernbull"
+url: "https://chrisbull.net"
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
