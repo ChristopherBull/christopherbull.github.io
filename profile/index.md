@@ -10,17 +10,17 @@ toc_sticky: true
 
 ## <i class="fas fa-university fa-fw headingIcon" aria-hidden="true"></i>Affiliation
 
-**Newcastle University** (2021-current) &mdash; Lecturer in Computer Science ([OpenLab](https://openlab.ncl.ac.uk/) at the [School of Computing](https://www.ncl.ac.uk/computing/)), researching and teaching Digital Health, HCI, and Software Engineering.
+**Newcastle University:**
+
+_Lecturer of Computing Science_ ([OpenLab](https://openlab.ncl.ac.uk/), [School of Computing](https://www.ncl.ac.uk/computing/)) -- Researching _Digital Health_, _HCI_, and _Software Engineering_.
 
 <!-- _[Previously at]_ **Lancaster University** (2014-2021) &mdash; Senior Research Associate in the [Centre on Digital Health and Quality of Life Technologies](https://staging-digitalhealthlancaster-xyz.stackstaging.com/), within the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/). -->
 
-## Contacting Me
+## <i class="far fa-envelope fa-fw headingIcon" aria-hidden="true"></i>Contacting Me
 
-_Research enquiries_: Reach out to me using any contact details listed on this page. I am open to speculative research collaboration opportunities, particularly those that span digital health, HCI, and systems design/development. Check out my [research section](/research/) to get a flavour of previous research activities.
+_Research_: I am open to speculative and collaborative opportunities. Check out a summary of [my research activities](/research/).
 
-_Students_: Please contact me using the contact information listed on the [institutional webpages](#affiliation).
-
-_Reference request_: If you are looking to request a Reference Letter, please read my [reference request policy](/reference-request/) to ensure that I can write you a prompt letter.
+_Reference requests_: Please read my [reference request policy](/reference-request/) to ensure that I can write you a prompt letter.
 
 ## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>Academic Service
 
