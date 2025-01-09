@@ -11,7 +11,7 @@ author:
   name: "Dr Christopher Bull"
   avatar: "/assets/images/Chris_Bull_2018_500px.webp"
   # bio: "I am a researcher." # Note: Markdown is allowed
-  location: "Newcastle, UK"
+  location: "<a href=\"https://www.openstreetmap.org/way/514605389#map=19/54.973558/-1.625226\">Newcastle, UK</a>"
   links:
     - label: "Newcastle University"
       icon: "fas fa-fw fa-university"

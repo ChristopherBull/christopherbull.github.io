@@ -36,3 +36,7 @@ li.refItem:target {
     font-weight: 900;
     padding-right: .5em;
 }
+
+.author__urls .p-locality > a {
+    display: inline;
+}
