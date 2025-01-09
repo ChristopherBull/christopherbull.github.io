@@ -74,6 +74,7 @@ __Past Projects:__
 - __[Sami Alghamdi](https://openlab.ncl.ac.uk/people/sami-alghamdi/)__: Design Tools to Support Novice Programming Learners
 - __Chinomnso Ekwedike__: Generative AI in Computing Education
 - __[Yiwen Shang](https://openlab.ncl.ac.uk/people/yiwen-shang/)__: Impacts of Social Media on Mental Wellbeing
+- __[Yu Zhao](https://openlab.ncl.ac.uk/people/yu-zhao/)__: Just Transitions to Net Zero through Co-Designing Interactive VR Technology with Communities
 
 ### Past
 
