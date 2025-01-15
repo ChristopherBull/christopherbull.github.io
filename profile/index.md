@@ -10,13 +10,8 @@ toc_sticky: true
 
 ## <i class="fas fa-university fa-fw headingIcon" aria-hidden="true"></i>Affiliation
 
-**Newcastle University:**
-
-_Lecturer of Computing Science_ ([OpenLab](https://openlab.ncl.ac.uk/), [School of Computing](https://www.ncl.ac.uk/computing/)) -- Researching _Digital Health_, _HCI_, and _Software Engineering_.
-
-_Director of EDI_ ([School of Computing](https://www.ncl.ac.uk/computing/)) -- leading strategic and operational matters of _Equality, Diversity, and Inclusivity_.
-
-<!-- _[Previously at]_ **Lancaster University** (2014-2021) &mdash; Senior Research Associate in the [Centre on Digital Health and Quality of Life Technologies](https://staging-digitalhealthlancaster-xyz.stackstaging.com/), within the [School of Computing and Communications](https://www.lancaster.ac.uk/scc/). -->
+**Newcastle University** ([OpenLab](https://openlab.ncl.ac.uk/), [School of Computing](https://www.ncl.ac.uk/computing/)):\
+_Lecturer of Computing Science_; and _Director of EDI_&mdash;leading strategic and operational matters of _Equality, Diversity, and Inclusivity_.
 
 ## <i class="far fa-envelope fa-fw headingIcon" aria-hidden="true"></i>Contacting Me
 
