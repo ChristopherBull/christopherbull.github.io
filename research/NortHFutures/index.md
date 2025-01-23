@@ -6,7 +6,7 @@ sidebar:
   - title: "Project Summary"
     text: "The Northern Health Futures Hub. Facilitating and accelerating responsible, human-centred Digital Health research and development, with a focus on regional healthcare needs."
   - title: "Funding"
-    text: "<a href=\"https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/X031012/1\">EPSRC</a><br>
+    text: "<a href=\"https://gtr.ukri.org/projects?ref=EP/X031012/1\">EPSRC</a><br>
     Work Package 4"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">

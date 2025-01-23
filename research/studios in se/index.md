@@ -6,7 +6,7 @@ sidebar:
   - title: "Project Summary"
     text: "Exploring and implementing an alternative pedagogical approach in Software Engineering, studio-based learning."
   - title: "Funding"
-    text: "<a href=\"https://epsrc.ukri.org/research/ourportfolio/themes/digitaleconomy/activities/cdts/\">EPSRC (HighWire CDT)</a><br>PhD Student (2010-15)"
+    text: "<a href=\"https://gtr.ukri.org/projects?ref=EP/G037582/1\">EPSRC Digital Economy Innovation Centre (HighWire CDT)</a><br>PhD researcher (2010-15)"
   - title: "PhD Supervisors"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Jon Whittle</li>
