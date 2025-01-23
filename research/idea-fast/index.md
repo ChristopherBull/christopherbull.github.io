@@ -7,6 +7,7 @@ sidebar:
     text: "Identifying Digital Endpoints to Assess FAtigue, Sleep and acTivities in daily living in Neurodegenerative disorders and Immune-mediated inflammatory diseases."
   - title: "Funding"
     text: "<a href=\"https://cordis.europa.eu/project/id/853981\">EU Horizon 2020 (IMI2)</a><br>
+    €41.8m<br>
     Work Package 3 Lead (2021+)"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">

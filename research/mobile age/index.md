@@ -7,6 +7,7 @@ sidebar:
     text: "Platforms and mobile applications to ensure the inclusion of older adults in digital public services, including a focus on independent living and reducing social isolation."
   - title: "Funding"
     text: "<a href=\"https://cordis.europa.eu/project/id/693319\">EU Horizon 2020</a><br>
+    €3m<br>
     Senior Research Associate (2016-18)"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">

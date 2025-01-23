@@ -6,7 +6,9 @@ sidebar:
   - title: "Project Summary"
     text: "Desktop computer software for passive monitoring and identification of Alzheimer's disease and Mild Cognitive Impairment through data mining and natural language processing."
   - title: "Funding"
-    text: "<a href=\"https://gtr.ukri.org/projects?ref=EP/K015796/1\">EPSRC</a><br>Research Associate (2014-16)"
+    text: "<a href=\"https://gtr.ukri.org/projects?ref=EP/K015796/1\">EPSRC</a><br>
+    £248k<br>
+    Research Associate (2014-16)"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i>Pete Sawyer <i>[PI]</i></li>

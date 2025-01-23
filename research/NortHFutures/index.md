@@ -7,7 +7,8 @@ sidebar:
     text: "The Northern Health Futures Hub. Facilitating and accelerating responsible, human-centred Digital Health research and development, with a focus on regional healthcare needs."
   - title: "Funding"
     text: "<a href=\"https://gtr.ukri.org/projects?ref=EP/X031012/1\">EPSRC</a><br>
-    Work Package 4"
+    £3.4m<br>
+    Co-Investigator, Work Package 4"
   - title: "Collaborators"
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div>Prof. Abigail Durrant<br><i>[Co-Director]</i></div></li>
