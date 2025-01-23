@@ -44,6 +44,9 @@ __Active Projects:__
 
 - [IDEA-FAST (H2020, IMI2)](/research/idea-fast/) &mdash; Identifying digital endpoints for fatigue and sleep for people living with chronic conditions.
 - [NortHFutures (EPSRC)](/research/northfutures/) &mdash; The Northern Health Futures Hub, which facilitates and accelerates responsible, human-centred Digital Health research and development, with a focus on regional healthcare needs.
+- [What
+Matters to You (NortHFutures)](/research/what-matters-to-you/) &mdash; Exploring commissioner-defined versus person-centred approaches to Mental Health
+intervention outcomes.
 - [Generative AI in Computing Education](/research/gen-ai-comp-education/) &mdash; Understanding the opportunities and challenges of integrating Generative AI into programming education.
 
 __Past Projects:__

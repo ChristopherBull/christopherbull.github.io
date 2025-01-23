@@ -30,6 +30,9 @@ li.refItem:target {
     vertical-align: middle;
     margin-right:.25em;
 }
+.projCollaboratorsDescription {
+    margin-left:2.5em;
+}
 .projLinkList li::before {
     content: "\f0c1";
     font-family: "Font Awesome 5 Free";
