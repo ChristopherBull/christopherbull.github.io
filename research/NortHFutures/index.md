@@ -14,7 +14,8 @@ sidebar:
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div>Prof. Abigail Durrant<br><i>[Co-Director]</i></div></li>
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div>Prof. Naeem Soomro<br><i>[Co-Director]</i></div></li>
     </ul>
-    <p>Over 50+ partners.</p>"
+    <p>Over <a href=\"https://www.northfutures.org/about/#partners\">50+ partner organisations</a></p>
+    <p>Over <a href=\"https://www.northfutures.org/people/\">50+ collaborators</a></p>"
   - title: "Links"
     text: "<ul class=\"projLinkList\">
     <li><a href=\"https://northfutures.org/\">Project Site</a></li>
