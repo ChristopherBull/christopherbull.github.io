@@ -68,7 +68,6 @@ __Past Projects:__
 ### Current
 
 - __Nada Altwala__: Conversational Agents to Support People with Dementia
-- __[Remco Benthem De Grave](https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/)__: Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices
 - __[Jake Hobbs](https://openlab.ncl.ac.uk/people/jake-hobbs/)__: Augmented Reality Surgical Applications for Operating Theatres
 - __[Nick Smith](https://openlab.ncl.ac.uk/people/nicholas-smith/)__: Reminiscence Therapy for People with Dementia Using Virtual Reality
 
@@ -81,4 +80,5 @@ __Past Projects:__
 
 ### Past
 
+- __[Remco Benthem De Grave](https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/)__ (2025): Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices
 - __[Viana Zhang](https://openlab.ncl.ac.uk/people/viana-nijia-zhang/)__ (2024): Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing
