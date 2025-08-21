@@ -26,7 +26,7 @@ author:
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/christophernbull/"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
@@ -67,7 +67,7 @@ atom_feed:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/christophernbull/"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
