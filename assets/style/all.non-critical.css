@@ -43,3 +43,7 @@ li.refItem:target {
 .author__urls .p-locality > a {
     display: inline;
 }
+
+.social-icons .fab {
+    color: #3d4144 !important;
+}
