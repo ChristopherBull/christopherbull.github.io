@@ -34,6 +34,9 @@ author:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/VirtualChrisB"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/chrisbull.net"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ChristopherBull"
@@ -52,6 +55,7 @@ social:
   links:
     - "https://fediscience.org/@ChrisBull"
     # - "https://twitter.com/VirtualChrisB"
+    - "https://bsky.app/profile/chrisbull.net"
     - "https://www.linkedin.com/in/christophernbull"
 url: "https://chrisbull.net"
 plugins:
@@ -71,6 +75,9 @@ footer:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/VirtualChrisB"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/chrisbull.net"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ChristopherBull"
