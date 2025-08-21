@@ -65,6 +65,7 @@ atom_feed:
   # Hide atom_feed until blog/news items added and browseable
   hide: true
 footer:
+  since: "2021"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
