@@ -13,8 +13,8 @@ jobs:
     name: Audit
     runs-on: ubuntu-latest
     env:
-      RUBY_VER: '3.2'
-      NODE_VER: 20
+      RUBY_VER: '3.3'
+      NODE_VER: 22
       LHCI_VER: 0.12.x
     steps:
       - uses: actions/checkout@v4
@@ -37,12 +37,12 @@ jobs:
         with:
           node-version: ${{ env.NODE_VER }}
       - name: Cache Node dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~/.npm
             node_modules
-          key: ${{ runner.os }}-node$NODE_VER-lighthouse-$LHCI_VER
+          key: ${{ runner.os }}-node${{ env.NODE_VER }}-lighthouse-${{ env.LHCI_VER }}
           restore-keys: |
             ${{ runner.os }}-node$NODE_VER-lighthouse-
       - name: Run the Lighthouse CI
