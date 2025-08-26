@@ -43,10 +43,8 @@ author:
     - label: "Stack Overflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/508098/christopher-bull"
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-Z9C1WJKHNL"
+# analytics:
+#   provider: # Custom insertion added to _includes/head/custom.html
 # twitter:
 #   username: "VirtualChrisB"
 social:
