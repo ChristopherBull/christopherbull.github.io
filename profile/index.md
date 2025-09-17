@@ -23,7 +23,7 @@ _Reference requests_: Please read my [reference request policy](/reference-reque
 
 ### Programme Committee Chairs
 
-- Conference on Human Factors in Computing Systems (CHI) - ‘Accessibility and Aging’ subcommittee Associate Chair (AC) _[2026, [2025](https://chi2025.acm.org/subcommittees/selecting-a-subcommittee/#accessibility_and_aging), [2023](https://chi2023.acm.org/subcommittees/accessibility-and-aging/)]_
+- Conference on Human Factors in Computing Systems (CHI) - ‘Accessibility and Aging’ subcommittee Associate Chair (AC) _[[2026](https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/#accessibility_and_aging), [2025](https://chi2025.acm.org/subcommittees/selecting-a-subcommittee/#accessibility_and_aging), [2023](https://chi2023.acm.org/subcommittees/accessibility-and-aging/)]_
 - Digital Health as a Service Symposium (DHaaSS) _[[Posters and Demo Chair 2020](https://conferences.computer.org/services/2020/symposia/dhaass.html)]_
 
 ### Programme Committees
