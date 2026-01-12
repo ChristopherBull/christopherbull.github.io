@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       RUBY_VER: '3.3'
-      NODE_VER: 22
+      NODE_VER: 24
       LHCI_VER: 0.12.x
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           # Fix for LHCI status checks not appearing for commits/pull_reqs
           # https://github.com/GoogleChrome/lighthouse-ci/issues/172
@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: ${{ env.NODE_VER }}
       - name: Cache Node dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: |
             ~/.npm
