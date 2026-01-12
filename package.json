@@ -4,7 +4,7 @@
   "description": "Christopher Bull's personal website",
   "scripts": {
     "spell": "cspell \"/**/*.md\"",
-    "lint": "markdownlint-cli2 \"**/*.md\" \"!node_modules\" \"!vendor\" \"!_site\"",
+    "lint": "markdownlint-cli2",
     "prepare": "husky"
   },
   "repository": {
@@ -25,6 +25,6 @@
     "cspell-dict-medicalterms": "^1.1.3",
     "cspell-dict-scientific-terms-us": "^1.1.2",
     "husky": "^9.1.7",
-    "markdownlint-cli2": "^0.18.1"
+    "markdownlint-cli2": "^0.20.0"
   }
 }

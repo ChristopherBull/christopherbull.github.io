@@ -1,7 +1,0 @@
-// Config for MarkdownLint wrappers:
-// Node package: markdownlint-cli2
-// VS Code extension: vscode-markdownlint
-{
-    // Line length
-    "MD013": false
-}

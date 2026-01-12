@@ -1,0 +1,18 @@
+// Config for MarkdownLint wrappers:
+// Node package: markdownlint-cli2
+// VS Code extension: vscode-markdownlint
+{
+    "config": {
+        // Line length
+        "MD013": false
+    },
+    "gitignore": true,
+    "globs": [ "**/*.md" ],
+    "ignores": [
+        "node_modules",
+        "vendor",
+        "_site",
+        // All folders starting with a "."
+        ".*/**"
+    ]
+}
