@@ -15,7 +15,7 @@ jobs:
     env:
       RUBY_VER: '3.3'
       NODE_VER: 24
-      LHCI_VER: 0.12.x
+      LHCI_VER: 0.15.x
     steps:
       - uses: actions/checkout@v6
         with:
