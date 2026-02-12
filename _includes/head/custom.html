@@ -1,22 +1,26 @@
 <!-- begin _includes/head/custom.html -->
-<!-- Identity -->
+{% comment %} Identity {% endcomment %}
 <link rel="me" href="https://fediscience.org/@ChrisBull">
-<!-- Styles/scripts -->
+{% comment %} Preconnect for theme's external JS {% endcomment %}
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
+{% comment %} Include my custom CSS for all pages {% endcomment %}
 <link rel="preload" href="/assets/style/all.non-critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/assets/style/all.non-critical.css"></noscript>
+{% comment %} Include my page-specific CSS {% endcomment %}
 {% if page.page_css %}
   {% for stylesheet in page.page_css %}
     <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
   {% endfor %}
 {% endif %}
+{% comment %} Include my custom JS for all pages {% endcomment %}
+<script defer src="/assets/js/all.non-critical.js"></script>
+{% comment %} Include my page-specific JS {% endcomment %}
 {% if page.page_js %}
   {% for script in page.page_js %}
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
-<script defer src="/assets/js/all.non-critical.js"></script>
-<!-- analytics -->
+{% comment %} Analytics {% endcomment %}
 <link rel="preconnect" href="https://api-gateway.umami.dev">
 <script async src="https://cloud.umami.is/script.js" data-website-id="605924e2-1b2f-4259-97ff-20e7a87a99bb"></script>
 <!-- end _includes/head/custom.html -->
