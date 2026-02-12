@@ -67,7 +67,7 @@ __Past Projects:__
 
 ### Current
 
-- __Daniyah Ahmed__: Neonatal Nurse Experiences of Electronic Health Records
+- __[Daniyah Ahmed](https://openlab.ncl.ac.uk/people/daniyah-ahmed/)__: Neonatal Nurse Experiences of Electronic Health Records
 - __Nada Altwala__: Conversational Agents to Support People with Dementia
 - __[Jake Hobbs](https://openlab.ncl.ac.uk/people/jake-hobbs/)__: Augmented Reality Surgical Applications for Operating Theatres
 - __[Nick Smith](https://openlab.ncl.ac.uk/people/nicholas-smith/)__: Reminiscence Therapy for People with Dementia Using Virtual Reality
