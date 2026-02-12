@@ -20,6 +20,10 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+{% comment %} Preload the Largest Contentful Paint image (any header overlay image, if defined) with a high fetchpriority so it starts loading with the stylesheet. {% endcomment %}
+{% if page.header.overlay_image %}
+  <link rel="preload" fetchpriority="high" as="image" href="{{ page.header.overlay_image | relative_url }}" type="image/webp">
+{% endif %}
 {% comment %} Analytics {% endcomment %}
 <link rel="preconnect" href="https://api-gateway.umami.dev">
 <script async src="https://cloud.umami.is/script.js" data-website-id="605924e2-1b2f-4259-97ff-20e7a87a99bb"></script>
