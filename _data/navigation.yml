@@ -5,3 +5,34 @@ main:
     url: /teaching/
   - title: "Academic Profile"
     url: /profile/
+
+research:
+  - title: Research Overview
+    url: /research/
+  - title: Research Themes
+    url: /research/themes/
+  - title: Projects
+    url: /research/projects/
+    children:
+      - title: Active Projects
+        url: /research/projects/#active-projects
+      - title: Past Projects
+        url: /research/projects/#past-projects
+  - title: Publications
+    url: /research/publications/
+    children:
+      - title: Software Architectures & Analytics
+        url: /research/publications/#software-architectures-and-analytics-with-privacy-and-trust-in-digital-health
+      - title: Requirements Engineering
+        url: /research/publications/#requirements-engineering-in-digital-health
+      - title: Studios in Software Engineering Education
+        url: /research/publications/#studios-in-software-engineering-educationbehavioral-and-human-factors-in-se
+  - title: Supervision
+    url: /research/supervision/
+    children:
+      - title: Current
+        url: /research/supervision/#current
+      - title: Co-supervised
+        url: /research/supervision/#current-co-supervised
+      - title: Past
+        url: /research/supervision/#past
