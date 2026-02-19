@@ -14,13 +14,6 @@ I work in human-centred computing, with a particular focus on digital health. I 
 
 I also explore human factors in computing education and software engineering practice. This includes looking at how new tools and studio-inspired teaching approaches shape learning, collaboration, and professional development.
 
-**At a glance – Research Themes:**
-
-- <i class="fas fa-vr-cardboard fa-fw headingIcon" aria-hidden="true"></i> **Interactive & Immersive Health Technologies**  
-- <i class="fas fa-chart-line fa-fw headingIcon" aria-hidden="true"></i> **Digital Measures of Health & Wellbeing**  
-- <i class="fas fa-user-gear fa-fw headingIcon" aria-hidden="true"></i> **Socio-Technical Design of Digital Health Systems**  
-- <i class="fas fa-laptop-code fa-fw headingIcon" aria-hidden="true"></i> **Human Factors of Software Engineering & Computing Education**
-
 ```mermaid
 flowchart LR
 
