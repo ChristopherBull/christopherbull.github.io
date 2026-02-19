@@ -5,6 +5,7 @@ permalink: /research/themes/
 sidebar:
   nav: research
 toc: true
+mermaid: true
 ---
 
 <!-- markdownlint-disable MD033 -->
@@ -19,6 +20,32 @@ I also explore human factors in computing education and software engineering pra
 - <i class="fas fa-chart-line fa-fw headingIcon" aria-hidden="true"></i> **Digital Measures of Health & Wellbeing**  
 - <i class="fas fa-user-gear fa-fw headingIcon" aria-hidden="true"></i> **Socio-Technical Design of Digital Health Systems**  
 - <i class="fas fa-laptop-code fa-fw headingIcon" aria-hidden="true"></i> **Human Factors of Software Engineering & Computing Education**
+
+```mermaid
+flowchart LR
+
+    subgraph F["Foundations"]
+        direction TB
+        HCI["Human-Computer Interaction"] ~~~ SE["Software Engineering"]
+    end
+
+    subgraph T["Research Themes"]
+        direction TB
+        I["Interactive & Immersive Health Technologies"] ~~~
+        M["Digital Measures of Health & Wellbeing"] ~~~
+        S["Socio-Technical Design of Digital Health Systems"] ~~~
+        E["Human Factors of SE & Computing Education"]
+    end
+
+    subgraph C["Application Contexts"]
+        direction TB
+        DH["Digital Health & Mental Health"] ~~~
+        CE["Computing Education"]
+    end
+
+    F --> T
+    C --> T
+```
 
 ## Research Themes
 

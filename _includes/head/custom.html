@@ -24,6 +24,30 @@
 {% if page.header.overlay_image %}
   <link rel="preload" fetchpriority="high" as="image" href="{{ page.header.overlay_image | relative_url }}" type="image/webp">
 {% endif %}
+{% comment %} Mermaid diagram render library {% endcomment %}
+{% if page.mermaid %}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  // Transform Jekyll converted Markdown/code blocks into mermaid.js-ready divs.
+  const upgradeMermaidBlocks = () => {
+    document.querySelectorAll('pre code.language-mermaid').forEach((code) => {
+      const pre = code.parentElement;
+      const container = document.createElement('div');
+      container.className = 'mermaid';
+      container.textContent = code.textContent;
+      pre.replaceWith(container);
+    });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', upgradeMermaidBlocks, { once: true });
+  } else {
+    upgradeMermaidBlocks();
+  }
+
+  mermaid.initialize({ startOnLoad: true });
+</script>
+{% endif %}
 {% comment %} Analytics {% endcomment %}
 <link rel="preconnect" href="https://api-gateway.umami.dev">
 <script async src="https://cloud.umami.is/script.js" data-website-id="605924e2-1b2f-4259-97ff-20e7a87a99bb"></script>
