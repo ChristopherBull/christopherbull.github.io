@@ -7,6 +7,8 @@ sidebar:
 toc: true
 ---
 
+<!-- markdownlint-disable MD033 -->
+
 A complete list of publications can be found through one of my researcher IDs ([<i class="fa-brands fa-google-scholar" aria-hidden="true"></i> Google Scholar](https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ&hl=en), [<i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID](https://orcid.org/0000-0002-9811-4190), [Semantic Scholar](https://www.semanticscholar.org/author/Christopher-Bull/144395439)).
 
 ## Select Publications
