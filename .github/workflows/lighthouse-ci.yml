@@ -13,8 +13,6 @@ jobs:
     name: Audit
     runs-on: ubuntu-latest
     env:
-      RUBY_VER: '3.3'
-      NODE_VER: 24
       LHCI_VER: 0.15.x
     steps:
       - uses: actions/checkout@v6
@@ -25,7 +23,7 @@ jobs:
       # Build site
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ env.RUBY_VER }}
+          ruby-version: .ruby-version
           bundler-cache: true
       - name: Install build dependencies
         run: bundle install
@@ -35,7 +33,7 @@ jobs:
       - name: Use Node.js (LTS) for Lighthouse CI
         uses: actions/setup-node@v6
         with:
-          node-version: ${{ env.NODE_VER }}
+          node-version-file: .node-version
           cache: npm
       - name: Run the Lighthouse CI
         env:
