@@ -1,6 +1,6 @@
 ---
 layout: single
-title: <i class="fas fa-flask fa-fw headingIcon" aria-hidden="true"></i>Research Projects
+title: <i class="fas fa-rocket fa-fw headingIcon" aria-hidden="true"></i>Research Projects
 permalink: /research/projects/
 sidebar:
   nav: research

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Research
+title: <i class="fas fa-book fa-fw headingIcon" aria-hidden="true"></i>Research Overview
 permalink: /research/
 sidebar:
   nav: research
@@ -43,8 +43,8 @@ This includes how developers learn, collaborate, and use tools&mdash;whether in 
 ## Learn More
 
 <div class="btn-group">
-  <a href="/research/themes/" class="btn btn--primary">Research Themes</a>
-  <a href="/research/projects/" class="btn btn--primary">Projects</a>
-  <a href="/research/publications/" class="btn btn--primary">Publications</a>
-  <a href="/research/supervision/" class="btn btn--primary">PhD Supervision</a>
+  <a href="/research/themes/" class="btn btn--primary"><i class="fas fa-project-diagram fa-fw headingIcon" aria-hidden="true"></i>Research Themes</a>
+  <a href="/research/projects/" class="btn btn--primary"><i class="fas fa-rocket fa-fw headingIcon" aria-hidden="true"></i>Projects</a>
+  <a href="/research/publications/" class="btn btn--primary"><i class="fas fa-scroll fa-fw headingIcon" aria-hidden="true"></i>Publications</a>
+  <a href="/research/supervision/" class="btn btn--primary"><i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>PhD Supervision</a>
 </div>

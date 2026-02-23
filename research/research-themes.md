@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Research Themes
+title: <i class="fas fa-project-diagram fa-fw headingIcon" aria-hidden="true"></i>Research Themes
 permalink: /research/themes/
 sidebar:
   nav: research
