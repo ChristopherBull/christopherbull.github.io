@@ -2,7 +2,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 locale: "en-GB"
 name: "Dr Christopher Bull"
 title: "Christopher Bull"
-subtitle: "Researcher of Digital Health, HCI, and Software Engineering"
+subtitle: "Researcher of Human-Centred Digital Health and Computing Education"
 logo: /assets/images/Chris_Bull_2018_100px.webp
 og_image: /assets/images/Chris_Bull_2018_500px.webp
 description: "Dr Christopher Bull is a Lecturer and Researcher in Digital Health, HCI, and Software Engineering."
