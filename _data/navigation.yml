@@ -27,12 +27,12 @@ research:
         url: /research/publications/#requirements-engineering-in-digital-health
       - title: Studios in Software Engineering Education
         url: /research/publications/#studios-in-software-engineering-educationbehavioral-and-human-factors-in-se
-  - title: Supervision
+  - title: PhD Supervision
     url: /research/supervision/
     children:
       - title: Current
         url: /research/supervision/#current
       - title: Co-supervised
         url: /research/supervision/#current-co-supervised
-      - title: Past
-        url: /research/supervision/#past
+      - title: Completed
+        url: /research/supervision/#completed
