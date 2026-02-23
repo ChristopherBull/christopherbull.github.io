@@ -32,7 +32,5 @@ research:
     children:
       - title: Current
         url: /research/supervision/#current
-      - title: Co-supervised
-        url: /research/supervision/#current-co-supervised
       - title: Completed
         url: /research/supervision/#completed
