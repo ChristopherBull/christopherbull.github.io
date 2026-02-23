@@ -113,7 +113,8 @@
         "safehomeally",
         // Medical
         "IMID",
-        // Other
+        // Tools and Technologies
+        "accDescr", // Mermaid diagram accessible description
         "markdownlint",
         "unminified",
         "webp"
