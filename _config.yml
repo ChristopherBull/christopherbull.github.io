@@ -83,3 +83,19 @@ footer:
     - label: "Equality Statement"
       icon: "fas fa-fw fa-balance-scale"
       url: "/equality.html"
+# Ignoring `.trunk` directory to prevent Jekyll from triggering a rebuild when
+# Trunk is working. However, this that the default exclude is overridden, so
+# we need to re-add the default excludes (vendor, node_modules, .jekyll-cache,
+# .sass-cache) to ensure they are still ignored.
+exclude:
+  - vendor
+  - node_modules
+  - .jekyll-cache
+  - .sass-cache
+  - .trunk
+watch_exclude:
+  - vendor
+  - node_modules
+  - .jekyll-cache
+  - .sass-cache
+  - .trunk
