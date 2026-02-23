@@ -66,7 +66,6 @@ Supervision:
 <i class="fas fa-clipboard-check" title="Evaluation / Field Trials"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-stethoscope" title="Clinical"></i>
-<span class="phdDivider"></span>
 </span>
 </div>
 
@@ -80,23 +79,20 @@ Supervision:
 <i class="fas fa-comments" title="Conversational Agents"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-house-user" title="Home / Everyday Life"></i>
-<span class="phdDivider"></span>
 </span>
 </div>
 
 <div class="phdCard">
-<strong><a href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Jake Hobbs</a></strong>
-<span class="phdTopic">Augmented Reality Surgical Applications for Operating Theatres</span>
-<span class="phdIconRow">
-<i class="fas fa-vr-cardboard" title="Interactive & Immersive Systems"></i>
-<i class="fas fa-heart-pulse" title="Digital Health Interventions & Behaviour Change"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-pencil-ruler" title="Co-design / Participatory Design"></i>
-<i class="fas fa-clipboard-check" title="Evaluation / Field Trials"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-user-nurse" title="Operating Theatre / Surgical"></i>
-<span class="phdDivider"></span>
-</span>
+  <strong><a href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Jake Hobbs</a></strong>
+  <span class="phdTopic">Augmented Reality to Support Clinical Imaging Workflows</span>
+  <span class="phdIconRow">
+    <i class="fas fa-vr-cardboard" title="Interactive & Immersive Systems"></i>
+    <span class="phdDivider"></span>
+    <i class="fas fa-comments" title="Interviews / Workshops"></i>
+    <i class="fas fa-clipboard-check" title="Evaluation / Field Trials"></i>
+    <span class="phdDivider"></span>
+    <i class="fas fa-stethoscope" title="Clinical Context"></i>
+  </span>
 </div>
 
 <div class="phdCard">
@@ -111,7 +107,6 @@ Supervision:
 <i class="fas fa-clipboard-check" title="Evaluation / Field Trials"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-house-user" title="Home / Everyday Life"></i>
-<span class="phdDivider"></span>
 </span>
 </div>
 
