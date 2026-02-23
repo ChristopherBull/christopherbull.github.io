@@ -191,9 +191,8 @@ Supervision:
 <i class="fas fa-leaf" title="Sustainability / Net Zero"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-house-user" title="Home / Everyday Life"></i>
-<span class="phdDivider"></span>
-<span class="phdMeta">(2025)</span>
 </span>
+<span class="phdMeta">2025</span>
 </div>
 
 <div class="phdCard">
@@ -207,9 +206,8 @@ Supervision:
 <i class="fas fa-comments" title="Interviews / Qualitative Methods"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-house-user" title="Home / Everyday Life"></i>
-<span class="phdDivider"></span>
-<span class="phdMeta">(2024)</span>
 </span>
+<span class="phdMeta">2024</span>
 </div>
 
 </div>
