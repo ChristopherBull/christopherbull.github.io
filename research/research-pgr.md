@@ -7,6 +7,8 @@ sidebar:
 toc: true
 page_css:
   - /assets/style/research-pgr.css
+page_js:
+  - /assets/js/research-pgr.js
 ---
 
 <!-- markdownlint-disable MD033 -->
