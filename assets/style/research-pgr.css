@@ -116,6 +116,22 @@
 
 }
 
+@media (hover: none) {
+
+.phdSummary::after {
+  content: "Tap to expand";
+  display: block;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  margin-top: 0.25rem;
+}
+
+.phdCard[open] .phdSummary::after {
+  content: "Tap to collapse";
+}
+
+}
+
 .phdCard:active {
   transform: translateY(0);
 }
