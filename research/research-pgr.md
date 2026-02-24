@@ -56,122 +56,277 @@ Supervision:
 
 <!-- Primary supervision – no icon -->
 
-<div class="phdCard">
+<details class="phdCard">
+<summary class="phdSummary">
 <strong><a href="https://openlab.ncl.ac.uk/people/daniyah-ahmed/">Daniyah Ahmed</a></strong>
 <span class="phdTopic">Neonatal Nurse Experiences of Electronic Health Records</span>
 <span class="phdIconRow">
-<i class="fas fa-people-arrows" title="Health Systems, Communities & Infrastructure"></i>
+<i class="fas fa-people-arrows" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-pencil-ruler" title="Co-design / Participatory Design"></i>
-<i class="fas fa-clipboard-check" title="Evaluation / Field Trials"></i>
+<i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-stethoscope" title="Clinical"></i>
+<i class="fas fa-stethoscope" aria-hidden="true"></i>
 </span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-stethoscope"></i> Clinical</li>
+</ul>
 </div>
+</details>
 
-<div class="phdCard">
+<details class="phdCard">
+<summary class="phdSummary">
 <strong>Nada Altwala</strong>
 <span class="phdTopic">Conversational Agents to Support People with Dementia</span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" title="Digital Health Interventions & Behaviour Change"></i>
+<i class="fas fa-heart-pulse" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-robot" title="AI / Machine Learning"></i>
-<i class="fas fa-comments" title="Conversational Agents"></i>
+<i class="fas fa-robot" aria-hidden="true"></i>
+<i class="fas fa-comments" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" title="Home / Everyday Life"></i>
+<i class="fas fa-house-user" aria-hidden="true"></i>
 </span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-robot"></i> AI / Machine Learning</li>
+<li><i class="fas fa-comments"></i> Conversational Agents</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+</ul>
 </div>
+</details>
 
-<div class="phdCard">
-  <strong><a href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Jake Hobbs</a></strong>
-  <span class="phdTopic">Augmented Reality to Support Clinical Imaging Workflows</span>
-  <span class="phdIconRow">
-    <i class="fas fa-vr-cardboard" title="Interactive & Immersive Systems"></i>
-    <span class="phdDivider"></span>
-    <i class="fas fa-comments" title="Interviews / Workshops"></i>
-    <i class="fas fa-clipboard-check" title="Evaluation / Field Trials"></i>
-    <span class="phdDivider"></span>
-    <i class="fas fa-stethoscope" title="Clinical Context"></i>
-  </span>
+<details class="phdCard">
+<summary class="phdSummary">
+<strong><a href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Jake Hobbs</a></strong>
+<span class="phdTopic">Augmented Reality to Support Clinical Imaging Workflows</span>
+<span class="phdIconRow">
+<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
+<span class="phdDivider"></span>
+<i class="fas fa-comments" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check" aria-hidden="true"></i>
+<span class="phdDivider"></span>
+<i class="fas fa-stethoscope" aria-hidden="true"></i>
+</span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-comments"></i> Interviews / Workshops</li>
+<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-stethoscope"></i> Clinical</li>
+</ul>
 </div>
+</details>
 
-<div class="phdCard">
+<details class="phdCard">
+<summary class="phdSummary">
 <strong><a href="https://openlab.ncl.ac.uk/people/nicholas-smith/">Nick Smith</a></strong>
 <span class="phdTopic">Reminiscence Therapy for People with Dementia Using Virtual Reality</span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" title="Digital Health Interventions & Behaviour Change"></i>
-<i class="fas fa-vr-cardboard" title="Interactive & Immersive Systems"></i>
+<i class="fas fa-heart-pulse" aria-hidden="true"></i>
+<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-comments" title="Qualitative Interviews"></i>
-<i class="fas fa-laptop-code" title="System / Tool Development"></i>
-<i class="fas fa-clipboard-check" title="Evaluation / Field Trials"></i>
+<i class="fas fa-comments" aria-hidden="true"></i>
+<i class="fas fa-laptop-code" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" title="Home / Everyday Life"></i>
+<i class="fas fa-house-user" aria-hidden="true"></i>
 </span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+<li><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-comments"></i> Qualitative Interviews</li>
+<li><i class="fas fa-laptop-code"></i> System / Tool Development</li>
+<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+</ul>
 </div>
+</details>
 
 <!-- Co-supervised - include icon for awareness -->
 
-<div class="phdCard">
+<details class="phdCard">
+<summary class="phdSummary">
 <strong><a href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Sami Alghamdi</a></strong>
 <span class="phdTopic">Design Tools to Support Novice Programming Learners</span>
 <span class="phdIconRow">
-<i class="fas fa-laptop-code" title="Human Factors of SE & Computing Education"></i>
+<i class="fas fa-laptop-code" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-hashtag" title="Survey / Social Media Analysis"></i>
-<i class="fas fa-pencil-ruler" title="Co-design / Participatory Design"></i>
+<i class="fas fa-hashtag" aria-hidden="true"></i>
+<i class="fas fa-pencil-ruler" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" title="Home / Everyday Life"></i>
+<i class="fas fa-house-user" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-user-friends" title="Co-supervised"></i>
+<i class="fas fa-user-friends" aria-hidden="true"></i>
 </span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-laptop-code"></i> Human Factors of SE & Computing Education</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-hashtag"></i> Survey / Social Media Analysis</li>
+<li><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+</ul>
+<strong>Supervision</strong>
+<ul>
+<li><i class="fas fa-user-friends"></i> Co-supervised</li>
+</ul>
 </div>
+</details>
 
-<div class="phdCard">
+<details class="phdCard">
+<summary class="phdSummary">
 <strong>Chinomnso Ekwedike</strong>
 <span class="phdTopic">Generative AI in Computing Education</span>
 <span class="phdIconRow">
-<i class="fas fa-laptop-code" title="Human Factors of SE & Computing Education"></i>
+<i class="fas fa-laptop-code" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-robot" title="AI / Machine Learning"></i>
+<i class="fas fa-robot" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-graduation-cap" title="Education"></i>
+<i class="fas fa-graduation-cap" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-user-friends" title="Co-supervised"></i>
+<i class="fas fa-user-friends" aria-hidden="true"></i>
 </span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-laptop-code"></i> Human Factors of SE & Computing Education</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-robot"></i> AI / Machine Learning</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-graduation-cap"></i> Education</li>
+</ul>
+<strong>Supervision</strong>
+<ul>
+<li><i class="fas fa-user-friends"></i> Co-supervised</li>
+</ul>
 </div>
+</details>
 
-<div class="phdCard">
+<details class="phdCard">
+<summary class="phdSummary">
 <strong><a href="https://openlab.ncl.ac.uk/people/yiwen-shang/">Yiwen Shang</a></strong>
 <span class="phdTopic">Impacts of Social Media on Mental Wellbeing</span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" title="Digital Health Interventions & Behaviour Change"></i>
-<i class="fas fa-chart-line" title="Digital Measures of Health & Wellbeing"></i>
+<i class="fas fa-heart-pulse" aria-hidden="true"></i>
+<i class="fas fa-chart-line" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-hashtag" title="Social Media Analysis"></i>
-<i class="fas fa-robot" title="AI / Machine Learning"></i>
+<i class="fas fa-hashtag" aria-hidden="true"></i>
+<i class="fas fa-robot" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" title="Home / Everyday Life"></i>
+<i class="fas fa-house-user" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-user-friends" title="Co-supervised"></i>
+<i class="fas fa-user-friends" aria-hidden="true"></i>
 </span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+<li><i class="fas fa-chart-line"></i> Digital Measures of Health & Wellbeing</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-hashtag"></i> Social Media Analysis</li>
+<li><i class="fas fa-robot"></i> AI / Machine Learning</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+</ul>
+<strong>Supervision</strong>
+<ul>
+<li><i class="fas fa-user-friends"></i> Co-supervised</li>
+</ul>
 </div>
+</details>
 
-<div class="phdCard">
+<details class="phdCard">
+<summary class="phdSummary">
 <strong><a href="https://openlab.ncl.ac.uk/people/yu-zhao/">Yu Zhao</a></strong>
 <span class="phdTopic">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
 <span class="phdIconRow">
-<i class="fas fa-people-arrows" title="Health Systems, Communities & Infrastructure"></i>
-<i class="fas fa-vr-cardboard" title="Interactive & Immersive Systems"></i>
+<i class="fas fa-people-arrows" aria-hidden="true"></i>
+<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-pencil-ruler" title="Co-design / Participatory Design"></i>
-<i class="fas fa-leaf" title="Sustainability / Net Zero"></i>
+<i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+<i class="fas fa-leaf" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-users" title="Community"></i>
+<i class="fas fa-users" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-user-friends" title="Co-supervised"></i>
+<i class="fas fa-user-friends" aria-hidden="true"></i>
 </span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
+<li><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+<li><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-users"></i> Community</li>
+</ul>
+<strong>Supervision</strong>
+<ul>
+<li><i class="fas fa-user-friends"></i> Co-supervised</li>
+</ul>
 </div>
+</details>
 
 </div>
 
@@ -179,35 +334,72 @@ Supervision:
 
 <div class="phdGrid">
 
-<div class="phdCard">
+<details class="phdCard">
+<summary class="phdSummary">
 <strong><a href="https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/">Remco Benthem De Grave</a></strong>
 <span class="phdTopic">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" title="Digital Health Interventions & Behaviour Change"></i>
+<i class="fas fa-heart-pulse" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-pencil-ruler" title="Co-design / Participatory Design"></i>
-<i class="fas fa-clipboard-check" title="Evaluation / Field Trials"></i>
-<i class="fas fa-laptop-code" title="Application Development / Software"></i>
-<i class="fas fa-leaf" title="Sustainability / Net Zero"></i>
+<i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check" aria-hidden="true"></i>
+<i class="fas fa-laptop-code" aria-hidden="true"></i>
+<i class="fas fa-leaf" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" title="Home / Everyday Life"></i>
+<i class="fas fa-house-user" aria-hidden="true"></i>
 </span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+<li><i class="fas fa-laptop-code"></i> Application Development / Software</li>
+<li><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+</ul>
 <span class="phdMeta">2025</span>
 </div>
+</details>
 
-<div class="phdCard">
+<details class="phdCard">
+<summary class="phdSummary">
 <strong><a href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Viana Zhang</a></strong>
 <span class="phdTopic">Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing</span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" title="Digital Health Interventions & Behaviour Change"></i>
+<i class="fas fa-heart-pulse" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-robot" title="AI / Machine Learning"></i>
-<i class="fas fa-clipboard-check" title="Evaluation / Field Trials"></i>
-<i class="fas fa-comments" title="Interviews / Qualitative Methods"></i>
+<i class="fas fa-robot" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check" aria-hidden="true"></i>
+<i class="fas fa-comments" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" title="Home / Everyday Life"></i>
+<i class="fas fa-house-user" aria-hidden="true"></i>
 </span>
+</summary>
+<div class="phdDetails">
+<strong>Research Theme</strong>
+<ul>
+<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+</ul>
+<strong>Methods</strong>
+<ul>
+<li><i class="fas fa-robot"></i> AI / Machine Learning</li>
+<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+<li><i class="fas fa-comments"></i> Interviews / Qualitative Methods</li>
+</ul>
+<strong>Context</strong>
+<ul>
+<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+</ul>
 <span class="phdMeta">2024</span>
 </div>
+</details>
 
 </div>

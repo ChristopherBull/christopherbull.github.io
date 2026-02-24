@@ -12,10 +12,28 @@
   background: #fafafa;
   border-radius: 6px;
   font-size: 0.95rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+  transition: border 0.2s ease;
+}
+
+.phdCard[open] {
+  border-left-color: var(--link-color);
+}
+
+.phdSummary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.phdSummary::-webkit-details-marker {
+  display: none;
+}
+
+.phdSummary * {
+  pointer-events: none;
+}
+
+.phdSummary a {
+  pointer-events: auto;
 }
 
 .phdTopic {
@@ -45,15 +63,32 @@
   margin: 0 0.3rem;
 }
 
-.phdTags {
-  display: block;
-  margin-top: 0.4rem;
-  font-size: 0.8rem;
+.phdDetails {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
   opacity: 0.85;
 }
 
-.phdTags i {
-  margin-right: 0.3rem;
+.phdCard:not([open]) .phdDetails {
+  display: none;
+}
+
+.phdDetails ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.phdDetails li {
+  background: #eee;
+  border-radius: 999px;
+  padding: 0.15rem 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 .phdMeta {
