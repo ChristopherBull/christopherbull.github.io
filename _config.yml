@@ -93,9 +93,11 @@ exclude:
   - .jekyll-cache
   - .sass-cache
   - .trunk
+  - .qlty
 watch_exclude:
   - vendor
   - node_modules
   - .jekyll-cache
   - .sass-cache
   - .trunk
+  - .qlty
