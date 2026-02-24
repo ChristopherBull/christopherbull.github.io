@@ -91,6 +91,30 @@
   gap: 0.25rem;
 }
 
+/* Theme */
+.phdTheme {
+  background: rgba(231, 76, 60, 0.1);
+  color: #c0392b;
+}
+
+/* Method */
+.phdMethod {
+  background: rgba(52, 152, 219, 0.1);
+  color: #21618c;
+}
+
+/* Context */
+.phdContext {
+  background: rgba(46, 204, 113, 0.1);
+  color: #1e8449;
+}
+
+/* Supervision */
+.phdSupervision {
+  background: rgba(155, 89, 182, 0.1);
+  color: #6c3483;
+}
+
 .phdMeta {
   font-size: 0.8rem;
   font-weight: bold;

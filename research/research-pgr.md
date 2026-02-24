@@ -72,16 +72,16 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
+<li class="phdTheme"><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
-<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+<li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-stethoscope"></i> Clinical</li>
+<li class="phdContext"><i class="fas fa-stethoscope"></i> Clinical</li>
 </ul>
 </div>
 </details>
@@ -102,16 +102,16 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-robot"></i> AI / Machine Learning</li>
-<li><i class="fas fa-comments"></i> Conversational Agents</li>
+<li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
+<li class="phdMethod"><i class="fas fa-comments"></i> Conversational Agents</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
 </div>
 </details>
@@ -132,16 +132,16 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
+<li class="phdTheme"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-comments"></i> Interviews / Workshops</li>
-<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+<li class="phdMethod"><i class="fas fa-comments"></i> Interviews / Workshops</li>
+<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-stethoscope"></i> Clinical</li>
+<li class="phdContext"><i class="fas fa-stethoscope"></i> Clinical</li>
 </ul>
 </div>
 </details>
@@ -164,18 +164,18 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
-<li><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
+<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+<li class="phdTheme"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-comments"></i> Qualitative Interviews</li>
-<li><i class="fas fa-laptop-code"></i> System / Tool Development</li>
-<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+<li class="phdMethod"><i class="fas fa-comments"></i> Qualitative Interviews</li>
+<li class="phdMethod"><i class="fas fa-laptop-code"></i> System / Tool Development</li>
+<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
 </div>
 </details>
@@ -200,20 +200,20 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-laptop-code"></i> Human Factors of SE & Computing Education</li>
+<li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors of SE & Computing Education</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-hashtag"></i> Survey / Social Media Analysis</li>
-<li><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+<li class="phdMethod"><i class="fas fa-hashtag"></i> Survey / Social Media Analysis</li>
+<li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
 <strong>Supervision</strong>
 <ul>
-<li><i class="fas fa-user-friends"></i> Co-supervised</li>
+<li class="phdSupervision"><i class="fas fa-user-friends"></i> Co-supervised</li>
 </ul>
 </div>
 </details>
@@ -235,19 +235,19 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-laptop-code"></i> Human Factors of SE & Computing Education</li>
+<li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors of SE & Computing Education</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-robot"></i> AI / Machine Learning</li>
+<li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-graduation-cap"></i> Education</li>
+<li class="phdContext"><i class="fas fa-graduation-cap"></i> Education</li>
 </ul>
 <strong>Supervision</strong>
 <ul>
-<li><i class="fas fa-user-friends"></i> Co-supervised</li>
+<li class="phdSupervision"><i class="fas fa-user-friends"></i> Co-supervised</li>
 </ul>
 </div>
 </details>
@@ -271,21 +271,21 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
-<li><i class="fas fa-chart-line"></i> Digital Measures of Health & Wellbeing</li>
+<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+<li class="phdTheme"><i class="fas fa-chart-line"></i> Digital Measures of Health & Wellbeing</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-hashtag"></i> Social Media Analysis</li>
-<li><i class="fas fa-robot"></i> AI / Machine Learning</li>
+<li class="phdMethod"><i class="fas fa-hashtag"></i> Social Media Analysis</li>
+<li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
 <strong>Supervision</strong>
 <ul>
-<li><i class="fas fa-user-friends"></i> Co-supervised</li>
+<li class="phdSupervision"><i class="fas fa-user-friends"></i> Co-supervised</li>
 </ul>
 </div>
 </details>
@@ -309,21 +309,21 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
-<li><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
+<li class="phdTheme"><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
+<li class="phdTheme"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
-<li><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
+<li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+<li class="phdMethod"><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-users"></i> Community</li>
+<li class="phdContext"><i class="fas fa-users"></i> Community</li>
 </ul>
 <strong>Supervision</strong>
 <ul>
-<li><i class="fas fa-user-friends"></i> Co-supervised</li>
+<li class="phdSupervision"><i class="fas fa-user-friends"></i> Co-supervised</li>
 </ul>
 </div>
 </details>
@@ -352,18 +352,18 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
-<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
-<li><i class="fas fa-laptop-code"></i> Application Development / Software</li>
-<li><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
+<li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+<li class="phdMethod"><i class="fas fa-laptop-code"></i> Application Development / Software</li>
+<li class="phdMethod"><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
 <span class="phdMeta">2025</span>
 </div>
@@ -386,17 +386,17 @@ Supervision:
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
 </ul>
 <strong>Methods</strong>
 <ul>
-<li><i class="fas fa-robot"></i> AI / Machine Learning</li>
-<li><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
-<li><i class="fas fa-comments"></i> Interviews / Qualitative Methods</li>
+<li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
+<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+<li class="phdMethod"><i class="fas fa-comments"></i> Interviews / Qualitative Methods</li>
 </ul>
 <strong>Context</strong>
 <ul>
-<li><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
 <span class="phdMeta">2024</span>
 </div>
