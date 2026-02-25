@@ -111,6 +111,11 @@
   gap: 0.25rem;
 }
 
+.phdDetails li i {
+  margin-left: 0.25rem;
+  margin-right: 0.35rem;
+}
+
 /* Theme */
 .phdTheme {
   background: rgba(231, 76, 60, 0.1);
