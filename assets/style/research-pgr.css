@@ -3,6 +3,8 @@
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
+  align-items: start;
+  --phd-card-collapsed-min-height: 10rem;
 }
 
 .phdCard {
@@ -12,6 +14,8 @@
   border-radius: 6px;
   font-size: 0.95rem;
   transition: border 0.2s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .phdCard[open] {
@@ -23,6 +27,15 @@
   cursor: pointer;
   padding: 0.75rem 1rem;
   margin: 0;
+  display: block;
+}
+
+.phdCard:not([open]) .phdSummary {
+  flex: 1 1 auto;
+}
+
+.phdCard:not([open]) {
+  min-height: var(--phd-card-collapsed-min-height);
 }
 
 .phdSummary::-webkit-details-marker {
@@ -46,7 +59,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
   font-size: 0.8rem;
   opacity: 0.75;
 }
@@ -70,6 +83,10 @@
   font-size: 0.85rem;
   opacity: 0.85;
   cursor: pointer;
+}
+
+.phdCard[open] .phdDetails {
+  flex: 1 1 auto;
 }
 
 .phdCard:not([open]) .phdDetails {
