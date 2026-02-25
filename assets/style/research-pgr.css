@@ -51,9 +51,40 @@
   margin-top: 0.25rem;
 }
 
+.phdCoSupervised {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.55;
+  margin-top: 0.3rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: right;
+}
+
+.phdCoSupervised i {
+  margin-left: 0.3rem;
+  opacity: 0.7;
+}
+
+.phdGraduated {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.55;
+  margin-top: 0.3rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: right;
+}
+
+.phdGraduated i {
+  margin-left: 0.3rem;
+  opacity: 0.7;
+}
+
 .phdIconRow {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 0.5rem;
   margin-top: 0.75rem;
   font-size: 0.8rem;
@@ -128,20 +159,6 @@
 .phdContext {
   background: rgba(46, 204, 113, 0.1);
   color: #1e8449;
-}
-
-/* Supervision */
-.phdSupervision {
-  background: rgba(155, 89, 182, 0.1);
-  color: #6c3483;
-}
-
-.phdMeta {
-  font-size: 0.8rem;
-  font-weight: bold;
-  opacity: 0.7;
-  text-align: right;
-  margin-top: 0.5rem;
 }
 
 @media (hover: hover) {

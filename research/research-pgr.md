@@ -191,6 +191,7 @@ Supervision:
 <summary class="phdSummary">
 <strong>Sami Alghamdi</strong>
 <span class="phdTopic">Design Tools to Support Novice Programming Learners</span>
+<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-laptop-code" aria-hidden="true"></i>
 <span class="phdDivider"></span>
@@ -198,8 +199,6 @@ Supervision:
 <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-house-user" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-user-friends" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -217,10 +216,6 @@ Supervision:
 <ul>
 <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
-<strong>Supervision</strong>
-<ul>
-<li class="phdSupervision"><i class="fas fa-user-friends"></i> Co-supervised</li>
-</ul>
 </div>
 </details>
 
@@ -228,14 +223,13 @@ Supervision:
 <summary class="phdSummary">
 <strong>Chinomnso Ekwedike</strong>
 <span class="phdTopic">Generative AI in Computing Education</span>
+<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-laptop-code" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-robot" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-graduation-cap" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-user-friends" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -251,10 +245,6 @@ Supervision:
 <ul>
 <li class="phdContext"><i class="fas fa-graduation-cap"></i> Education</li>
 </ul>
-<strong>Supervision</strong>
-<ul>
-<li class="phdSupervision"><i class="fas fa-user-friends"></i> Co-supervised</li>
-</ul>
 </div>
 </details>
 
@@ -262,6 +252,7 @@ Supervision:
 <summary class="phdSummary">
 <strong>Yiwen Shang</strong>
 <span class="phdTopic">Impacts of Social Media on Mental Wellbeing</span>
+<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-heart-pulse" aria-hidden="true"></i>
 <i class="fas fa-chart-line" aria-hidden="true"></i>
@@ -270,8 +261,6 @@ Supervision:
 <i class="fas fa-robot" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-house-user" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-user-friends" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -290,10 +279,6 @@ Supervision:
 <ul>
 <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
-<strong>Supervision</strong>
-<ul>
-<li class="phdSupervision"><i class="fas fa-user-friends"></i> Co-supervised</li>
-</ul>
 </div>
 </details>
 
@@ -301,6 +286,7 @@ Supervision:
 <summary class="phdSummary">
 <strong>Yu Zhao</strong>
 <span class="phdTopic">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
+<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-people-arrows" aria-hidden="true"></i>
 <i class="fas fa-vr-cardboard" aria-hidden="true"></i>
@@ -309,8 +295,6 @@ Supervision:
 <i class="fas fa-leaf" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-users" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-user-friends" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -329,10 +313,6 @@ Supervision:
 <ul>
 <li class="phdContext"><i class="fas fa-users"></i> Community</li>
 </ul>
-<strong>Supervision</strong>
-<ul>
-<li class="phdSupervision"><i class="fas fa-user-friends"></i> Co-supervised</li>
-</ul>
 </div>
 </details>
 
@@ -346,6 +326,7 @@ Supervision:
 <summary class="phdSummary">
 <strong>Remco Benthem De Grave</strong>
 <span class="phdTopic">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
+<span class="phdGraduated">2025 <i class="fas fa-calendar" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-heart-pulse" aria-hidden="true"></i>
 <span class="phdDivider"></span>
@@ -374,7 +355,6 @@ Supervision:
 <ul>
 <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
-<span class="phdMeta">2025</span>
 </div>
 </details>
 
@@ -382,6 +362,8 @@ Supervision:
 <summary class="phdSummary">
 <strong>Viana Zhang</strong>
 <span class="phdTopic">Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing</span>
+<span class="phdGraduated">2024 <i class="fas fa-calendar" aria-hidden="true"></i></span>
+<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-heart-pulse" aria-hidden="true"></i>
 <span class="phdDivider"></span>
@@ -408,7 +390,6 @@ Supervision:
 <ul>
 <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
 </ul>
-<span class="phdMeta">2024</span>
 </div>
 </details>
 
