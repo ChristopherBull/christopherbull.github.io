@@ -52,7 +52,37 @@ Supervision:
 - Co-supervised: fa-user-friends
 -->
 
-## Current
+I welcome enquiries from prospective **self-funded PhD applicants** whose proposed research aligns with, or meaningfully complements, my [current research themes](/research/themes/).
+
+## PhD Students
+
+<details class="phdFilter">
+  <summary class="phdFilterSummary" aria-label="Filter PhD students by theme, method, context, or supervision type"><i class="fas fa-filter" aria-hidden="true"></i> Filter</summary>
+  <div class="phdFilterContent" role="region" aria-label="Filter controls">
+    <div class="phdFilterHelp">
+      <small><strong>How filters work:</strong> Filtered results may match any selected option within a group, but must match at least one selected option in each selected group.</small>
+    </div>
+    <div class="phdFilterGroup">
+      <h4>Research Themes</h4>
+      <div class="phdFilterOptions" data-filter-type="theme"></div>
+    </div>
+    <div class="phdFilterGroup">
+      <h4>Methods</h4>
+      <div class="phdFilterOptions" data-filter-type="method"></div>
+    </div>
+    <div class="phdFilterGroup">
+      <h4>Context</h4>
+      <div class="phdFilterOptions" data-filter-type="context"></div>
+    </div>
+    <div class="phdFilterGroup">
+      <h4>Supervision</h4>
+      <div class="phdFilterOptions" data-filter-type="supervision"></div>
+    </div>
+    <button class="phdFilterClear">Clear all filters</button>
+  </div>
+</details>
+
+### Current
 
 <div class="phdGrid">
 
@@ -318,7 +348,7 @@ Supervision:
 
 </div>
 
-## Completed
+### Completed
 
 <div class="phdGrid">
 

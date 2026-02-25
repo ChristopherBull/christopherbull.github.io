@@ -1,3 +1,157 @@
+/* ============================================
+   FILTER SECTION
+   ============================================ */
+
+/* Filter container */
+.phdFilter {
+  margin-bottom: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+/* Screen reader only class for accessibility announcements */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Filter toggle button */
+.phdFilterSummary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  outline-offset: -2px;
+}
+
+.phdFilterSummary:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: -2px;
+  background: #f0f0f0;
+}
+
+.phdFilterSummary:hover {
+  background: #f0f0f0;
+}
+
+.phdFilterSummary::-webkit-details-marker {
+  display: none;
+}
+
+/* Filter options container */
+.phdFilterContent {
+  padding: 1rem;
+  border-top: 1px solid #e0e0e0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Help text explaining filter logic */
+.phdFilterHelp {
+  grid-column: 1 / -1;
+  padding: 0.75rem 1rem;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Individual filter group with visual separation */
+.phdFilterGroup {
+  padding: 0.75rem;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+
+.phdFilterGroup h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #555;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Filter option checkboxes */
+.phdFilterOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.phdFilterOption {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.phdFilterOption input[type="checkbox"] {
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+}
+
+.phdFilterOption input[type="checkbox"]:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+.phdFilterOption label {
+  cursor: pointer;
+  flex: 1;
+}
+
+/* Clear filters button */
+.phdFilterClear {
+  grid-column: 1 / -1;
+  align-self: center;
+  padding: 0.5rem 1rem;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.phdFilterClear:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+.phdFilterClear:hover {
+  background: #e0e0e0;
+  border-color: #ccc;
+}
+
+/* ============================================
+   PHD CARD GRID & LAYOUT
+   ============================================ */
+
+/* Responsive grid for cards */
 .phdGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -7,6 +161,7 @@
   --phd-card-collapsed-min-height: 10rem;
 }
 
+/* Individual card styling */
 .phdCard {
   position: relative;
   border-left: 4px solid #ccc;
@@ -18,16 +173,30 @@
   flex-direction: column;
 }
 
+/* Hidden state for filtered cards */
+.phdCard.phdCardHidden {
+  display: none;
+}
+
 .phdCard[open] {
   border-left-color: var(--link-color);
 }
 
+/* Card header (clickable summary) */
 .phdSummary {
   list-style: none;
   cursor: pointer;
   padding: 0.75rem 1rem;
   margin: 0;
   display: block;
+  position: relative;
+  outline-offset: -2px;
+}
+
+.phdSummary:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: -2px;
+  background: #f0f0f0;
 }
 
 .phdCard:not([open]) .phdSummary {
@@ -45,6 +214,50 @@
 .phdSummary * {
   pointer-events: none;
 }
+
+/* Card expanded content */
+.phdDetails {
+  margin-top: 0.5rem;
+  padding: 0 1rem 0.75rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.phdCard[open] .phdDetails {
+  flex: 1 1 auto;
+}
+
+.phdCard:not([open]) .phdDetails {
+  display: none;
+}
+
+.phdDetails ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.phdDetails li {
+  background: #eee;
+  border-radius: 999px;
+  padding: 0.15rem 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.phdDetails li i {
+  margin-left: 0.25rem;
+  margin-right: 0.35rem;
+}
+
+/* ============================================
+   CARD METADATA & ICONS
+   ============================================ */
 
 .phdTopic {
   display: block;
@@ -104,62 +317,34 @@
   margin: 0 0.3rem;
 }
 
-.phdDetails {
-  margin-top: 0.5rem;
-  padding: 0 1rem 0.75rem;
-  font-size: 0.85rem;
-  opacity: 0.85;
-  cursor: pointer;
-}
-
-.phdCard[open] .phdDetails {
-  flex: 1 1 auto;
-}
-
-.phdCard:not([open]) .phdDetails {
-  display: none;
-}
-
-.phdDetails ul {
-  list-style: none;
-  padding: 0;
-  margin: 0.25rem 0 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem;
-}
-
-.phdDetails li {
-  background: #eee;
-  border-radius: 999px;
-  padding: 0.15rem 0.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-}
-
-.phdDetails li i {
-  margin-left: 0.25rem;
-  margin-right: 0.35rem;
-}
+/* ============================================
+   TAG STYLING (Theme, Method, Context)
+   ============================================ */
 
 /* Theme */
 .phdTheme {
-  background: rgba(231, 76, 60, 0.1);
-  color: #c0392b;
+  background: rgba(231, 76, 60, 0.15);
+  color: #a02622;
+  border: 1px solid rgba(231, 76, 60, 0.2);
 }
 
 /* Method */
 .phdMethod {
-  background: rgba(52, 152, 219, 0.1);
-  color: #21618c;
+  background: rgba(52, 152, 219, 0.15);
+  color: #1a5080;
+  border: 1px solid rgba(52, 152, 219, 0.2);
 }
 
 /* Context */
 .phdContext {
-  background: rgba(46, 204, 113, 0.1);
-  color: #1e8449;
+  background: rgba(46, 204, 113, 0.15);
+  color: #176838;
+  border: 1px solid rgba(46, 204, 113, 0.2);
 }
+
+/* ============================================
+   RESPONSIVE & INTERACTIVE STATES
+   ============================================ */
 
 @media (hover: hover) {
 
@@ -192,6 +377,38 @@
   content: "Tap to collapse";
 }
 
+}
+
+/* ============================================
+   FILTER STATUS DISPLAY
+   ============================================ */
+
+/* Filter status message and icon */
+.phdFilterStatus {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.phdFilterStatus i {
+  opacity: 0.6;
+  font-size: 0.85rem;
+}
+
+/* Large empty state icon */
+.phdFilterStatus .phdFilterStatusIcon {
+  font-size: 2.5rem;
+  opacity: 0.3;
+  margin-right: 1rem;
+}
+
+.phdFilterStatus span {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
 }
 
 .phdCard:active {
