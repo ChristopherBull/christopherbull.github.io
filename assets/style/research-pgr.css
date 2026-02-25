@@ -46,10 +46,6 @@
   pointer-events: none;
 }
 
-.phdSummary a {
-  pointer-events: auto;
-}
-
 .phdTopic {
   display: block;
   margin-top: 0.25rem;

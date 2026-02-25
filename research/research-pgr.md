@@ -60,7 +60,7 @@ Supervision:
 
 <details class="phdCard">
 <summary class="phdSummary">
-<strong><a href="https://openlab.ncl.ac.uk/people/daniyah-ahmed/">Daniyah Ahmed</a></strong>
+<strong>Daniyah Ahmed</strong>
 <span class="phdTopic">Neonatal Nurse Experiences of Electronic Health Records</span>
 <span class="phdIconRow">
 <i class="fas fa-people-arrows" aria-hidden="true"></i>
@@ -72,6 +72,7 @@ Supervision:
 </span>
 </summary>
 <div class="phdDetails">
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/daniyah-ahmed/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
@@ -120,7 +121,7 @@ Supervision:
 
 <details class="phdCard">
 <summary class="phdSummary">
-<strong><a href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Jake Hobbs</a></strong>
+<strong>Jake Hobbs</strong>
 <span class="phdTopic">Augmented Reality to Support Clinical Imaging Workflows</span>
 <span class="phdIconRow">
 <i class="fas fa-vr-cardboard" aria-hidden="true"></i>
@@ -132,6 +133,7 @@ Supervision:
 </span>
 </summary>
 <div class="phdDetails">
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
@@ -150,7 +152,7 @@ Supervision:
 
 <details class="phdCard">
 <summary class="phdSummary">
-<strong><a href="https://openlab.ncl.ac.uk/people/nicholas-smith/">Nick Smith</a></strong>
+<strong>Nick Smith</strong>
 <span class="phdTopic">Reminiscence Therapy for People with Dementia Using Virtual Reality</span>
 <span class="phdIconRow">
 <i class="fas fa-heart-pulse" aria-hidden="true"></i>
@@ -164,6 +166,7 @@ Supervision:
 </span>
 </summary>
 <div class="phdDetails">
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/nicholas-smith/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
@@ -186,7 +189,7 @@ Supervision:
 
 <details class="phdCard">
 <summary class="phdSummary">
-<strong><a href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Sami Alghamdi</a></strong>
+<strong>Sami Alghamdi</strong>
 <span class="phdTopic">Design Tools to Support Novice Programming Learners</span>
 <span class="phdIconRow">
 <i class="fas fa-laptop-code" aria-hidden="true"></i>
@@ -200,6 +203,7 @@ Supervision:
 </span>
 </summary>
 <div class="phdDetails">
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors of SE & Computing Education</li>
@@ -256,7 +260,7 @@ Supervision:
 
 <details class="phdCard">
 <summary class="phdSummary">
-<strong><a href="https://openlab.ncl.ac.uk/people/yiwen-shang/">Yiwen Shang</a></strong>
+<strong>Yiwen Shang</strong>
 <span class="phdTopic">Impacts of Social Media on Mental Wellbeing</span>
 <span class="phdIconRow">
 <i class="fas fa-heart-pulse" aria-hidden="true"></i>
@@ -271,6 +275,7 @@ Supervision:
 </span>
 </summary>
 <div class="phdDetails">
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/yiwen-shang/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
@@ -294,7 +299,7 @@ Supervision:
 
 <details class="phdCard">
 <summary class="phdSummary">
-<strong><a href="https://openlab.ncl.ac.uk/people/yu-zhao/">Yu Zhao</a></strong>
+<strong>Yu Zhao</strong>
 <span class="phdTopic">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
 <span class="phdIconRow">
 <i class="fas fa-people-arrows" aria-hidden="true"></i>
@@ -309,6 +314,7 @@ Supervision:
 </span>
 </summary>
 <div class="phdDetails">
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/yu-zhao/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
@@ -338,7 +344,7 @@ Supervision:
 
 <details class="phdCard">
 <summary class="phdSummary">
-<strong><a href="https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/">Remco Benthem De Grave</a></strong>
+<strong>Remco Benthem De Grave</strong>
 <span class="phdTopic">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
 <span class="phdIconRow">
 <i class="fas fa-heart-pulse" aria-hidden="true"></i>
@@ -352,6 +358,7 @@ Supervision:
 </span>
 </summary>
 <div class="phdDetails">
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
@@ -373,7 +380,7 @@ Supervision:
 
 <details class="phdCard">
 <summary class="phdSummary">
-<strong><a href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Viana Zhang</a></strong>
+<strong>Viana Zhang</strong>
 <span class="phdTopic">Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing</span>
 <span class="phdIconRow">
 <i class="fas fa-heart-pulse" aria-hidden="true"></i>
@@ -386,6 +393,7 @@ Supervision:
 </span>
 </summary>
 <div class="phdDetails">
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
