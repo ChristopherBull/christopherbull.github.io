@@ -21,13 +21,14 @@ Research Topic
 <!-- Font Awesome Icon glossary:
 
 Theme icons:
-- Digital Health Interventions & Behaviour Change: fa-heart-pulse
-- Interactive & Immersive Systems: fa-vr-cardboard
+- Digital Mental Health: fa-brain
 - Digital Measures of Health & Wellbeing: fa-chart-line
-- Health Systems, Communities & Infrastructure: fa-people-arrows
+- Health Informatics & Clinical Workflows: fa-hospital-user
+- Community Health & Civic Participation: fa-hands-helping
 - Human Factors of SE & Computing Education: fa-laptop-code
 
 Method icons:
+- Interactive & Immersive Systems (AR/VR/XR): fa-vr-cardboard
 - AI / Machine Learning: fa-robot
 - Co-design / Participatory Design: fa-pencil-ruler
 - Conversational Agents: fa-comments
@@ -93,7 +94,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <strong>Daniyah Ahmed</strong>
 <span class="phdTopic">Neonatal Nurse Experiences of Electronic Health Records</span>
 <span class="phdIconRow">
-<i class="fas fa-people-arrows" aria-hidden="true"></i>
+<i class="fas fa-hospital-user" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
 <i class="fas fa-clipboard-check" aria-hidden="true"></i>
@@ -105,7 +106,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/daniyah-ahmed/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
+<li class="phdTheme"><i class="fas fa-hospital-user"></i> Health Informatics & Clinical Workflows</li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -124,7 +125,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <strong>Nada Altwala</strong>
 <span class="phdTopic">Conversational Agents to Support People with Dementia</span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" aria-hidden="true"></i>
+<i class="fas fa-brain" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-robot" aria-hidden="true"></i>
 <i class="fas fa-comments" aria-hidden="true"></i>
@@ -135,7 +136,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+<li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -154,8 +155,9 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <strong>Jake Hobbs</strong>
 <span class="phdTopic">Augmented Reality to Support Clinical Imaging Workflows</span>
 <span class="phdIconRow">
-<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
+<i class="fas fa-hospital-user" aria-hidden="true"></i>
 <span class="phdDivider"></span>
+<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
 <i class="fas fa-comments" aria-hidden="true"></i>
 <i class="fas fa-clipboard-check" aria-hidden="true"></i>
 <span class="phdDivider"></span>
@@ -166,10 +168,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
+<li class="phdTheme"><i class="fas fa-hospital-user"></i> Health Informatics & Clinical Workflows</li>
 </ul>
 <strong>Methods</strong>
 <ul>
+<li class="phdMethod"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems (AR/VR/XR)</li>
 <li class="phdMethod"><i class="fas fa-comments"></i> Interviews / Workshops</li>
 <li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
 </ul>
@@ -185,9 +188,9 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <strong>Nick Smith</strong>
 <span class="phdTopic">Reminiscence Therapy for People with Dementia Using Virtual Reality</span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" aria-hidden="true"></i>
-<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
+<i class="fas fa-brain" aria-hidden="true"></i>
 <span class="phdDivider"></span>
+<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
 <i class="fas fa-comments" aria-hidden="true"></i>
 <i class="fas fa-laptop-code" aria-hidden="true"></i>
 <i class="fas fa-clipboard-check" aria-hidden="true"></i>
@@ -199,11 +202,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/nicholas-smith/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
-<li class="phdTheme"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
+<li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
 </ul>
 <strong>Methods</strong>
 <ul>
+<li class="phdMethod"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems (AR/VR/XR)</li>
 <li class="phdMethod"><i class="fas fa-comments"></i> Qualitative Interviews</li>
 <li class="phdMethod"><i class="fas fa-laptop-code"></i> System / Tool Development</li>
 <li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
@@ -284,8 +287,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdTopic">Impacts of Social Media on Mental Wellbeing</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" aria-hidden="true"></i>
-<i class="fas fa-chart-line" aria-hidden="true"></i>
+<i class="fas fa-brain" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-hashtag" aria-hidden="true"></i>
 <i class="fas fa-robot" aria-hidden="true"></i>
@@ -297,8 +299,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/yiwen-shang/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
-<li class="phdTheme"><i class="fas fa-chart-line"></i> Digital Measures of Health & Wellbeing</li>
+<li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -318,9 +319,9 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdTopic">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
-<i class="fas fa-people-arrows" aria-hidden="true"></i>
-<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
+<i class="fas fa-hands-helping" aria-hidden="true"></i>
 <span class="phdDivider"></span>
+<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
 <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
 <i class="fas fa-leaf" aria-hidden="true"></i>
 <span class="phdDivider"></span>
@@ -331,11 +332,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/yu-zhao/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-people-arrows"></i> Health Systems, Communities & Infrastructure</li>
-<li class="phdTheme"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems</li>
+<li class="phdTheme"><i class="fas fa-hands-helping"></i> Community Health & Civic Participation</li>
 </ul>
 <strong>Methods</strong>
 <ul>
+<li class="phdMethod"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems (AR/VR/XR)</li>
 <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
 <li class="phdMethod"><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
 </ul>
@@ -358,7 +359,6 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdTopic">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
 <span class="phdGraduated">2025 <i class="fas fa-calendar" aria-hidden="true"></i></span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
 <i class="fas fa-clipboard-check" aria-hidden="true"></i>
@@ -370,10 +370,6 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </summary>
 <div class="phdDetails">
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/">Open Lab profile</a></p>
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
-</ul>
 <strong>Methods</strong>
 <ul>
 <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
@@ -395,7 +391,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdGraduated">2024 <i class="fas fa-calendar" aria-hidden="true"></i></span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
-<i class="fas fa-heart-pulse" aria-hidden="true"></i>
+<i class="fas fa-brain" aria-hidden="true"></i>
 <span class="phdDivider"></span>
 <i class="fas fa-robot" aria-hidden="true"></i>
 <i class="fas fa-clipboard-check" aria-hidden="true"></i>
@@ -408,7 +404,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-heart-pulse"></i> Digital Health Interventions & Behaviour Change</li>
+<li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
 </ul>
 <strong>Methods</strong>
 <ul>
