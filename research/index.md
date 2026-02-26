@@ -35,10 +35,9 @@ This includes **assistive and diagnostic** tools, **systems** for clinicians, an
   </div>
 </div>
 
-## Computing Education & Software Engineering
+## Computing Education
 
-I also research **human factors** in software engineering and computing education.
-This includes how developers learn, collaborate, and use tools&mdash;whether in professional teams or **studio-inspired teaching** environments&mdash;and how **emerging technologies** are reshaping both learning and day-to-day development practice.
+I also research **human factors in computing education**, examining how people learn to design and develop software, and how they collaborate and engage with development tools in educational settings. This includes exploring how emerging technologies like **generative AI** and **studio-inspired teaching** approaches shape learning, collaboration, and professional development.
 
 ## Learn More
 
