@@ -48,6 +48,26 @@
   align-items: center;
   gap: 0.5rem;
   outline-offset: -2px;
+  position: relative;
+  padding-right: 2.25rem;
+}
+
+.phdFilterSummary::after {
+  content: '';
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid #666;
+  border-bottom: 2px solid #666;
+  transform: translateY(-60%) rotate(45deg);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.phdFilter[open] .phdFilterSummary::after {
+  transform: translateY(-40%) rotate(-135deg);
+  border-color: #333;
 }
 
 .phdFilterSummary:focus-visible {
