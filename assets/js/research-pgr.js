@@ -55,6 +55,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Initialize filter system
   initializeFilters();
+
+  // Initialize scroll affordances for methods filter
+  initializeScrollAffordances();
 });
 
 function cacheCardMetadata() {
@@ -225,4 +228,51 @@ function announceFilterResults(visibleCount, totalCount) {
       text.textContent = `Showing ${visibleCount} of ${totalCount} PhD students`;
     }
   }
+}
+
+function initializeScrollAffordances() {
+  const methodsFilterOptions = document.querySelector('[data-filter-type="method"]');
+  if (!methodsFilterOptions) return;
+
+  const methodsFilterGroup = methodsFilterOptions.closest('.phdFilterGroup');
+  if (!methodsFilterGroup) return;
+
+  function updateScrollAffordances() {
+    const { scrollTop, scrollHeight, clientHeight } = methodsFilterOptions;
+    const isScrollable = scrollHeight > clientHeight;
+
+    if (!isScrollable) {
+      // No need for affordances if content doesn't scroll
+      methodsFilterGroup.removeAttribute('data-scroll-top');
+      methodsFilterGroup.removeAttribute('data-scroll-bottom');
+      return;
+    }
+
+    const isAtTop = scrollTop <= 5; // Small threshold for rounding errors
+    const isAtBottom = scrollTop + clientHeight >= scrollHeight - 5;
+
+    // Show top shadow if not at top and can scroll up
+    if (!isAtTop) {
+      methodsFilterGroup.setAttribute('data-scroll-top', 'true');
+    } else {
+      methodsFilterGroup.removeAttribute('data-scroll-top');
+    }
+
+    // Show bottom shadow if not at bottom and can scroll down
+    if (!isAtBottom) {
+      methodsFilterGroup.setAttribute('data-scroll-bottom', 'true');
+    } else {
+      methodsFilterGroup.removeAttribute('data-scroll-bottom');
+    }
+  }
+
+  // Update on scroll
+  methodsFilterOptions.addEventListener('scroll', updateScrollAffordances);
+
+  // Update on content changes (when filters are populated)
+  const observer = new MutationObserver(updateScrollAffordances);
+  observer.observe(methodsFilterOptions, { childList: true, subtree: true });
+
+  // Initial update with a slight delay to ensure content is rendered
+  setTimeout(updateScrollAffordances, 100);
 }

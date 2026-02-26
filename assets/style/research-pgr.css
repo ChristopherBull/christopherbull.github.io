@@ -102,11 +102,97 @@
   letter-spacing: 0.5px;
 }
 
+/* Add scroll hint icon to Methods heading */
+.phdFilterGroup:has([data-filter-type="method"]) h4::after {
+  content: ' ⇅';
+  font-size: 0.9em;
+  opacity: 0.4;
+  margin-left: 0.35rem;
+  font-weight: normal;
+}
+
 /* Filter option checkboxes */
 .phdFilterOptions {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+/* Scrollable methods filter with visual affordances */
+.phdFilterGroup:has([data-filter-type="method"]) .phdFilterOptions {
+  max-height: 12rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  /* Custom scrollbar styling for better UX */
+  scrollbar-width: thin;
+  scrollbar-color: #bbb #f0f0f0;
+  padding-right: 0.25rem;
+  /* Smooth scrolling for better UX */
+  scroll-behavior: smooth;
+}
+
+/* Mobile: add touch-action for better scrolling */
+@media (max-width: 768px) {
+  .phdFilterGroup:has([data-filter-type="method"]) .phdFilterOptions {
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+  }
+}
+
+.phdFilterGroup:has([data-filter-type="method"]) .phdFilterOptions::-webkit-scrollbar {
+  width: 6px;
+}
+
+.phdFilterGroup:has([data-filter-type="method"]) .phdFilterOptions::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 3px;
+}
+
+.phdFilterGroup:has([data-filter-type="method"]) .phdFilterOptions::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 3px;
+}
+
+.phdFilterGroup:has([data-filter-type="method"]) .phdFilterOptions::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Scroll shadow container */
+.phdFilterGroup:has([data-filter-type="method"]) {
+  position: relative;
+}
+
+/* Top scroll shadow (hidden by default, shown via JS) */
+.phdFilterGroup[data-scroll-top="true"]::before {
+  content: '';
+  position: absolute;
+  top: 2.5rem; /* Below the h4 heading */
+  left: 0.75rem;
+  right: 0.75rem;
+  height: 1.5rem;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.08), transparent);
+  pointer-events: none;
+  z-index: 1;
+  border-radius: 4px 4px 0 0;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+/* Bottom scroll shadow (shown by default, hidden via JS when at bottom) */
+.phdFilterGroup[data-scroll-bottom="true"]::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0.75rem;
+  right: 0.75rem;
+  height: 1.5rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.08), transparent);
+  pointer-events: none;
+  z-index: 1;
+  border-radius: 0 0 4px 4px;
+  opacity: 1;
+  transition: opacity 0.2s ease;
 }
 
 .phdFilterOption {
