@@ -17,30 +17,34 @@ I also explore human factors in computing education and software engineering pra
 ```mermaid
 flowchart LR
     accTitle: Research Themes and Application Contexts Overview
-    accDescr: This diagram shows the foundations, research themes, and application contexts of Christopher Bull's human-centred computing research. Foundational areas include Human-Computer Interaction and Software Engineering. All foundational topics inform all of the research themes. Research themes include Digital Mental Health, Digital Measures of Health & Wellbeing, Health Informatics & Clinical Workflows, Community Health & Civic Participation, and Human Factors of Software Engineering & Computing Education. Application contexts are Digital Health & Wellbeing and Computing Education. Arrows indicate that foundations and contexts inform the research themes.
+    accDescr: This diagram shows the foundations, core research themes, and application contexts of Christopher Bull's human-centred computing research. Foundational areas include Human-Computer Interaction and Software Engineering. All foundational topics inform the core research themes. Core themes include Digital Mental Health, Digital Measures of Health & Wellbeing, Health Informatics & Clinical Workflows, and Human Factors of Software Engineering & Computing Education. Application contexts are Digital Health, and Computing Education.
 
-    subgraph F["Foundations"]
-        direction TB
-        HCI["Human-Computer Interaction"] ~~~ SE["Software Engineering"]
-    end
-
-    subgraph T["Research Themes"]
+    %% --- CORE RESEARCH THEMES ---
+    subgraph T["Core Research Themes"]
         direction TB
         MH[<i class="fas fa-brain fa-fw" aria-hidden="true"></i><br>Digital Mental Health] ~~~
-        M[<i class="fas fa-chart-line fa-fw" aria-hidden="true"></i><br>Digital Measures of Health & Wellbeing] ~~~
         HI[<i class="fas fa-hospital-user fa-fw" aria-hidden="true"></i><br>Health Informatics & Clinical Workflows] ~~~
-        CH[<i class="fas fa-hands-helping fa-fw" aria-hidden="true"></i><br>Community Health & Civic Participation] ~~~
+        M[<i class="fas fa-chart-line fa-fw" aria-hidden="true"></i><br>Digital Measures of Health & Wellbeing] ~~~
         E[<i class="fas fa-laptop-code fa-fw" aria-hidden="true"></i><br>Human Factors of SE & Computing Education]
     end
 
+    %% --- APPLICATION CONTEXTS (to the top-right) ---
     subgraph C["Application Contexts"]
         direction TB
-        DH["Digital Health & Wellbeing"] ~~~
-        CE["Computing Education"]
+        DH[Digital Health] ~~~
+        CE[Computing Education]
     end
 
-    F --> T
-    C --> T
+    %% --- FOUNDATIONS (to the bottom-right) ---
+    subgraph F["Foundations"]
+        direction TB
+        HCI[Human-Computer Interaction] ~~~
+        SE[Software Engineering]
+    end
+
+    %% --- STRUCTURAL RELATIONSHIPS ---
+    T <--- C
+    T <--- F
 ```
 
 ## Research Themes
@@ -63,14 +67,18 @@ This theme focuses on the design, implementation, and evaluation of digital heal
 
 Work explores the socio-technical challenges of integrating digital technologies into clinical settings, focusing on how healthcare professionals experience and adapt to these systems. Studies address organisational change, professional practice, infrastructure requirements, and governance considerations that shape sustainable adoption in real-world healthcare contexts.
 
-### <i class="fas fa-hands-helping fa-fw headingIcon" aria-hidden="true"></i>Community Health &amp; Civic Participation
-
-This theme examines participatory approaches to digital health that engage citizens, communities, and public health stakeholders. Research focuses on co-designing technologies and interventions with communities for health promotion, wellbeing, social inclusion, and civic engagement.
-
-Work in this area explores how digital platforms can support community-based health initiatives, enable citizen participation in health decision-making, and address social determinants of health. Studies consider local contexts, community infrastructure, and participatory methods that ensure technologies are culturally appropriate, accessible, and workable for diverse populations.
-
 ### <i class="fas fa-laptop-code fa-fw headingIcon" aria-hidden="true"></i>Human Factors of Software Engineering &amp; Computing Education
 
 This strand focuses on the human side of software engineering practice and computing education. It explores how people learn, collaborate, and engage with development tools, including the integration of emerging technologies such as generative AI into teaching and professional workflows.
 
 The aim is to better understand what supports effective learning and responsible development practice in real-world settings.
+
+## Supporting Focus
+
+A small set of interests that have informed or complemented my core themes over time.
+
+### <i class="fas fa-hands-helping fa-fw headingIcon" aria-hidden="true"></i>Community Health &amp; Civic Participation
+
+This supporting focus reflects occasional and historical work on participatory approaches to digital health that engage citizens, communities, and public health stakeholders. Research in this area has included co-designing technologies and interventions with communities for health promotion, wellbeing, social inclusion, and civic engagement.
+
+Work here explores how digital platforms can support community-based health initiatives, enable citizen participation in health decision-making, and address social determinants of health. Studies consider local contexts, community infrastructure, and participatory methods that ensure technologies are culturally appropriate, accessible, and workable for diverse populations.
