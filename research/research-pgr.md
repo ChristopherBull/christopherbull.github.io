@@ -24,8 +24,11 @@ Theme icons:
 - Digital Mental Health: fa-brain
 - Digital Measures of Health & Wellbeing: fa-chart-line
 - Health Informatics & Clinical Workflows: fa-hospital-user
+- Human Factors in Computing Education: fa-laptop-code
 - Community Health & Civic Participation: fa-hands-helping
-- Human Factors of SE & Computing Education: fa-laptop-code
+
+Supporting Focus icons:
+- Human Factors of Software Engineering: fa-laptop-code
 
 Method icons:
 - Interactive & Immersive Systems (AR/VR/XR): fa-vr-cardboard
@@ -243,7 +246,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors of SE & Computing Education</li>
+<li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors in Computing Education</li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -273,7 +276,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors of SE & Computing Education</li>
+<li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors in Computing Education</li>
 </ul>
 <strong>Methods</strong>
 <ul>
