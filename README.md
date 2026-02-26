@@ -17,13 +17,16 @@ Jekyll automatically converts valid Markdown files into HTML pages 🚀
 
 <!-- markdownlint-disable MD028 -->
 
-> [!TIP] Install Gems in Project
+> [!TIP]
+> **Install Gems in Project**:
 > It is optional, though recommended, to [configure Bundler's install path](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/#configure-bundler-install-path) to use the project's subdirectory: `bundle config set --local path 'vendor/bundle'`
 
-> [!TIP] Additional Dev Tools Required
+> [!TIP]
+> **Additional Dev Tools Required**:
 > You may need to install Dev tools (to avoid errors in the next step), e.g., with Ubuntu: `sudo apt install ubuntu-dev-tools`
 
-> [!TIP] Update Bundler
+> [!TIP]
+> **Update Bundler**:
 > To update Bundler, run `bundle update --bundler` to update the pinned version in `Gemfile.lock`.
 
 2\) Now install the dependencies: `bundle install` (or `bundle update --all` to update an existing `Gemfile.lock` file)
