@@ -83,6 +83,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
   </div>
 </details>
 
+<div id="phd-filter-status" class="phdFilterStatus" style="display: none;">
+  <i class="phdFilterStatusIcon" aria-hidden="true"></i>
+  <span class="phdFilterStatusText"></span>
+</div>
+
 ### Current
 
 <div class="phdGrid">

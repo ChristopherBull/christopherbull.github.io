@@ -98,10 +98,19 @@ function initializeFilters() {
       const checkboxId = `filter-${type}-${option.toLowerCase().replace(/\s+/g, '-')}`;
       const wrapper = document.createElement('div');
       wrapper.className = 'phdFilterOption';
-      wrapper.innerHTML = `
-        <input type="checkbox" id="${checkboxId}" data-filter-type="${type}" data-filter-value="${option}">
-        <label for="${checkboxId}">${option}</label>
-      `;
+
+      const input = document.createElement('input');
+      input.type = 'checkbox';
+      input.id = checkboxId;
+      input.dataset.filterType = type;
+      input.dataset.filterValue = option;
+
+      const label = document.createElement('label');
+      label.htmlFor = checkboxId;
+      label.textContent = option;
+
+      wrapper.appendChild(input);
+      wrapper.appendChild(label);
       container.appendChild(wrapper);
     });
   });
@@ -198,24 +207,22 @@ function announceFilterResults(visibleCount, totalCount) {
 
   liveRegion.textContent = message;
 
-  // Create or update visual filter status display
-  let statusDisplay = document.getElementById('phd-filter-status');
-  if (!statusDisplay) {
-    statusDisplay = document.createElement('div');
-    statusDisplay.id = 'phd-filter-status';
-    statusDisplay.className = 'phdFilterStatus';
-    if (cachedDOMElements.filterElement && cachedDOMElements.filterElement.parentNode) {
-      cachedDOMElements.filterElement.parentNode.insertBefore(statusDisplay, cachedDOMElements.filterElement.nextSibling);
-    }
-  }
+  // Update pre-created status display element - only update text, not structure
+  const statusDisplay = document.getElementById('phd-filter-status');
+  if (statusDisplay) {
+    const icon = statusDisplay.querySelector('.phdFilterStatusIcon');
+    const text = statusDisplay.querySelector('.phdFilterStatusText');
 
-  if (visibleCount === totalCount) {
-    statusDisplay.style.display = 'none';
-  } else if (visibleCount === 0) {
-    statusDisplay.style.display = 'flex';
-    statusDisplay.innerHTML = `<i class="fas fa-inbox phdFilterStatusIcon" aria-hidden="true"></i><span>No PhD students match your filters</span>`;
-  } else {
-    statusDisplay.style.display = 'flex';
-    statusDisplay.innerHTML = `<i class="fas fa-filter" aria-hidden="true"></i> Showing ${visibleCount} of ${totalCount} PhD students`;
+    if (visibleCount === totalCount) {
+      statusDisplay.style.display = 'none';
+    } else if (visibleCount === 0) {
+      statusDisplay.style.display = 'flex';
+      icon.className = 'fas fa-inbox phdFilterStatusIcon';
+      text.textContent = 'No PhD students match your filters';
+    } else {
+      statusDisplay.style.display = 'flex';
+      icon.className = 'fas fa-filter phdFilterStatusIcon';
+      text.textContent = `Showing ${visibleCount} of ${totalCount} PhD students`;
+    }
   }
 }
