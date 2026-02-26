@@ -102,12 +102,12 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <strong>Daniyah Ahmed</strong>
 <span class="phdTopic">Neonatal Nurse Experiences of Electronic Health Records</span>
 <span class="phdIconRow">
-<i class="fas fa-hospital-user" aria-hidden="true"></i>
+<i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-pencil-ruler" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check" aria-hidden="true"></i>
+<i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-stethoscope" aria-hidden="true"></i>
+<i class="fas fa-stethoscope phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -133,12 +133,12 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <strong>Nada Altwala</strong>
 <span class="phdTopic">Conversational Agents to Support People with Dementia</span>
 <span class="phdIconRow">
-<i class="fas fa-brain" aria-hidden="true"></i>
+<i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-robot" aria-hidden="true"></i>
-<i class="fas fa-comments" aria-hidden="true"></i>
+<i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" aria-hidden="true"></i>
+<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -163,13 +163,13 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <strong>Jake Hobbs</strong>
 <span class="phdTopic">Augmented Reality to Support Clinical Imaging Workflows</span>
 <span class="phdIconRow">
-<i class="fas fa-hospital-user" aria-hidden="true"></i>
+<i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
-<i class="fas fa-comments" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check" aria-hidden="true"></i>
+<i class="fas fa-vr-cardboard phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-stethoscope" aria-hidden="true"></i>
+<i class="fas fa-stethoscope phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -196,14 +196,14 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <strong>Nick Smith</strong>
 <span class="phdTopic">Reminiscence Therapy for People with Dementia Using Virtual Reality</span>
 <span class="phdIconRow">
-<i class="fas fa-brain" aria-hidden="true"></i>
+<i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
-<i class="fas fa-comments" aria-hidden="true"></i>
-<i class="fas fa-laptop-code" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check" aria-hidden="true"></i>
+<i class="fas fa-vr-cardboard phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-laptop-code phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" aria-hidden="true"></i>
+<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -234,12 +234,12 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdTopic">Design Tools to Support Novice Programming Learners</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
-<i class="fas fa-laptop-code" aria-hidden="true"></i>
+<i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-hashtag" aria-hidden="true"></i>
-<i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+<i class="fas fa-hashtag phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" aria-hidden="true"></i>
+<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -266,11 +266,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdTopic">Generative AI in Computing Education</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
-<i class="fas fa-laptop-code" aria-hidden="true"></i>
+<i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-robot" aria-hidden="true"></i>
+<i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-graduation-cap" aria-hidden="true"></i>
+<i class="fas fa-graduation-cap phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -295,12 +295,12 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdTopic">Impacts of Social Media on Mental Wellbeing</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
-<i class="fas fa-brain" aria-hidden="true"></i>
+<i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-hashtag" aria-hidden="true"></i>
-<i class="fas fa-robot" aria-hidden="true"></i>
+<i class="fas fa-hashtag phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" aria-hidden="true"></i>
+<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -327,13 +327,13 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdTopic">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
-<i class="fas fa-hands-helping" aria-hidden="true"></i>
+<i class="fas fa-hands-helping phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-vr-cardboard" aria-hidden="true"></i>
-<i class="fas fa-pencil-ruler" aria-hidden="true"></i>
-<i class="fas fa-leaf" aria-hidden="true"></i>
+<i class="fas fa-vr-cardboard phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-leaf phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-users" aria-hidden="true"></i>
+<i class="fas fa-users phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -367,13 +367,12 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdTopic">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
 <span class="phdGraduated">2025 <i class="fas fa-calendar" aria-hidden="true"></i></span>
 <span class="phdIconRow">
+<i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-laptop-code phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-leaf phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-pencil-ruler" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check" aria-hidden="true"></i>
-<i class="fas fa-laptop-code" aria-hidden="true"></i>
-<i class="fas fa-leaf" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-house-user" aria-hidden="true"></i>
+<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">
@@ -399,13 +398,13 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <span class="phdGraduated">2024 <i class="fas fa-calendar" aria-hidden="true"></i></span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
-<i class="fas fa-brain" aria-hidden="true"></i>
+<i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-robot" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check" aria-hidden="true"></i>
-<i class="fas fa-comments" aria-hidden="true"></i>
+<i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
+<i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
 <span class="phdDivider"></span>
-<i class="fas fa-house-user" aria-hidden="true"></i>
+<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
 </span>
 </summary>
 <div class="phdDetails">

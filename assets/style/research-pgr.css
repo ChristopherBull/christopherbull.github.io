@@ -10,6 +10,18 @@
   background: #f9f9f9;
 }
 
+:root {
+  --phd-theme-color: #a02622;
+  --phd-theme-bg: rgba(231, 76, 60, 0.15);
+  --phd-theme-border: rgba(231, 76, 60, 0.2);
+  --phd-method-color: #1a5080;
+  --phd-method-bg: rgba(52, 152, 219, 0.15);
+  --phd-method-border: rgba(52, 152, 219, 0.2);
+  --phd-context-color: #176838;
+  --phd-context-bg: rgba(46, 204, 113, 0.15);
+  --phd-context-border: rgba(46, 204, 113, 0.2);
+}
+
 /* Screen reader only class for accessibility announcements */
 .sr-only {
   position: absolute;
@@ -317,29 +329,39 @@
   margin: 0 0.3rem;
 }
 
+/* Icon row colors */
+.phdIconTheme {
+  color: var(--phd-theme-color);
+}
+
+.phdIconMethod {
+  color: var(--phd-method-color);
+}
+
+.phdIconContext {
+  color: var(--phd-context-color);
+}
+
 /* ============================================
    TAG STYLING (Theme, Method, Context)
    ============================================ */
 
-/* Theme */
 .phdTheme {
-  background: rgba(231, 76, 60, 0.15);
-  color: #a02622;
-  border: 1px solid rgba(231, 76, 60, 0.2);
+  background: var(--phd-theme-bg);
+  color: var(--phd-theme-color);
+  border: 1px solid var(--phd-theme-border);
 }
 
-/* Method */
 .phdMethod {
-  background: rgba(52, 152, 219, 0.15);
-  color: #1a5080;
-  border: 1px solid rgba(52, 152, 219, 0.2);
+  background: var(--phd-method-bg);
+  color: var(--phd-method-color);
+  border: 1px solid var(--phd-method-border);
 }
 
-/* Context */
 .phdContext {
-  background: rgba(46, 204, 113, 0.15);
-  color: #176838;
-  border: 1px solid rgba(46, 204, 113, 0.2);
+  background: var(--phd-context-bg);
+  color: var(--phd-context-color);
+  border: 1px solid var(--phd-context-border);
 }
 
 /* ============================================
