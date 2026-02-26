@@ -16,8 +16,8 @@ I also explore human factors in computing education and software engineering pra
 
 ```mermaid
 flowchart LR
-    accTitle: Research Themes and Application Contexts Overview
-    accDescr: This diagram shows the foundations, core research themes, and application contexts of Christopher Bull's human-centred computing research. Foundational areas include Human-Computer Interaction and Software Engineering. All foundational topics inform the core research themes. Core themes include Digital Mental Health, Digital Measures of Health & Wellbeing, Health Informatics & Clinical Workflows, and Human Factors of Software Engineering & Computing Education. Application contexts are Digital Health, and Computing Education.
+    accTitle: Research Themes and Domains of Practice Overview
+    accDescr: This diagram shows the foundations, core research themes, and domains of practice of Christopher Bull's human-centred computing research. Foundational areas include Human-Computer Interaction and Software Engineering. All foundational topics inform the core research themes. Core themes include Digital Mental Health, Digital Measures of Health & Wellbeing, Health Informatics & Clinical Workflows, and Human Factors in Computing Education. Domains of practice are Digital Health and Computing Education.
 
     %% --- CORE RESEARCH THEMES ---
     subgraph T["Core Research Themes"]
@@ -25,11 +25,11 @@ flowchart LR
         MH[<i class="fas fa-brain fa-fw" aria-hidden="true"></i><br>Digital Mental Health] ~~~
         HI[<i class="fas fa-hospital-user fa-fw" aria-hidden="true"></i><br>Health Informatics & Clinical Workflows] ~~~
         M[<i class="fas fa-chart-line fa-fw" aria-hidden="true"></i><br>Digital Measures of Health & Wellbeing] ~~~
-        E[<i class="fas fa-laptop-code fa-fw" aria-hidden="true"></i><br>Human Factors of SE & Computing Education]
+        E[<i class="fas fa-laptop-code fa-fw" aria-hidden="true"></i><br>Human Factors in Computing Education]
     end
 
-    %% --- APPLICATION CONTEXTS (to the top-right) ---
-    subgraph C["Application Contexts"]
+    %% --- DOMAINS OF PRACTICE (to the top-right) ---
+    subgraph C["Domains of Practice"]
         direction TB
         DH[Digital Health] ~~~
         CE[Computing Education]
@@ -67,15 +67,21 @@ This theme focuses on the design, implementation, and evaluation of digital heal
 
 Work explores the socio-technical challenges of integrating digital technologies into clinical settings, focusing on how healthcare professionals experience and adapt to these systems. Studies address organisational change, professional practice, infrastructure requirements, and governance considerations that shape sustainable adoption in real-world healthcare contexts.
 
-### <i class="fas fa-laptop-code fa-fw headingIcon" aria-hidden="true"></i>Human Factors of Software Engineering &amp; Computing Education
+### <i class="fas fa-laptop-code fa-fw headingIcon" aria-hidden="true"></i>Human Factors in Computing Education
 
-This strand focuses on the human side of software engineering practice and computing education. It explores how people learn, collaborate, and engage with development tools, including the integration of emerging technologies such as generative AI into teaching and professional workflows.
+This strand focuses on how people learn to design and develop software, and how they collaborate and engage with development tools in educational settings. It explores the integration of emerging technologies, such as generative AI, into computing pedagogy, as well as studio-inspired and reflective teaching approaches.
 
-The aim is to better understand what supports effective learning and responsible development practice in real-world settings.
+The aim is to better understand what supports effective learning, professional development, and responsible software engineering practice in educational contexts.
 
 ## Supporting Focus
 
 A small set of interests that have informed or complemented my core themes over time.
+
+### <i class="fas fa-laptop-code fa-fw headingIcon" aria-hidden="true"></i>Human Factors of Software Engineering
+
+This supporting focus explores human and organisational factors in software engineering practice, particularly in professional and industrial contexts. Research in this area examines requirements engineering, design practice, and decision-making processes, often investigating how engineers understand user needs, manage uncertainty, and respond to real-world constraints.
+
+While much of this work has been grounded in digital health applications, the insights contribute to broader understanding of how software engineering methods and practices can be better designed to support cognition, collaboration, and professional judgement.
 
 ### <i class="fas fa-hands-helping fa-fw headingIcon" aria-hidden="true"></i>Community Health &amp; Civic Participation
 
