@@ -456,6 +456,69 @@
   background: var(--phd-theme-bg);
   color: var(--phd-theme-color);
   border: 1px solid var(--phd-theme-border);
+  padding: 0;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.phdThemeLink {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 0.15rem 0.5rem;
+}
+
+.phdThemeLink,
+.phdThemeLink span,
+.phdThemeLink i {
+  transition: color 0.15s ease;
+}
+
+.phdThemeLink,
+.phdThemeLink:hover,
+.phdThemeLink:focus,
+.phdThemeLink:active,
+.phdThemeLink:visited {
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  color: inherit;
+}
+
+.phdThemeLinkIcon {
+  font-size: 0.75em;
+  opacity: 0.6;
+}
+
+
+.phdThemeLink:hover .phdThemeLinkIcon {
+  opacity: 0.8;
+}
+
+.phdThemeLink:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+.phdTheme:hover,
+.phdTheme:focus-within {
+  background: var(--phd-theme-color);
+  color: #fff;
+  border-color: var(--phd-theme-color);
+  box-shadow: 0 0 0 1px var(--phd-theme-color);
+}
+
+.phdTheme:hover .phdThemeLink,
+.phdTheme:focus-within .phdThemeLink {
+  color: #fff !important;
+}
+
+.phdTheme:hover .phdThemeLink span,
+.phdTheme:hover .phdThemeLink i,
+.phdTheme:focus-within .phdThemeLink span,
+.phdTheme:focus-within .phdThemeLink i {
+  color: #fff;
 }
 
 .phdMethod {

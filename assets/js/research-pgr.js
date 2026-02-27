@@ -39,6 +39,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   detailsSections.forEach(function(detailsSection) {
     detailsSection.addEventListener('click', function(event) {
+      if (event.target.closest('a')) {
+        return;
+      }
+
       // Find the parent details element
       const detailsElement = this.closest('.phdCard');
 
@@ -47,6 +51,12 @@ document.addEventListener('DOMContentLoaded', function() {
         detailsElement.open = false;
         event.stopPropagation();
       }
+    });
+  });
+
+  document.querySelectorAll('.phdThemeLink').forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      event.stopPropagation();
     });
   });
 

@@ -116,7 +116,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/daniyah-ahmed/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-hospital-user"></i> Health Informatics & Clinical Workflows</li>
+<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#health-informatics--clinical-workflows" aria-label="View Health Informatics and Clinical Workflows theme"><i class="fas fa-hospital-user" aria-hidden="true"></i><span>Health Informatics & Clinical Workflows</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -148,7 +148,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
+<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -182,7 +182,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-hospital-user"></i> Health Informatics & Clinical Workflows</li>
+<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#health-informatics--clinical-workflows" aria-label="View Health Informatics and Clinical Workflows theme"><i class="fas fa-hospital-user" aria-hidden="true"></i><span>Health Informatics & Clinical Workflows</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -218,7 +218,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/nicholas-smith/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
+<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -256,7 +256,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors in Computing Education</li>
+<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#human-factors-in-computing-education" aria-label="View Human Factors in Computing Education theme"><i class="fas fa-laptop-code" aria-hidden="true"></i><span>Human Factors in Computing Education</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -288,7 +288,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <div class="phdDetails">
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors in Computing Education</li>
+<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#human-factors-in-computing-education" aria-label="View Human Factors in Computing Education theme"><i class="fas fa-laptop-code" aria-hidden="true"></i><span>Human Factors in Computing Education</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -321,7 +321,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/yiwen-shang/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
+<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -356,7 +356,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/yu-zhao/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-hands-helping"></i> Community Health & Civic Participation</li>
+<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#community-health--civic-participation" aria-label="View Community Health and Civic Participation theme"><i class="fas fa-hands-helping" aria-hidden="true"></i><span>Community Health & Civic Participation</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
 </ul>
 <strong>Methods</strong>
 <ul>
@@ -433,7 +433,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
-<li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
+<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
 </ul>
 <strong>Methods</strong>
 <ul>
