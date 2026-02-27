@@ -13,8 +13,11 @@ sidebar:
     text: "<ul class=\"projCollaborators\">
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div class=\"projCollaboratorsDescription\">Andy Cox<br><i>Director, Signal</i></div></li>
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div class=\"projCollaboratorsDescription\">Carol Egdell<br><i>Business Development Manager, Tyne Housing Association</i></div></li>
-    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div class=\"projCollaboratorsDescription\">Robyn Holmes<br><i>CEO, Age UK County Durham</i></div></li>
     <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div class=\"projCollaboratorsDescription\">Toby Sweet<br><i>Chief Executive, Sunderland Counselling Service</i></div></li>
+    </ul>"
+  - title: "Researchers"
+    text: "<ul class=\"projCollaborators\">
+    <li><i class=\"fas fa-user-circle fa-2x projCollaboratorsFaPlaceholder\" aria-hidden=\"true\"></i><div class=\"projCollaboratorsDescription\">Nicholas Smith<br><i>PhD Researcher, Open Lab, Newcastle University</i></div></li>
     </ul>"
 ---
 
