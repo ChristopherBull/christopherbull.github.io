@@ -20,7 +20,7 @@ Yes -- please [send me a request](#request-a-letter-of-recommendation).
 
 ### ✔ Post-Graduate Research Students
 
-Yes -- If you are a PhD student I have supervised, for example, or had some form of substantial interaction, please [send me a request](#request-a-letter-of-recommendation).
+Yes -- If you are a PhD researcher I have supervised, for example, or had some form of substantial interaction, please [send me a request](#request-a-letter-of-recommendation).
 
 ### ？Undergraduate and Masters Students
 

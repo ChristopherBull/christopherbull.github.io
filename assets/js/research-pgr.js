@@ -205,8 +205,8 @@ function announceFilterResults(visibleCount, totalCount) {
   }
 
   const message = visibleCount === totalCount
-    ? `Showing all ${totalCount} PhD students`
-    : `Showing ${visibleCount} of ${totalCount} PhD students`;
+    ? `Showing all ${totalCount} PhD researchers`
+    : `Showing ${visibleCount} of ${totalCount} PhD researchers`;
 
   liveRegion.textContent = message;
 
@@ -221,11 +221,11 @@ function announceFilterResults(visibleCount, totalCount) {
     } else if (visibleCount === 0) {
       statusDisplay.style.display = 'flex';
       icon.className = 'fas fa-inbox phdFilterStatusIcon';
-      text.textContent = 'No PhD students match your filters';
+      text.textContent = 'No PhD researchers match your filters';
     } else {
       statusDisplay.style.display = 'flex';
       icon.className = 'fas fa-filter phdFilterStatusIcon';
-      text.textContent = `Showing ${visibleCount} of ${totalCount} PhD students`;
+      text.textContent = `Showing ${visibleCount} of ${totalCount} PhD researchers`;
     }
   }
 }

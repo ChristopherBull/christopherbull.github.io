@@ -58,10 +58,10 @@ Supervision:
 
 I welcome enquiries from prospective **self-funded PhD applicants** whose proposed research aligns with, or meaningfully complements, my [current research themes](/research/themes/).
 
-## PhD Students
+## PhD Researchers
 
 <details class="phdFilter">
-  <summary class="phdFilterSummary" aria-label="Filter PhD students by theme, method, context, or supervision type"><i class="fas fa-filter" aria-hidden="true"></i> Filter</summary>
+  <summary class="phdFilterSummary" aria-label="Filter PhD researchers by theme, method, context, or supervision type"><i class="fas fa-filter" aria-hidden="true"></i> Filter</summary>
   <div class="phdFilterContent" role="region" aria-label="Filter controls">
     <div class="phdFilterHelp">
       <small><strong>How filters work:</strong> Filtered results may match any selected option within a group, but must match at least one selected option in each selected group.</small>
@@ -97,10 +97,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 
 <!-- Primary supervision – no icon -->
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Daniyah Ahmed</strong>
-<span class="phdTopic">Neonatal Nurse Experiences of Electronic Health Records</span>
+<strong itemprop="name">Daniyah Ahmed</strong>
+<meta itemprop="jobTitle" content="PhD Researcher">
+<span class="phdTopic" itemprop="description">Neonatal Nurse Experiences of Electronic Health Records</span>
 <span class="phdIconRow">
 <i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
@@ -111,7 +112,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </span>
 </summary>
 <div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/daniyah-ahmed/">Open Lab profile</a></p>
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/daniyah-ahmed/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-hospital-user"></i> Health Informatics & Clinical Workflows</li>
@@ -128,10 +129,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </div>
 </details>
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Nada Altwala</strong>
-<span class="phdTopic">Conversational Agents to Support People with Dementia</span>
+<strong itemprop="name">Nada Altwala</strong>
+<meta itemprop="jobTitle" content="PhD Researcher">
+<span class="phdTopic" itemprop="description">Conversational Agents to Support People with Dementia</span>
 <span class="phdIconRow">
 <i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
@@ -158,10 +160,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </div>
 </details>
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Jake Hobbs</strong>
-<span class="phdTopic">Augmented Reality to Support Clinical Imaging Workflows</span>
+<strong itemprop="name">Jake Hobbs</strong>
+<meta itemprop="jobTitle" content="PhD Researcher">
+<span class="phdTopic" itemprop="description">Augmented Reality to Support Clinical Imaging Workflows</span>
 <span class="phdIconRow">
 <i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
@@ -173,7 +176,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </span>
 </summary>
 <div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Open Lab profile</a></p>
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-hospital-user"></i> Health Informatics & Clinical Workflows</li>
@@ -191,10 +194,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </div>
 </details>
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Nick Smith</strong>
-<span class="phdTopic">Reminiscence Therapy for People with Dementia Using Virtual Reality</span>
+<strong itemprop="name">Nick Smith</strong>
+<meta itemprop="jobTitle" content="PhD Researcher">
+<span class="phdTopic" itemprop="description">Reminiscence Therapy for People with Dementia Using Virtual Reality</span>
 <span class="phdIconRow">
 <i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
 <span class="phdDivider"></span>
@@ -207,7 +211,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </span>
 </summary>
 <div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/nicholas-smith/">Open Lab profile</a></p>
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/nicholas-smith/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
@@ -228,10 +232,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 
 <!-- Co-supervised - include icon for awareness -->
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Sami Alghamdi</strong>
-<span class="phdTopic">Design Tools to Support Novice Programming Learners</span>
+<strong itemprop="name">Sami Alghamdi</strong>
+<meta itemprop="jobTitle" content="PhD Researcher">
+<span class="phdTopic" itemprop="description">Design Tools to Support Novice Programming Learners</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
@@ -243,7 +248,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </span>
 </summary>
 <div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Open Lab profile</a></p>
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-laptop-code"></i> Human Factors in Computing Education</li>
@@ -260,10 +265,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </div>
 </details>
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Chinomnso Ekwedike</strong>
-<span class="phdTopic">Generative AI in Computing Education</span>
+<strong itemprop="name">Chinomnso Ekwedike</strong>
+<meta itemprop="jobTitle" content="PhD Researcher">
+<span class="phdTopic" itemprop="description">Generative AI in Computing Education</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
@@ -289,10 +295,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </div>
 </details>
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Yiwen Shang</strong>
-<span class="phdTopic">Impacts of Social Media on Mental Wellbeing</span>
+<strong itemprop="name">Yiwen Shang</strong>
+<meta itemprop="jobTitle" content="PhD Researcher">
+<span class="phdTopic" itemprop="description">Impacts of Social Media on Mental Wellbeing</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
@@ -304,7 +311,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </span>
 </summary>
 <div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/yiwen-shang/">Open Lab profile</a></p>
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/yiwen-shang/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
@@ -321,10 +328,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </div>
 </details>
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Yu Zhao</strong>
-<span class="phdTopic">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
+<strong itemprop="name">Yu Zhao</strong>
+<meta itemprop="jobTitle" content="PhD Researcher">
+<span class="phdTopic" itemprop="description">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-hands-helping phdIconTheme" aria-hidden="true"></i>
@@ -337,7 +345,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </span>
 </summary>
 <div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/yu-zhao/">Open Lab profile</a></p>
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/yu-zhao/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-hands-helping"></i> Community Health & Civic Participation</li>
@@ -361,10 +369,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 
 <div class="phdGrid">
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Remco Benthem De Grave</strong>
-<span class="phdTopic">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
+<strong itemprop="name">Remco Benthem De Grave</strong>
+<meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
+<span class="phdTopic" itemprop="description">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
 <span class="phdGraduated">2025 <i class="fas fa-calendar" aria-hidden="true"></i></span>
 <span class="phdIconRow">
 <i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
@@ -376,7 +385,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </span>
 </summary>
 <div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/">Open Lab profile</a></p>
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/">Open Lab profile</a></p>
 <strong>Methods</strong>
 <ul>
 <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
@@ -391,10 +400,11 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </div>
 </details>
 
-<details class="phdCard">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
 <summary class="phdSummary">
-<strong>Viana Zhang</strong>
-<span class="phdTopic">Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing</span>
+<strong itemprop="name">Viana Zhang</strong>
+<meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
+<span class="phdTopic" itemprop="description">Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing</span>
 <span class="phdGraduated">2024 <i class="fas fa-calendar" aria-hidden="true"></i></span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
@@ -408,7 +418,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 </span>
 </summary>
 <div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Open Lab profile</a></p>
+<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Open Lab profile</a></p>
 <strong>Research Theme</strong>
 <ul>
 <li class="phdTheme"><i class="fas fa-brain"></i> Digital Mental Health</li>
