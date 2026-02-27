@@ -88,3 +88,9 @@ While much of this work has been grounded in digital health applications, the in
 This supporting focus reflects occasional and historical work on participatory approaches to digital health that engage citizens, communities, and public health stakeholders. Research in this area has included co-designing technologies and interventions with communities for health promotion, wellbeing, social inclusion, and civic engagement.
 
 Work here explores how digital platforms can support community-based health initiatives, enable citizen participation in health decision-making, and address social determinants of health. Studies consider local contexts, community infrastructure, and participatory methods that ensure technologies are culturally appropriate, accessible, and workable for diverse populations.
+
+### <i class="fas fa-universal-access fa-fw headingIcon" aria-hidden="true"></i>Accessibility &amp; Assistive Technologies
+
+This supporting focus reflects collaborative work designing and evaluating technologies with disabled communities, with a focus on ensuring accessibility, inclusion, and independence. Research in this area has included co-designing mobile applications and communication systems for people who are Deaf or Hard of Hearing, and for people who stammer.
+
+Work here emphasises participatory design approaches that centre the expertise and lived experience of disabled users, ensuring that technologies meet real communication and accessibility needs. Projects explore how digital tools can support self-management, social participation, and everyday interactions for people with disabilities.
