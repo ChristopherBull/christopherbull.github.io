@@ -18,11 +18,13 @@ sidebar:
 
 Generative AI (GenAI) is a disruptive technology that allows content (such as text or images) to be created from a prompt (a request). For example, [GitHub Copilot](https://github.com/features/copilot) can generate functions and snippets of code by reading a developer's comment and suggesting appropriate code to the developer.
 
-We have been exploring the pedagogical impact and opportunities of integrating GenAI into computing education. Through some initial interviews with professional developers, we explored how industry professionals are currently using GenAI (where company policies allow) \[[1][bull2023]\], and discussed potential impacts on how to learn to become a professional programmer. Further work is planned to explore student experiences and design of technologies to better support pedagogically appropriate integration of GenAI into student courses.
+We have been exploring the pedagogical impact and opportunities of integrating GenAI into computing education. Through some initial interviews with professional developers, we explored how industry professionals are currently using GenAI (where company policies allow) \[[1][bull2023]\], and discussed potential impacts on how to learn to become a professional programmer. We subsequently explored student perspectives through a study of 2nd-year students using GenAI in a software engineering team project \[[2][kharrufa2026]\], examining impacts on learning, self-efficacy, and team dynamics, and proposing a design space for GenAI-based programming learning tools that emphasizes appropriate scaffolding and transparency.
 
 ## References
 
 <!-- Reference IDs, links, and link title|venue|year -->
 [bull2023]: #ref-bull2023 "Generative AI Assistants in Software Development Education: A vision for integrating Generative AI into educational practice, not instinctively defending against it. | IEEE Software | 2024"
+[kharrufa2026]: #ref-kharrufa2026 "LLMs Integration in Software Engineering Team Projects: Roles, Impact, and a Pedagogical Design Space for AI Tools in Computing Education | ACM Transactions on Computing Education (TOCE) | 2026"
 
 1. {:.refItem #ref-bull2023} Christopher Bull and Ahmed Kharrufa. [Generative AI Assistants in Software Development Education: A vision for integrating Generative AI into educational practice, not instinctively defending against it](https://ieeexplore.ieee.org/abstract/document/10213396). _IEEE Software_. \| [DOI](https://doi.org/10.1109/MS.2023.3300574) \| [arXiv](https://arxiv.org/abs/2303.13936)
+2. {:.refItem #ref-kharrufa2026} Ahmed Kharrufa, Sami Alghamdi, Abeer Aziz, and Christopher Bull. [LLMs Integration in Software Engineering Team Projects: Roles, Impact, and a Pedagogical Design Space for AI Tools in Computing Education](https://dl.acm.org/doi/full/10.1145/3779296). _ACM Transactions on Computing Education (TOCE)_ \| [DOI](https://doi.org/10.1145/3779296)
