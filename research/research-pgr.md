@@ -101,6 +101,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Daniyah Ahmed</strong>
 <meta itemprop="jobTitle" content="PhD Researcher">
+<meta itemprop="affiliation" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Neonatal Nurse Experiences of Electronic Health Records</span>
 <span class="phdIconRow">
 <i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
@@ -133,6 +134,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Nada Altwala</strong>
 <meta itemprop="jobTitle" content="PhD Researcher">
+<meta itemprop="affiliation" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Conversational Agents to Support People with Dementia</span>
 <span class="phdIconRow">
 <i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
@@ -164,6 +166,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Jake Hobbs</strong>
 <meta itemprop="jobTitle" content="PhD Researcher">
+<meta itemprop="affiliation" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Augmented Reality to Support Clinical Imaging Workflows</span>
 <span class="phdIconRow">
 <i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
@@ -198,6 +201,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Nick Smith</strong>
 <meta itemprop="jobTitle" content="PhD Researcher">
+<meta itemprop="affiliation" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Reminiscence Therapy for People with Dementia Using Virtual Reality</span>
 <span class="phdIconRow">
 <i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
@@ -236,6 +240,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Sami Alghamdi</strong>
 <meta itemprop="jobTitle" content="PhD Researcher">
+<meta itemprop="affiliation" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Design Tools to Support Novice Programming Learners</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
@@ -269,6 +274,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Chinomnso Ekwedike</strong>
 <meta itemprop="jobTitle" content="PhD Researcher">
+<meta itemprop="affiliation" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Generative AI in Computing Education</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
@@ -299,6 +305,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Yiwen Shang</strong>
 <meta itemprop="jobTitle" content="PhD Researcher">
+<meta itemprop="affiliation" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Impacts of Social Media on Mental Wellbeing</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
@@ -332,6 +339,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Yu Zhao</strong>
 <meta itemprop="jobTitle" content="PhD Researcher">
+<meta itemprop="affiliation" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
 <span class="phdIconRow">
@@ -373,6 +381,8 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Remco Benthem De Grave</strong>
 <meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
+<meta itemprop="honorificSuffix" content="PhD">
+<meta itemprop="alumniOf" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
 <span class="phdGraduated">2025 <i class="fas fa-calendar" aria-hidden="true"></i></span>
 <span class="phdIconRow">
@@ -404,6 +414,8 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <summary class="phdSummary">
 <strong itemprop="name">Viana Zhang</strong>
 <meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
+<meta itemprop="honorificSuffix" content="PhD">
+<meta itemprop="alumniOf" content="Newcastle University">
 <span class="phdTopic" itemprop="description">Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing</span>
 <span class="phdGraduated">2024 <i class="fas fa-calendar" aria-hidden="true"></i></span>
 <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
