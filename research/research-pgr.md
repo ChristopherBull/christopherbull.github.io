@@ -98,277 +98,277 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <!-- Primary supervision – no icon -->
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Daniyah Ahmed</strong>
-<meta itemprop="jobTitle" content="PhD Researcher">
-<meta itemprop="affiliation" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Neonatal Nurse Experiences of Electronic Health Records</span>
-<span class="phdIconRow">
-<i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-stethoscope phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/daniyah-ahmed/">Open Lab profile</a></p>
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#health-informatics--clinical-workflows" aria-label="View Health Informatics and Clinical Workflows theme"><i class="fas fa-hospital-user" aria-hidden="true"></i><span>Health Informatics & Clinical Workflows</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-</ul>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
-<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-stethoscope"></i> Clinical</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Daniyah Ahmed</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher">
+    <meta itemprop="affiliation" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Neonatal Nurse Experiences of Electronic Health Records</span>
+    <span class="phdIconRow">
+      <i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-stethoscope phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/daniyah-ahmed/">Open Lab profile</a></p>
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#health-informatics--clinical-workflows" aria-label="View Health Informatics and Clinical Workflows theme"><i class="fas fa-hospital-user" aria-hidden="true"></i><span>Health Informatics & Clinical Workflows</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+      <li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-stethoscope"></i> Clinical</li>
+    </ul>
+  </div>
 </details>
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Nada Altwala</strong>
-<meta itemprop="jobTitle" content="PhD Researcher">
-<meta itemprop="affiliation" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Conversational Agents to Support People with Dementia</span>
-<span class="phdIconRow">
-<i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-</ul>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
-<li class="phdMethod"><i class="fas fa-comments"></i> Conversational Agents</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Nada Altwala</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher">
+    <meta itemprop="affiliation" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Conversational Agents to Support People with Dementia</span>
+    <span class="phdIconRow">
+      <i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
+      <li class="phdMethod"><i class="fas fa-comments"></i> Conversational Agents</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+    </ul>
+  </div>
 </details>
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Jake Hobbs</strong>
-<meta itemprop="jobTitle" content="PhD Researcher">
-<meta itemprop="affiliation" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Augmented Reality to Support Clinical Imaging Workflows</span>
-<span class="phdIconRow">
-<i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-vr-cardboard phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-stethoscope phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Open Lab profile</a></p>
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#health-informatics--clinical-workflows" aria-label="View Health Informatics and Clinical Workflows theme"><i class="fas fa-hospital-user" aria-hidden="true"></i><span>Health Informatics & Clinical Workflows</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-</ul>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems (AR/VR/XR)</li>
-<li class="phdMethod"><i class="fas fa-comments"></i> Interviews / Workshops</li>
-<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-stethoscope"></i> Clinical</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Jake Hobbs</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher">
+    <meta itemprop="affiliation" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Augmented Reality to Support Clinical Imaging Workflows</span>
+    <span class="phdIconRow">
+      <i class="fas fa-hospital-user phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-vr-cardboard phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-stethoscope phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/jake-hobbs/">Open Lab profile</a></p>
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#health-informatics--clinical-workflows" aria-label="View Health Informatics and Clinical Workflows theme"><i class="fas fa-hospital-user" aria-hidden="true"></i><span>Health Informatics & Clinical Workflows</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems (AR/VR/XR)</li>
+      <li class="phdMethod"><i class="fas fa-comments"></i> Interviews / Workshops</li>
+      <li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-stethoscope"></i> Clinical</li>
+    </ul>
+  </div>
 </details>
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Nick Smith</strong>
-<meta itemprop="jobTitle" content="PhD Researcher">
-<meta itemprop="affiliation" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Reminiscence Therapy for People with Dementia Using Virtual Reality</span>
-<span class="phdIconRow">
-<i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-vr-cardboard phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-laptop-code phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/nicholas-smith/">Open Lab profile</a></p>
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-</ul>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems (AR/VR/XR)</li>
-<li class="phdMethod"><i class="fas fa-comments"></i> Qualitative Interviews</li>
-<li class="phdMethod"><i class="fas fa-laptop-code"></i> System / Tool Development</li>
-<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Nick Smith</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher">
+    <meta itemprop="affiliation" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Reminiscence Therapy for People with Dementia Using Virtual Reality</span>
+    <span class="phdIconRow">
+      <i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-vr-cardboard phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-laptop-code phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/nicholas-smith/">Open Lab profile</a></p>
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems (AR/VR/XR)</li>
+      <li class="phdMethod"><i class="fas fa-comments"></i> Qualitative Interviews</li>
+      <li class="phdMethod"><i class="fas fa-laptop-code"></i> System / Tool Development</li>
+      <li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+    </ul>
+  </div>
 </details>
 
 <!-- Co-supervised - include icon for awareness -->
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Sami Alghamdi</strong>
-<meta itemprop="jobTitle" content="PhD Researcher">
-<meta itemprop="affiliation" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Design Tools to Support Novice Programming Learners</span>
-<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
-<span class="phdIconRow">
-<i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-hashtag phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Open Lab profile</a></p>
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#human-factors-in-computing-education" aria-label="View Human Factors in Computing Education theme"><i class="fas fa-laptop-code" aria-hidden="true"></i><span>Human Factors in Computing Education</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-</ul>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-hashtag"></i> Survey / Social Media Analysis</li>
-<li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Sami Alghamdi</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher">
+    <meta itemprop="affiliation" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Design Tools to Support Novice Programming Learners</span>
+    <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
+    <span class="phdIconRow">
+      <i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-hashtag phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Open Lab profile</a></p>
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#human-factors-in-computing-education" aria-label="View Human Factors in Computing Education theme"><i class="fas fa-laptop-code" aria-hidden="true"></i><span>Human Factors in Computing Education</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-hashtag"></i> Survey / Social Media Analysis</li>
+      <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+    </ul>
+  </div>
 </details>
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Chinomnso Ekwedike</strong>
-<meta itemprop="jobTitle" content="PhD Researcher">
-<meta itemprop="affiliation" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Generative AI in Computing Education</span>
-<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
-<span class="phdIconRow">
-<i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-graduation-cap phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#human-factors-in-computing-education" aria-label="View Human Factors in Computing Education theme"><i class="fas fa-laptop-code" aria-hidden="true"></i><span>Human Factors in Computing Education</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-</ul>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-graduation-cap"></i> Education</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Chinomnso Ekwedike</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher">
+    <meta itemprop="affiliation" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Generative AI in Computing Education</span>
+    <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
+    <span class="phdIconRow">
+      <i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-graduation-cap phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#human-factors-in-computing-education" aria-label="View Human Factors in Computing Education theme"><i class="fas fa-laptop-code" aria-hidden="true"></i><span>Human Factors in Computing Education</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-graduation-cap"></i> Education</li>
+    </ul>
+  </div>
 </details>
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Yiwen Shang</strong>
-<meta itemprop="jobTitle" content="PhD Researcher">
-<meta itemprop="affiliation" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Impacts of Social Media on Mental Wellbeing</span>
-<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
-<span class="phdIconRow">
-<i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-hashtag phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/yiwen-shang/">Open Lab profile</a></p>
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-</ul>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-hashtag"></i> Social Media Analysis</li>
-<li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Yiwen Shang</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher">
+    <meta itemprop="affiliation" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Impacts of Social Media on Mental Wellbeing</span>
+    <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
+    <span class="phdIconRow">
+      <i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-hashtag phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/yiwen-shang/">Open Lab profile</a></p>
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-hashtag"></i> Social Media Analysis</li>
+      <li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+    </ul>
+  </div>
 </details>
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Yu Zhao</strong>
-<meta itemprop="jobTitle" content="PhD Researcher">
-<meta itemprop="affiliation" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
-<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
-<span class="phdIconRow">
-<i class="fas fa-hands-helping phdIconTheme" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-vr-cardboard phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-leaf phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-users phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/yu-zhao/">Open Lab profile</a></p>
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#community-health--civic-participation" aria-label="View Community Health and Civic Participation theme"><i class="fas fa-hands-helping" aria-hidden="true"></i><span>Community Health & Civic Participation</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-</ul>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems (AR/VR/XR)</li>
-<li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
-<li class="phdMethod"><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-users"></i> Community</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Yu Zhao</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher">
+    <meta itemprop="affiliation" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Co-Designing Interactive VR Technology with Communities for Net Zero</span>
+    <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
+    <span class="phdIconRow">
+      <i class="fas fa-hands-helping phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-vr-cardboard phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-leaf phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-users phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/yu-zhao/">Open Lab profile</a></p>
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#community-health--civic-participation" aria-label="View Community Health and Civic Participation theme"><i class="fas fa-hands-helping" aria-hidden="true"></i><span>Community Health & Civic Participation</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-vr-cardboard"></i> Interactive & Immersive Systems (AR/VR/XR)</li>
+      <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+      <li class="phdMethod"><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-users"></i> Community</li>
+    </ul>
+  </div>
 </details>
 
 </div>
@@ -378,74 +378,74 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 <div class="phdGrid">
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Remco Benthem De Grave</strong>
-<meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
-<meta itemprop="honorificSuffix" content="PhD">
-<meta itemprop="alumniOf" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
-<span class="phdGraduated">2025 <i class="fas fa-calendar" aria-hidden="true"></i></span>
-<span class="phdIconRow">
-<i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-laptop-code phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-leaf phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/">Open Lab profile</a></p>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
-<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
-<li class="phdMethod"><i class="fas fa-laptop-code"></i> Application Development / Software</li>
-<li class="phdMethod"><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Remco Benthem De Grave</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
+    <meta itemprop="honorificSuffix" content="PhD">
+    <meta itemprop="alumniOf" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
+    <span class="phdGraduated">2025 <i class="fas fa-calendar" aria-hidden="true"></i></span>
+    <span class="phdIconRow">
+      <i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-laptop-code phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-leaf phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/">Open Lab profile</a></p>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+      <li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+      <li class="phdMethod"><i class="fas fa-laptop-code"></i> Application Development / Software</li>
+      <li class="phdMethod"><i class="fas fa-leaf"></i> Sustainability / Net Zero</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+    </ul>
+  </div>
 </details>
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
-<summary class="phdSummary">
-<strong itemprop="name">Viana Zhang</strong>
-<meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
-<meta itemprop="honorificSuffix" content="PhD">
-<meta itemprop="alumniOf" content="Newcastle University">
-<span class="phdTopic" itemprop="description">Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing</span>
-<span class="phdGraduated">2024 <i class="fas fa-calendar" aria-hidden="true"></i></span>
-<span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
-<span class="phdIconRow">
-<i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
-<i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
-<span class="phdDivider"></span>
-<i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
-</span>
-</summary>
-<div class="phdDetails">
-<p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Open Lab profile</a></p>
-<strong>Research Theme</strong>
-<ul>
-<li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-</ul>
-<strong>Methods</strong>
-<ul>
-<li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
-<li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
-<li class="phdMethod"><i class="fas fa-comments"></i> Interviews / Qualitative Methods</li>
-</ul>
-<strong>Context</strong>
-<ul>
-<li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
-</ul>
-</div>
+  <summary class="phdSummary">
+    <strong itemprop="name">Viana Zhang</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
+    <meta itemprop="honorificSuffix" content="PhD">
+    <meta itemprop="alumniOf" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Technology-based Interventions and Assistance for Maternal Mental Health and Wellbeing</span>
+    <span class="phdGraduated">2024 <i class="fas fa-calendar" aria-hidden="true"></i></span>
+    <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
+    <span class="phdIconRow">
+      <i class="fas fa-brain phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-robot phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-clipboard-check phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-comments phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-house-user phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Open Lab profile</a></p>
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-robot"></i> AI / Machine Learning</li>
+      <li class="phdMethod"><i class="fas fa-clipboard-check"></i> Evaluation / Field Trials</li>
+      <li class="phdMethod"><i class="fas fa-comments"></i> Interviews / Qualitative Methods</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-house-user"></i> Home / Everyday Life</li>
+    </ul>
+  </div>
 </details>
 
 </div>
