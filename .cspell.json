@@ -116,6 +116,8 @@
         // Tools and Technologies
         "accDescr", // Mermaid diagram accessible description
         "markdownlint",
+        "microdata",
+        "qlty",
         "unminified",
         "webp"
     ]

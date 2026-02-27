@@ -87,6 +87,7 @@ footer:
 # Trunk is working. However, this that the default exclude is overridden, so
 # we need to re-add the default excludes (vendor, node_modules, .jekyll-cache,
 # .sass-cache) to ensure they are still ignored.
+# Also excluding `docs` folder and DEVELOPMENT.md to prevent Jekyll from processing development documentation.
 exclude:
   - vendor
   - node_modules
@@ -94,6 +95,8 @@ exclude:
   - .sass-cache
   - .trunk
   - .qlty
+  - docs
+  - DEVELOPMENT.md
 watch_exclude:
   - vendor
   - node_modules
@@ -101,3 +104,5 @@ watch_exclude:
   - .sass-cache
   - .trunk
   - .qlty
+  - docs
+  - DEVELOPMENT.md
