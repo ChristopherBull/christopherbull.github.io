@@ -35,6 +35,15 @@ _Reference requests_: Please read my [reference request policy](/reference-reque
 - Workshop on Design Contributions to Pervasive Healthcare (DCPH) _[[2020](https://pervasivehealth.org/design-contributions-pervasive-healthcare-workshop/)]_
 - Conference on Urban Internet of Things (Urb-IoT) _[[2020](https://urbaniot.eai-conferences.org/2020/technical-program-committee/), [2019](https://urbaniot2019.eai-conferences.org/29-2/)]_
 
+### External Examining
+
+Advance HE-trained external examiner; listed in the [External Examiners Directory](https://www.advance-he.ac.uk/programmes-events/external-examiners#directory).
+
+- **MA/MSc Creative Computing (Modular)**<br>
+University of the Arts London | 2022–2027
+- **MA Internet Equalities**<br>
+University of the Arts London | 2024–2027
+
 ## <i class="fas fa-id-card-clip fa-fw headingIcon" aria-hidden="true"></i>Professional Recognitions
 
 **Fellow of the Higher Education Academy (FHEA)**\
