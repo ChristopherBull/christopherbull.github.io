@@ -6,7 +6,7 @@ sidebar:
   nav: research
 toc: true
 page_css:
-  - /assets/style/research-projects.css
+  - /assets/style/research.css
 ---
 
 <!-- markdownlint-disable MD033 -->

@@ -5,7 +5,7 @@ permalink: /research/publications/
 sidebar:
   nav: research
 page_css:
-  - /assets/style/research-projects.css
+  - /assets/style/research.css
   - /assets/style/research-publications.css
 ---
 
