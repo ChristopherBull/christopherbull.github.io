@@ -1,0 +1,46 @@
+/* Publications-specific metadata styling */
+
+.projectCard .projectMeta {
+  position: relative;
+  padding-left: 4.1rem;
+  min-height: 1.6rem;
+}
+
+.projectCard .projectMeta::before {
+  position: absolute;
+  left: 0;
+  top: 0.35rem;
+  width: 3.6rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5f6b77;
+}
+
+.projectCard .projectMeta[aria-label="Research theme"] {
+  margin-top: 0.4rem;
+}
+
+.projectCard .projectMeta[aria-label="Research theme"]::before {
+  content: "Themes";
+}
+
+.projectCard .projectMeta[aria-label="Research theme"] .projectTheme:hover,
+.projectCard .projectMeta[aria-label="Research theme"] .projectTheme:focus-visible {
+  background-color: #e8f1f7;
+  color: #1a5f7a;
+  border-color: #8cb8d1;
+}
+
+.projectCard .projectMeta[aria-label="Publication links"] {
+  margin-top: 0.65rem;
+  padding-top: 0.55rem;
+  padding-left: 4.1rem;
+  border-top: 1px solid #dde3e8;
+}
+
+.projectCard .projectMeta[aria-label="Publication links"]::before {
+  content: "Links";
+  top: 0.9rem;
+}
