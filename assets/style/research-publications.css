@@ -1,5 +1,13 @@
 /* Publications-specific metadata styling */
 
+.linkNoWrap {
+  white-space: nowrap;
+}
+
+.linkNoWrap i {
+  margin-right: 0.25em;
+}
+
 .projectCard .projectMeta {
   position: relative;
   padding-left: 4.1rem;
