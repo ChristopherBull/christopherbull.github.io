@@ -124,6 +124,7 @@
         "IMID",
         // Tools and Technologies
         "accDescr", // Mermaid diagram accessible description
+        "fediverse",
         "markdownlint",
         "microdata",
         "qlty",

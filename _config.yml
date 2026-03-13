@@ -1,15 +1,17 @@
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 locale: "en-GB"
 name: "Dr Christopher Bull"
 title: "Christopher Bull"
 subtitle: "Researcher of Human-Centred Digital Health and Computing Education"
 logo: /assets/images/Chris_Bull_2018_100px.webp
 og_image: /assets/images/Chris_Bull_2018_500px.webp
+og_image_alt: "Photo of Dr Christopher Bull"
 description: "Dr Christopher Bull is a Lecturer and Researcher in Digital Health, HCI, and Software Engineering."
 show_downloads: false
 author:
   name: "Dr Christopher Bull"
   avatar: "/assets/images/Chris_Bull_2018_500px.webp"
+  fediverse: "@ChrisBull@fediscience.org"
   # bio: "I am a researcher." # Note: Markdown is allowed
   location: "<a href=\"https://www.openstreetmap.org/way/514605389#map=19/54.973558/-1.625226\">Newcastle, UK</a>"
   links:
@@ -32,7 +34,7 @@ author:
       icon: "fab fa-fw fa-mastodon"
       url: "https://fediscience.org/@ChrisBull"
     # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
+    #   icon: "fab fa-fw fa-square-x-twitter"
     #   url: "https://twitter.com/VirtualChrisB"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
@@ -68,18 +70,23 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/christophernbull/"
+      rel: me
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://fediscience.org/@ChrisBull"
+      rel: me
     # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
+    #   icon: "fab fa-fw fa-square-x-twitter"
     #   url: "https://twitter.com/VirtualChrisB"
+    #   rel: me
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/chrisbull.net"
+      rel: me
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ChristopherBull"
+      rel: me
     - label: "Equality Statement"
       icon: "fas fa-fw fa-balance-scale"
       url: "/equality.html"

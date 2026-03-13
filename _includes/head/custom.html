@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
   {% endfor %}
 {% endif %}
-{% comment %} Include my custom JS for all pages {% endcomment %}
-<script defer src="/assets/js/all.non-critical.js"></script>
 {% comment %} Include my page-specific JS {% endcomment %}
 {% if page.page_js %}
   {% for script in page.page_js %}
