@@ -1,63 +1,63 @@
-remote_theme: "mmistakes/minimal-mistakes@4.28.0"
-locale: "en-GB"
-name: "Dr Christopher Bull"
-title: "Christopher Bull"
-subtitle: "Researcher of Human-Centred Digital Health and Computing Education"
+remote_theme: mmistakes/minimal-mistakes@4.28.0
+locale: en-GB
+name: Dr Christopher Bull
+title: Christopher Bull
+subtitle: Researcher of Human-Centred Digital Health and Computing Education
 logo: /assets/images/Chris_Bull_2018_100px.webp
 og_image: /assets/images/Chris_Bull_2018_500px.webp
-og_image_alt: "Photo of Dr Christopher Bull"
-description: "Dr Christopher Bull is a Lecturer and Researcher in Digital Health, HCI, and Software Engineering."
+og_image_alt: Photo of Dr Christopher Bull
+description: Dr Christopher Bull is a Lecturer and Researcher in Digital Health, HCI, and Software Engineering.
 show_downloads: false
 author:
-  name: "Dr Christopher Bull"
-  avatar: "/assets/images/Chris_Bull_2018_500px.webp"
+  name: Dr Christopher Bull
+  avatar: /assets/images/Chris_Bull_2018_500px.webp
   fediverse: "@ChrisBull@fediscience.org"
-  # bio: "I am a researcher." # Note: Markdown is allowed
-  location: "<a href=\"https://www.openstreetmap.org/way/514605389#map=19/54.973558/-1.625226\">Newcastle, UK</a>"
+  # bio: I am a researcher. # Note: Markdown is allowed
+  location: <a href="https://www.openstreetmap.org/way/514605389#map=19/54.973558/-1.625226">Newcastle, UK</a>
   links:
-    - label: "Newcastle University"
-      icon: "fas fa-fw fa-university"
-      url: "https://openlab.ncl.ac.uk/people/chris-bull/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:christopher.bull@newcastle.ac.uk"
-    - label: "ORCID"
-      icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/0000-0002-9811-4190"
-    - label: "Google Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/christophernbull/"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://fediscience.org/@ChrisBull"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-square-x-twitter"
-    #   url: "https://twitter.com/VirtualChrisB"
-    - label: "Bluesky"
-      icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/chrisbull.net"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ChristopherBull"
-    - label: "Stack Overflow"
-      icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/508098/christopher-bull"
+    - label: Newcastle University
+      icon: fas fa-fw fa-university
+      url: https://openlab.ncl.ac.uk/people/chris-bull/
+    - label: Email
+      icon: fas fa-fw fa-envelope
+      url: mailto:christopher.bull@newcastle.ac.uk
+    - label: ORCID
+      icon: fab fa-fw fa-orcid
+      url: https://orcid.org/0000-0002-9811-4190
+    - label: Google Scholar
+      icon: fas fa-fw fa-graduation-cap
+      url: https://scholar.google.co.uk/citations?user=2c1JyAkAAAAJ
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin-in
+      url: https://www.linkedin.com/in/christophernbull/
+    - label: Mastodon
+      icon: fab fa-fw fa-mastodon
+      url: https://fediscience.org/@ChrisBull
+    # - label: Twitter
+    #   icon: fab fa-fw fa-square-x-twitter
+    #   url: https://twitter.com/VirtualChrisB
+    - label: Bluesky
+      icon: fab fa-fw fa-bluesky
+      url: https://bsky.app/profile/chrisbull.net
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/ChristopherBull
+    - label: Stack Overflow
+      icon: fab fa-fw fa-stack-overflow
+      url: https://stackoverflow.com/users/508098/christopher-bull
 # analytics:
 #   provider: # Custom insertion added to _includes/head/custom.html
 # twitter:
-#   username: "VirtualChrisB"
+#   username: VirtualChrisB
 social:
   type: Person
-  name: "Dr Christopher Bull"
+  name: Dr Christopher Bull
   links:
-    - "https://fediscience.org/@ChrisBull"
-    # - "https://twitter.com/VirtualChrisB"
-    - "https://bsky.app/profile/chrisbull.net"
-    - "https://www.linkedin.com/in/christophernbull"
-url: "https://chrisbull.net"
+    - https://fediscience.org/@ChrisBull
+    # - https://twitter.com/VirtualChrisB
+    - https://bsky.app/profile/chrisbull.net
+    - https://www.linkedin.com/in/christophernbull
+url: https://chrisbull.net
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
@@ -65,31 +65,31 @@ atom_feed:
   # Hide atom_feed until blog/news items added and browseable
   hide: true
 footer:
-  since: "2021"
+  since: 2021
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/christophernbull/"
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin-in
+      url: https://www.linkedin.com/in/christophernbull/
       rel: me
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://fediscience.org/@ChrisBull"
+    - label: Mastodon
+      icon: fab fa-fw fa-mastodon
+      url: https://fediscience.org/@ChrisBull
       rel: me
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-square-x-twitter"
-    #   url: "https://twitter.com/VirtualChrisB"
+    # - label: Twitter
+    #   icon: fab fa-fw fa-square-x-twitter
+    #   url: https://twitter.com/VirtualChrisB
     #   rel: me
-    - label: "Bluesky"
-      icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/chrisbull.net"
+    - label: Bluesky
+      icon: fab fa-fw fa-bluesky
+      url: https://bsky.app/profile/chrisbull.net
       rel: me
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ChristopherBull"
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/ChristopherBull
       rel: me
-    - label: "Equality Statement"
-      icon: "fas fa-fw fa-balance-scale"
-      url: "/equality.html"
+    - label: Equality Statement
+      icon: fas fa-fw fa-balance-scale
+      url: /equality.html
 # Ignoring `.trunk` directory to prevent Jekyll from triggering a rebuild when
 # Trunk is working. However, this that the default exclude is overridden, so
 # we need to re-add the default excludes (vendor, node_modules, .jekyll-cache,
