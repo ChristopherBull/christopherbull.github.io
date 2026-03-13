@@ -20,13 +20,6 @@ research:
         url: /research/projects/#past-projects
   - title: Publications
     url: /research/publications/
-    children:
-      - title: Software Architectures & Analytics
-        url: /research/publications/#software-architectures-and-analytics-with-privacy-and-trust-in-digital-health
-      - title: Requirements Engineering
-        url: /research/publications/#requirements-engineering-in-digital-health
-      - title: Studios in Software Engineering Education
-        url: /research/publications/#studios-in-software-engineering-educationbehavioral-and-human-factors-in-se
   - title: PhD Supervision
     url: /research/supervision/
     children:
