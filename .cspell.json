@@ -51,7 +51,6 @@
         "Elameer",
         "Introna",
         "Piwko",
-        "Sumi",
         "Helal",
         "Jaejoon",
         "Jiangtao",
@@ -72,13 +71,10 @@
         "Benthem",
         "Margariti",
         "Alghamdi",
-        "Graeber",
         "Ieuan",
         "Kharrufa",
         "Abeer",
-        "Aziz",
         "Nobbs",
-        "Naeem",
         "Soomro",
         "Yiwen",
         "Chinomnso",
@@ -118,9 +114,7 @@
         "REWBAH",
         "SPLC",
         // Organisations, websites, etc
-        "Bluesky",
         "Deafway",
-        "HighWire",
         "Oamk",
         "ORCID",
         "UCREL",
@@ -129,15 +123,11 @@
         "biphobia",
         "LGBTQIA",
         "safehomeally",
-        // Medical
-        "IMID",
         // Tools and Technologies
         "accDescr", // Mermaid diagram accessible description
         "fediverse",
-        "markdownlint",
         "microdata",
         "qlty",
-        "unminified",
-        "webp"
+        "unminified"
     ]
 }
