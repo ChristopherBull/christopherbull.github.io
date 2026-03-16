@@ -1,13 +1,21 @@
 {
-    "language": "en",
+    "language": "en-GB,en-US",
     "dictionaries": [
         "en-gb",
         "companies",
-        "softwareTerms",
         "typescript", // inc. JS
         "html",
+        "html-symbol-entities",
         "css",
-        "misc"
+        "medical terms",
+        "misc",
+        "people-names",
+        "scientific-terms-us",
+        // Software Terms dictionary
+        "computing-acronyms",
+        "softwareTerms",
+        "software-tools",
+        "webServices"
     ],
     "enabledLanguageIds": [
         "markdown",
@@ -17,9 +25,10 @@
         "javascript"
     ],
     "import": [
-        "./node_modules/cspell-dict-html-symbol-entities/cspell-ext.json",
-        "./node_modules/cspell-dict-medicalterms/cspell-ext.json",
-        "./node_modules/cspell-dict-scientific-terms-us/cspell-ext.json"
+        "@cspell/dict-medicalterms/cspell-ext.json",
+        "@cspell/dict-people-names/cspell-ext.json",
+        "@cspell/dict-scientific-terms-gb/cspell-ext.json",
+        "@cspell/dict-scientific-terms-us/cspell-ext.json"
     ],
     "ignorePaths": [
         "**.lock",
