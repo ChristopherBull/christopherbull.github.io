@@ -15,7 +15,17 @@ I work in human-centred computing, with a particular focus on digital health. My
 I also explore human factors in computing education and software engineering practice. This includes looking at how new tools and studio-inspired teaching approaches shape learning, collaboration, and professional development.
 
 ```mermaid
-flowchart LR
+---
+title: Research Themes Overview
+config:
+    flowchart:
+        curve: cardinal
+        useMaxWidth: true
+        htmlLabels: true
+        nodeSpacing: 25
+        rankSpacing: 50
+---
+flowchart RL
     accTitle: Research Themes and Domains of Practice Overview
     accDescr: This diagram shows the foundations, core research themes, and domains of practice of Christopher Bull's human-centred computing research. Foundational areas include Human-Computer Interaction and Software Engineering. All foundational topics inform the core research themes. Core themes include Digital Mental Health, Digital Measures of Health & Wellbeing, Health Informatics & Clinical Workflows, and Human Factors in Computing Education. Domains of practice are Digital Health and Computing Education.
 
@@ -43,8 +53,27 @@ flowchart LR
     end
 
     %% --- STRUCTURAL RELATIONSHIPS ---
-    T <--- C
-    T <--- F
+    C e1@--> T
+    F e2@--> T
+
+    %% --- STYLING ---
+    %% Core Research Themes: Soft blue with professional stroke
+    classDef coreTheme fill:#e3f2fd,stroke:#1976d2,stroke-width:0.08em,color:#1a1a1a,font-size:1em,rx:0.65em,ry:0.65em;
+    %% Domains of Practice: Soft amber/orange
+    classDef domain fill:#fff3e0,stroke:#f57c00,stroke-width:0.08em,color:#1a1a1a,font-size:1em,rx:0.65em,ry:0.65em;
+    %% Foundations: Soft purple
+    classDef foundation fill:#f3e5f5,stroke:#7b1fa2,stroke-width:0.08em,color:#1a1a1a,font-size:1em,rx:0.65em,ry:0.65em;
+    %% Subgraph styling: clean and light
+    classDef subgraphStyle fill:#fafafa,stroke:#bbb,stroke-width:0.125em,font-size:1.1em,font-weight:bold,rx:0.75em,ry:0.75em;
+
+    class MH,HI,M,E coreTheme;
+    class DH,CE domain;
+    class HCI,SE foundation;
+    class T,C,F subgraphStyle;
+
+    %% --- ARROW ANIMATION ---
+    classDef animate stroke-dasharray: 9,5,stroke-dashoffset: 900,animation: dash 60s linear infinite;
+    class e1,e2 animate;
 ```
 
 ## Research Themes
