@@ -5,4 +5,25 @@
     word-wrap: break-word;
     display: block;
     white-space: normal;
+    height: 100%;
+}
+
+/* Mermaid wraps html labels with extra <p> tags; remove their margins to avoid dead zones. */
+.mermaid .node .label .nodeLabel > p {
+    margin: 0;
+}
+
+.mermaid-node-fixed-width .mermaid-theme-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    line-height: inherit;
+}
+
+.mermaid-node-fixed-width .mermaid-theme-link:hover,
+.mermaid-node-fixed-width .mermaid-theme-link:focus-visible {
+    text-decoration: underline;
 }

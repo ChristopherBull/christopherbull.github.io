@@ -34,10 +34,10 @@ flowchart RL
     %% --- CORE RESEARCH THEMES ---
     subgraph T["Core Research Themes"]
         direction TB
-        MH[<div class="mermaid-node-fixed-width"><i class="fas fa-brain fa-fw" aria-hidden="true"></i><br>Digital Mental Health</div>] ~~~
-        HI[<div class="mermaid-node-fixed-width"><i class="fas fa-hospital-user fa-fw" aria-hidden="true"></i><br>Health Informatics & Clinical Workflows</div>] ~~~
-        M[<div class="mermaid-node-fixed-width"><i class="fas fa-chart-line fa-fw" aria-hidden="true"></i><br>Digital Measures of Health & Wellbeing</div>] ~~~
-        E[<div class="mermaid-node-fixed-width"><i class="fas fa-laptop-code fa-fw" aria-hidden="true"></i><br>Human Factors in Computing Education</div>]
+        MH[<div class="mermaid-node-fixed-width"><a class="mermaid-theme-link" href="#digital-mental-health"><i class="fas fa-brain fa-fw" aria-hidden="true"></i><br>Digital Mental Health</a></div>] ~~~
+        HI[<div class="mermaid-node-fixed-width"><a class="mermaid-theme-link" href="#health-informatics--clinical-workflows"><i class="fas fa-hospital-user fa-fw" aria-hidden="true"></i><br>Health Informatics & Clinical Workflows</a></div>] ~~~
+        M[<div class="mermaid-node-fixed-width"><a class="mermaid-theme-link" href="#digital-measures-of-health--wellbeing"><i class="fas fa-chart-line fa-fw" aria-hidden="true"></i><br>Digital Measures of Health & Wellbeing</a></div>] ~~~
+        E[<div class="mermaid-node-fixed-width"><a class="mermaid-theme-link" href="#human-factors-in-computing-education"><i class="fas fa-laptop-code fa-fw" aria-hidden="true"></i><br>Human Factors in Computing Education</a></div>]
     end
 
     %% --- DOMAINS OF PRACTICE (to the top-right) ---
