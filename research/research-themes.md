@@ -6,6 +6,8 @@ sidebar:
   nav: research
 toc: true
 mermaid: true
+page_css:
+    - /assets/style/research-themes-mermaid.css
 ---
 
 <!-- markdownlint-disable MD033 -->
@@ -32,24 +34,24 @@ flowchart RL
     %% --- CORE RESEARCH THEMES ---
     subgraph T["Core Research Themes"]
         direction TB
-        MH[<i class="fas fa-brain fa-fw" aria-hidden="true"></i><br>Digital Mental Health] ~~~
-        HI[<i class="fas fa-hospital-user fa-fw" aria-hidden="true"></i><br>Health Informatics & Clinical Workflows] ~~~
-        M[<i class="fas fa-chart-line fa-fw" aria-hidden="true"></i><br>Digital Measures of Health & Wellbeing] ~~~
-        E[<i class="fas fa-laptop-code fa-fw" aria-hidden="true"></i><br>Human Factors in Computing Education]
+        MH[<div class="mermaid-node-fixed-width"><i class="fas fa-brain fa-fw" aria-hidden="true"></i><br>Digital Mental Health</div>] ~~~
+        HI[<div class="mermaid-node-fixed-width"><i class="fas fa-hospital-user fa-fw" aria-hidden="true"></i><br>Health Informatics & Clinical Workflows</div>] ~~~
+        M[<div class="mermaid-node-fixed-width"><i class="fas fa-chart-line fa-fw" aria-hidden="true"></i><br>Digital Measures of Health & Wellbeing</div>] ~~~
+        E[<div class="mermaid-node-fixed-width"><i class="fas fa-laptop-code fa-fw" aria-hidden="true"></i><br>Human Factors in Computing Education</div>]
     end
 
     %% --- DOMAINS OF PRACTICE (to the top-right) ---
     subgraph C["Domains of Practice"]
         direction TB
-        DH[Digital Health] ~~~
-        CE[Computing Education]
+        DH[<div class="mermaid-node-fixed-width">Digital Health</div>] ~~~
+        CE[<div class="mermaid-node-fixed-width">Computing Education</div>]
     end
 
     %% --- FOUNDATIONS (to the bottom-right) ---
     subgraph F["Foundations"]
         direction TB
-        HCI[Human-Computer Interaction] ~~~
-        SE[Software Engineering]
+        HCI[<div class="mermaid-node-fixed-width">Human-Computer Interaction</div>] ~~~
+        SE[<div class="mermaid-node-fixed-width">Software Engineering</div>]
     end
 
     %% --- STRUCTURAL RELATIONSHIPS ---

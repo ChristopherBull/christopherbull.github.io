@@ -1,0 +1,8 @@
+.mermaid-node-fixed-width {
+    width: 180px;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    display: block;
+    white-space: normal;
+}
