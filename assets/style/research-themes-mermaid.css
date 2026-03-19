@@ -27,3 +27,14 @@
 .mermaid-node-fixed-width .mermaid-theme-link:focus-visible {
     text-decoration: underline;
 }
+
+/* Centre all Mermaid diagrams */
+.mermaid {
+  text-align: center;
+}
+
+.mermaid svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
