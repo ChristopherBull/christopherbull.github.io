@@ -24,8 +24,8 @@
     "@cspell/dict-people-names": "^1.1.16",
     "@cspell/dict-scientific-terms-gb": "^1.0.6",
     "@cspell/dict-scientific-terms-us": "^3.1.0",
-    "@cspell/dict-software-terms": "^5.2.0",
-    "cspell": "^9.7.0",
+    "@cspell/dict-software-terms": "^5.2.2",
+    "cspell": "^10.0.0",
     "husky": "^9.1.7",
     "markdownlint-cli2": "^0.21.0"
   }
