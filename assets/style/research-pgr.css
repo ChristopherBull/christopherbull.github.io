@@ -140,7 +140,7 @@
 
 /* Scrollable methods filter with visual affordances */
 .phdFilterGroup:has([data-filter-type="method"]) .phdFilterOptions {
-  max-height: 12rem;
+  max-height: 15.75rem;
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
