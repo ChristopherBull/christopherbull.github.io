@@ -27,6 +27,6 @@
     "@cspell/dict-software-terms": "^5.2.2",
     "cspell": "^10.0.0",
     "husky": "^9.1.7",
-    "markdownlint-cli2": "^0.21.0"
+    "markdownlint-cli2": "^0.22.0"
   }
 }
