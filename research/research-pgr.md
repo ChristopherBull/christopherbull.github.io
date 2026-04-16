@@ -383,7 +383,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
     <meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
     <meta itemprop="honorificSuffix" content="PhD">
     <meta itemprop="alumniOf" content="Newcastle University">
-    <span class="phdTopic" itemprop="description">Digital Technology to Empower People in Making Healthy and Sustainable Food Purchase Choices</span>
+    <span class="phdTopic" itemprop="description">Designing Digital Technology to Empower Climate-Sensitive Food Purchases</span>
     <span class="phdGraduated">2025 <i class="fas fa-calendar" aria-hidden="true"></i></span>
     <span class="phdIconRow">
       <i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
