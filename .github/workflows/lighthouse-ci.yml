@@ -20,21 +20,18 @@ jobs:
           # Fix for LHCI status checks not appearing for commits/pull_reqs
           # https://github.com/GoogleChrome/lighthouse-ci/issues/172
           ref: ${{ github.event.pull_request.head.sha }}
-      # Build site
-      - uses: ruby/setup-ruby@v1
+      
+      - name: Setup Mise (Node.js & Ruby)
+        uses: jdx/mise-action@v4
         with:
-          ruby-version: .ruby-version
-          bundler-cache: true
+          cache: true
+
       - name: Install build dependencies
         run: bundle install
+      
       - name: Build site
         run: bundle exec jekyll build
-      # Lighthouse audit
-      - name: Use Node.js (LTS) for Lighthouse CI
-        uses: actions/setup-node@v6
-        with:
-          node-version-file: .node-version
-          cache: npm
+      
       - name: Run the Lighthouse CI
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

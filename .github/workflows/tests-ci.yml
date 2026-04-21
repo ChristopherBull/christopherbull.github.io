@@ -8,10 +8,13 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - uses: actions/checkout@v6
-      - name: Use Node.js (LTS)
+      - name: Extract Node version from .mise.toml
+        id: node_version
+        run: echo "version=$(sed -n 's/^[[:space:]]*node[[:space:]]*=[[:space:]]*\"\(.*\)\"/\1/p' .mise.toml)" >> $GITHUB_OUTPUT
+      - name: Use Node.js
         uses: actions/setup-node@v6
         with:
-          node-version-file: .node-version
+          node-version: ${{ steps.node_version.outputs.version }}
           cache: npm
       - name: Install dependencies
         run: npm ci
@@ -25,10 +28,13 @@ jobs:
     needs: spelling
     steps:
       - uses: actions/checkout@v6
-      - name: Use Node.js (LTS)
+      - name: Extract Node version from .mise.toml
+        id: node_version
+        run: echo "version=$(sed -n 's/^[[:space:]]*node[[:space:]]*=[[:space:]]*\"\(.*\)\"/\1/p' .mise.toml)" >> $GITHUB_OUTPUT
+      - name: Use Node.js
         uses: actions/setup-node@v6
         with:
-          node-version-file: .node-version
+          node-version: ${{ steps.node_version.outputs.version }}
           cache: npm
       - name: Install dependencies
         run: npm ci
