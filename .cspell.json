@@ -162,6 +162,7 @@
         "fediverse",
         "microdata",
         "qlty",
-        "unminified"
+        "unminified",
+        "WCAG"
     ]
 }

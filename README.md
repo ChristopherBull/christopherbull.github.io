@@ -2,45 +2,33 @@
 
 ![Tests](https://github.com/ChristopherBull/christopherbull.github.io/workflows/Tests/badge.svg) ![Lighthouse](https://github.com/ChristopherBull/christopherbull.github.io/workflows/Lighthouse/badge.svg)
 
-This website serves as a professional (and personal) profile:\
-[https://christopherbull.github.io/](https://christopherbull.github.io/)
+This is my professional and personal profile website, built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 
-## GitHub Pages (Jekyll)
+You can visit the live site at: [https://christopherbull.github.io/](https://christopherbull.github.io/)
 
-This site uses Jekyll, provided by [GitHub pages](https://pages.github.com/). A minimal website requires a `_config.yml` and `index.md` file. Pre-existing Jekyll themes can be used - [choose a theme](https://pages.github.com/themes/) and follow their instructions on how to customise the `_config.yml` file correctly.
+## Local Development
 
-Jekyll automatically converts valid Markdown files into HTML pages 🚀
+### Setup
 
-### Testing locally
+Install [Mise](https://mise.jdx.dev/) and run the setup command to automatically configure the environment and install all dependencies:
 
-1\) Prerequisites: Install [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/).
-
-<!-- markdownlint-disable MD028 -->
-
-> [!TIP]
-> **Install Gems in Project**:
-> It is optional, though recommended, to [configure Bundler's install path](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/#configure-bundler-install-path) to use the project's subdirectory: `bundle config set --local path 'vendor/bundle'`
-
-> [!TIP]
-> **Additional Dev Tools Required**:
-> You may need to install Dev tools (to avoid errors in the next step), e.g., with Ubuntu: `sudo apt install ubuntu-dev-tools`
-
-> [!TIP]
-> **Update Bundler**:
-> To update Bundler, run `bundle update --bundler` to update the pinned version in `Gemfile.lock`.
-
-2\) Now install the dependencies: `bundle install` (or `bundle update --all` to update an existing `Gemfile.lock` file)
-
-Note: A `Gemfile` is already included in this repository, but a minimal working example only needs to [include these lines](https://github.com/github/pages-gem):
-
-```Gemfile
-source 'https://rubygems.org'
-gem "github-pages", group: :jekyll_plugins
+```bash
+mise run setup
 ```
 
-3\) The environment is now ready. Now build and serve (run) the website:
+> [!NOTE]
+> This command handles the installation of correct Ruby and Node.js versions, npm dependencies, and Ruby gems (configured to install in `vendor/bundle`). On Debian-based systems, it will also prompt to install `build-essential` if needed.
 
-* `bundle exec jekyll build`
-* `bundle exec jekyll serve`
+### Running
 
-The server address will likely be mounted at `http://127.0.0.1:4000/`, but the terminal will output the correct address during the 'serve' command.
+Once configured, you can build and serve the website locally:
+
+```bash
+bundle exec jekyll serve
+```
+
+The server address will be output in the terminal, typically at `http://127.0.0.1:4000/`.
+
+---
+
+For more detailed information on toolchain management, code quality, and accessibility standards, please refer to [DEVELOPMENT.md](DEVELOPMENT.md).

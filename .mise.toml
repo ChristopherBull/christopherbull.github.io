@@ -1,0 +1,17 @@
+[tools]
+node = "24"
+ruby = "3.3.9"
+
+[tasks.setup]
+description = "Install Node and Ruby dependencies"
+run = [
+    """
+    if command -v apt-get >/dev/null 2>&1; then
+      echo "Debian/Ubuntu system detected. Installing build essentials (sudo may prompt for password)..."
+      sudo apt-get update && sudo apt-get install -y build-essential
+    fi
+    """,
+    "npm ci",
+    "bundle config set --local path 'vendor/bundle'",
+    "bundle install"
+]
