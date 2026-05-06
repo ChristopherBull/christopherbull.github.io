@@ -1,0 +1,40 @@
+{
+  "name": "dev-christopherbull.github.io",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/mise:1": {}
+  },
+  "forwardPorts": [
+    4000
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "davidanson.vscode-markdownlint",
+        "hverlin.mise-vscode",
+        "joshbolduc.commitlint",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
+  "mounts": [
+    {
+      "source": "mise-data-volume",
+      "target": "/mnt/mise-data",
+      "type": "volume"
+    }
+  ],
+  "containerEnv": {
+    "MISE_DATA_DIR": "/mnt/mise-data",
+    // Disable GPG signature verification for Node installation. Mise does not handle
+    // GPG key verification automatically, so keys would otherwise require manual
+    // downloading and configuration. This avoids that complexity.
+    "MISE_NODE_GPG_VERIFY": "0"
+  },
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/mnt/mise-data/shims"
+  },
+  // Lifecycle commands
+  "onCreateCommand": ".devcontainer/onCreate.sh",
+  "updateContentCommand": "mise run update"
+}

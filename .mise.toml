@@ -1,28 +1,14 @@
 [settings]
-# Disable auto-install to allow the 'setup' task to install system compilers 
-# BEFORE mise attempts to build Ruby/Node from source.
-task_run_auto_install = false
+ruby.compile = false
 
 [tools]
-node = "24"
-ruby = "3.3.9"
+node = { version = "24", postinstall = "mise exec -- npm ci" }
+ruby = { version = "3.3.9", postinstall = "mise exec -- bundle config set --local path 'vendor/bundle'; mise exec -- bundle install" }
 
-[tasks.setup]
-description = "Install system dependencies, mise tools, and project dependencies"
+[tasks.update]
+description = "Upgrade configured tools and project dependencies"
 run = [
-    """
-    # System packages must be installed first so that 'mise install' has a 
-    # C compiler and libraries available to build Ruby and Node.
-    if command -v apt-get >/dev/null 2>&1; then
-      echo "Debian/Ubuntu system detected. Installing build dependencies..."
-      sudo apt-get update
-      sudo apt-get install -y build-essential autoconf patch rustc libssl-dev libyaml-dev libreadline-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev libdb-dev
-    fi
-    """,
-    "mise install",
-    # Use 'mise exec' to ensure the newly installed tools are in the PATH 
-    # for the current shell session.
-    "mise exec -- npm ci",
-    "mise exec -- bundle config set --local path 'vendor/bundle'",
-    "mise exec -- bundle install"
+  "mise upgrade",
+  "mise exec -- npm ci",
+  "mise exec -- bundle install"
 ]

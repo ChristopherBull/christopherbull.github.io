@@ -9,33 +9,47 @@ This project uses [Mise](https://mise.jdx.dev/) to manage versions of Node.js an
 - **Ruby** is used for building and serving the Jekyll website.
 - **Node.js** is used exclusively for development environment tooling (e.g., linting, spellchecking, and git hooks).
 
-After cloning the repository or changing branches, ensure you have the correct toolchain versions and project dependencies installed by running:
-`mise run setup`
+### Setup Options
 
-This single command will:
+Mise manages the required versions of Node.js and Ruby, specified in [`.mise.toml`](./.mise.toml). Regardless of your setup method (Dev Containers or local), Mise ensures the correct tool versions are installed and dependencies are properly configured.
 
-1. Download and install the correct versions of Node.js and Ruby (if missing).
-2. Install npm dependencies (`npm ci`).
-3. Install Ruby gems (`bundle install`).
+#### Dev Containers (Recommended)
 
-> [!NOTE]
-> **Manual Bundler Configuration**:
-> If you are configuring your environment manually without Mise, it is recommended to [configure Bundler's install path](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/#configure-bundler-install-path) to use the project's subdirectory:
-> `bundle config set --local path 'vendor/bundle'`
+The project includes a Dev Container configuration that automatically sets up the complete environment. This is the simplest approach:
+
+1. Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) in VS Code.
+2. Open the repository and select "Reopen in Container" when prompted.
+3. The environment will be configured automatically on container creation.
+
+#### Mise (Local Installation)
+
+If you prefer to work locally without containers, install [Mise](https://mise.jdx.dev/). When you enter the project directory, Mise will automatically install the correct versions of Node.js and Ruby, and execute the postinstall hooks to install npm and Ruby gem dependencies.
+
+You can manually trigger the installation by running:
+
+```bash
+mise install
+```
 
 ### Maintaining Dependencies
 
-While `mise run setup` handles the initial installation, you may occasionally need to update dependencies manually.
+After initial setup, Mise automatically manages your environment. To update Mise tools and project dependencies, run:
 
-<!-- markdownlint-disable MD028 -->
+```bash
+mise run update
+```
 
-> [!TIP]
-> **Update Bundler**:
-> Run `bundle update --bundler` to update the pinned version of Bundler in `Gemfile.lock`.
+This command:
 
-> [!TIP]
-> **Update Ruby Gems**:
-> Run `bundle update --all` to update all gems to their latest compatible versions.
+- Upgrades the configured tools (Node.js, Ruby) to the latest compatible versions
+- Updates npm dependencies to lockfile versions
+- Updates Ruby gems to the latest compatible versions
+
+To update only specific dependencies:
+
+- **npm**: `npm update`
+- **Ruby gems**: `bundle update --all`
+- **Bundler**: `bundle update --bundler`
 
 ## Code Quality & Formatting
 
