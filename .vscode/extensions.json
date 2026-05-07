@@ -4,9 +4,12 @@
 
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
-		"streetsidesoftware.code-spell-checker",
 		"davidanson.vscode-markdownlint",
-		"joshbolduc.commitlint"
+		"hverlin.mise-vscode",
+		"joshbolduc.commitlint",
+		"MermaidChart.vscode-mermaid-chart",
+		"streetsidesoftware.code-spell-checker",
+		"yzhang.markdown-all-in-one"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
