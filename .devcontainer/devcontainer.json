@@ -35,6 +35,6 @@
     "PATH": "${containerEnv:PATH}:/mnt/mise-data/shims"
   },
   // Lifecycle commands
-  "onCreateCommand": ".devcontainer/onCreate.sh",
+  "onCreateCommand": ".devcontainer/scripts/onCreate.sh",
   "updateContentCommand": "mise run update"
 }
