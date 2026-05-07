@@ -40,6 +40,8 @@
     "PATH": "${containerEnv:PATH}:/mnt/mise-data/shims"
   },
   // Lifecycle commands
+  // Keep both: postinstall hooks run on tool install/update, while postCreate
+  // always runs tool install plus dependency install for each container build.
   "onCreateCommand": ".devcontainer/scripts/onCreate.sh",
-  "postCreateCommand": "mise run update"
+  "postCreateCommand": "mise run install-deps"
 }

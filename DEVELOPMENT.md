@@ -33,17 +33,23 @@ mise install
 
 ### Maintaining Dependencies
 
-After initial setup, Mise automatically manages your environment. To update Mise tools and project dependencies, run:
+After initial setup, use the following commands for installing/upgrading tools and dependencies.
+
+> [!NOTE]
+> Tools and dependencies are automatically installed if using devcontainers, but they can be manually updated/installed if needed.
+
+Install/upgrade configured tool versions:
 
 ```bash
-mise run update
+mise install
+mise upgrade
 ```
 
-This command:
+Install project dependencies from lockfiles:
 
-- Upgrades the configured tools (Node.js, Ruby) to the latest compatible versions
-- Updates npm dependencies to lockfile versions
-- Updates Ruby gems to the latest compatible versions
+```bash
+mise run install-deps
+```
 
 To update only specific dependencies:
 

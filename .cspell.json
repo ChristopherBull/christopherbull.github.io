@@ -160,6 +160,7 @@
         // Tools and Technologies
         "accDescr", // Mermaid diagram accessible description
         "fediverse",
+        "lockfiles",
         "microdata",
         "qlty",
         "unminified",

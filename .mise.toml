@@ -5,10 +5,11 @@ ruby.compile = false
 node = { version = "24", postinstall = "mise exec -- npm ci" }
 ruby = { version = "3.3.9", postinstall = "mise exec -- bundle config set --local path 'vendor/bundle'; mise exec -- bundle install" }
 
-[tasks.update]
-description = "Upgrade configured tools and project dependencies"
+[tasks.install-deps]
+description = "Install project dependencies from lockfiles"
 run = [
-  "mise upgrade",
   "mise exec -- npm ci",
+  # `postinstall` runs on tool install/update, but if tools come from cached/mounted volume, then the local bundle vendor may have not been configured.
+  "mise exec -- bundle config set --local path 'vendor/bundle'",
   "mise exec -- bundle install"
 ]
