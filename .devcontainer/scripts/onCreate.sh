@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 #------------------------------
 # FUNCTIONS
@@ -27,8 +27,17 @@ fi
 #------------------------------
 
 print_command "Setting up permissions..." "🔧"
-sudo chown -R vscode:vscode /mnt/mise-data
-print_command "Permissions are set up!" "✅"
+if [[ ! -d "/mnt/mise-data" ]]; then
+  sudo mkdir -p "/mnt/mise-data"
+fi
+
+MISE_DATA_OWNER="$(stat -c '%U:%G' /mnt/mise-data)"
+if [[ "$MISE_DATA_OWNER" != "vscode:vscode" ]]; then
+  sudo chown -R vscode:vscode "/mnt/mise-data"
+  print_command "Permissions are set up!" "✅"
+else
+  print_command "Permissions already set; skipping chown." "✅"
+fi
 
 #------------------------------
 # Mise

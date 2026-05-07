@@ -7,6 +7,12 @@
   "forwardPorts": [
     4000
   ],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll dev server",
+      "onAutoForward": "openBrowser"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -35,5 +41,5 @@
   },
   // Lifecycle commands
   "onCreateCommand": ".devcontainer/scripts/onCreate.sh",
-  "updateContentCommand": "mise run update"
+  "postCreateCommand": "mise run update"
 }
