@@ -30,6 +30,7 @@
     }
   ],
   "containerEnv": {
+    "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}",
     "MISE_DATA_DIR": "/mnt/mise-data",
     // Disable GPG signature verification for Node installation. Mise does not handle
     // GPG key verification automatically, so keys would otherwise require manual
