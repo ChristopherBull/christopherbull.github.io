@@ -13,52 +13,62 @@ jobs:
     name: Audit
     runs-on: ubuntu-latest
     env:
+      CHROME_PATH: /usr/bin/google-chrome-stable
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
       LHCI_VER: 0.15.x
     steps:
       - uses: actions/checkout@v6
         with:
           # Fix for LHCI status checks not appearing for commits/pull_reqs
           # https://github.com/GoogleChrome/lighthouse-ci/issues/172
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
-      - name: Compute lowercase lighthouse image name
-        id: lighthouse-image-name
-        # GHCR rejects image names containing uppercase letters.
-        # `github.repository` can include uppercase owner/repo segments,
-        # so we normalise the name to lowercase.
-        run: echo "name=ghcr.io/${GITHUB_REPOSITORY,,}/lighthouse" >> "$GITHUB_OUTPUT"
-      
-      - name: Login to GitHub Container Registry
-        uses: docker/login-action@v4
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Extract Node version from .mise.toml
+        id: node_version
+        run: echo "version=$(sed -n 's/^[[:space:]]*node[[:space:]]*=[[:space:]]*{[[:space:]]*version[[:space:]]*=[[:space:]]*\"\([^\"]*\)\".*/\1/p' .mise.toml)" >> "$GITHUB_OUTPUT"
 
-        # Pre-build the dev container image and push it to GHCR to speed up
-        # subsequent runs. This image is used in the next step to run
-        # Lighthouse CI. Separating the build/push from the test step ensures
-        # the image is still published even if later steps fail.
-      - name: Pre-build and push dev container image
-        uses: devcontainers/ci@v0.3
-        with:
-          imageName: ${{ steps.lighthouse-image-name.outputs.name }}
-          cacheFrom: ${{ steps.lighthouse-image-name.outputs.name }}
-          imageTag: latest
-          push: ${{ github.ref == 'refs/heads/main' }}
+      - name: Extract Ruby version from .mise.toml
+        id: ruby_version
+        run: echo "version=$(sed -n 's/^[[:space:]]*ruby[[:space:]]*=[[:space:]]*{[[:space:]]*version[[:space:]]*=[[:space:]]*\"\([^\"]*\)\".*/\1/p' .mise.toml)" >> "$GITHUB_OUTPUT"
 
-      - name: Run Lighthouse CI in devcontainer
-        uses: devcontainers/ci@v0.3
+      - name: Extract Bundler version from Gemfile.lock
+        id: bundler_version
+        run: echo "version=$(awk '/^BUNDLED WITH$/ {getline; gsub(/^[[:space:]]+|[[:space:]]+$/, \"\"); print; exit}' Gemfile.lock)" >> "$GITHUB_OUTPUT"
+
+      - name: Use Node.js
+        uses: actions/setup-node@v6
         with:
-          imageName: ${{ steps.lighthouse-image-name.outputs.name }}
-          imageTag: latest
-          # Install dependencies and run Lighthouse CI.
-          # Note: Do not do full Mise setup (`mise run install-deps`), as many
-          # Node dev deps are not needed for Lighthouse CI.
-          runCmd: |
-            npm install @lhci/cli@$LHCI_VER
-            bundle install
-            bundle exec jekyll build
-            npx lhci autorun
+          node-version: ${{ steps.node_version.outputs.version }}
+          cache: npm
+
+      - name: Use Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ steps.ruby_version.outputs.version }}
+
+      - name: Cache bundled gems
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ steps.ruby_version.outputs.version }}-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-${{ steps.ruby_version.outputs.version }}-
+
+      - name: Install Ruby dependencies
+        run: |
+          gem install bundler -v "${{ steps.bundler_version.outputs.version }}"
+          bundle _${{ steps.bundler_version.outputs.version }}_ config set --local path 'vendor/bundle'
+          bundle _${{ steps.bundler_version.outputs.version }}_ install --jobs 4 --retry 3
+
+      - name: Build site
+        run: bundle _${{ steps.bundler_version.outputs.version }}_ exec jekyll build
+
+      - name: Install Lighthouse CI
+        run: npm install --no-save @lhci/cli@$LHCI_VER
+
+      - name: Run the Lighthouse CI
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+        run: npx lhci autorun
