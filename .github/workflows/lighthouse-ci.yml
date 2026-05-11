@@ -70,4 +70,7 @@ jobs:
             # This workflow only runs in GitHub Actions, where hosted Ubuntu
             # runners use a nested devcontainer with constrained sandbox/shared
             # memory behavior, so Chrome needs extra CI-only launch flags here.
-            mise exec -- npx lhci autorun --collect.settings.chromeFlags="--no-sandbox --disable-dev-shm-usage"
+            # Note: Unsetting `GITHUB_TOKEN` is needed to prevent LHCI from
+            # trying to use it for GitHub API calls, which would fail due to
+            # the token's limited permissions.
+            env -u GITHUB_TOKEN mise exec -- npx lhci autorun --collect.settings.chromeFlags="--no-sandbox --disable-dev-shm-usage"
