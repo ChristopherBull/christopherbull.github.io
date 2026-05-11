@@ -28,7 +28,7 @@ jobs:
         # `github.repository` can include uppercase owner/repo segments,
         # so we normalise the name to lowercase.
         run: echo "name=ghcr.io/$(echo "$GITHUB_REPOSITORY" | tr '[:upper:]' '[:lower:]')/lighthouse" >> "$GITHUB_OUTPUT"
-      
+
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v4
         with:
@@ -54,10 +54,9 @@ jobs:
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
           runCmd: |
-            mise exec -- npm install --no-save @lhci/cli@$LHCI_VER
+            mise exec -- npm install --no-save @lhci/cli@${{ env.LHCI_VER }}
             mise exec -- bundle exec jekyll build
             mise exec -- npx lhci autorun
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LHCI_VER: ${{ env.LHCI_VER }}
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
