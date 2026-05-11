@@ -9,6 +9,11 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: read
+  packages: write
+  statuses: write
+
 jobs:
   lighthouse:
     name: Audit
@@ -46,6 +51,7 @@ jobs:
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           cacheFrom: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
+          # Only push on main branch commits to avoid pushing images for every PR commit.
           push: ${{ github.ref == 'refs/heads/main' && 'always' || 'never' }}
 
       - name: Run Lighthouse CI in devcontainer
