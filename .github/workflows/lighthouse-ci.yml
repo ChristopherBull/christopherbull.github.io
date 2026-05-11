@@ -20,6 +20,13 @@ jobs:
           # Fix for LHCI status checks not appearing for commits/pull_reqs
           # https://github.com/GoogleChrome/lighthouse-ci/issues/172
           ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Compute lowercase lighthouse image name
+        id: lighthouse-image-name
+        # GHCR rejects image names containing uppercase letters.
+        # `github.repository` can include uppercase owner/repo segments,
+        # so we normalise the name to lowercase.
+        run: echo "name=ghcr.io/${GITHUB_REPOSITORY,,}/lighthouse" >> "$GITHUB_OUTPUT"
       
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v4
@@ -35,15 +42,15 @@ jobs:
       - name: Pre-build and push dev container image
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/${{ github.repository }}/lighthouse
-          cacheFrom: ghcr.io/${{ github.repository }}/lighthouse
+          imageName: ${{ steps.lighthouse-image-name.outputs.name }}
+          cacheFrom: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
           push: ${{ github.ref == 'refs/heads/main' }}
 
       - name: Run Lighthouse CI in devcontainer
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/${{ github.repository }}/lighthouse
+          imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
           # Install dependencies and run Lighthouse CI.
           # Note: Do not do full Mise setup (`mise run install-deps`), as many
