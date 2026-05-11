@@ -13,7 +13,6 @@ jobs:
     name: Audit
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       LHCI_VER: 0.15.x
     steps:
       - uses: actions/checkout@v6
