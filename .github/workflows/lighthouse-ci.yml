@@ -27,7 +27,7 @@ jobs:
         # GHCR rejects image names containing uppercase letters.
         # `github.repository` can include uppercase owner/repo segments,
         # so we normalise the name to lowercase.
-        run: echo "name=ghcr.io/${GITHUB_REPOSITORY,,}/lighthouse" >> "$GITHUB_OUTPUT"
+        run: echo "name=ghcr.io/$(echo "$GITHUB_REPOSITORY" | tr '[:upper:]' '[:lower:]')/lighthouse" >> "$GITHUB_OUTPUT"
       
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v4
@@ -59,4 +59,5 @@ jobs:
             mise exec -- npx lhci autorun
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LHCI_VER: ${{ env.LHCI_VER }}
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
