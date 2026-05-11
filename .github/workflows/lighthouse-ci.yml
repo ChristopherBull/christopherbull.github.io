@@ -20,7 +20,7 @@ jobs:
         with:
           # Fix for LHCI status checks not appearing for commits/pull_reqs
           # https://github.com/GoogleChrome/lighthouse-ci/issues/172
-          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Compute lowercase lighthouse image name
         id: lighthouse-image-name
