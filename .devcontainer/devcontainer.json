@@ -1,10 +1,9 @@
 {
   "name": "dev-christopherbull.github.io",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-    "ghcr.io/devcontainers-extra/features/mise:1": {}
+    "ghcr.io/devcontainers-extra/features/mise:1": {},
+    "ghcr.io/kreemer/features/chrometesting:1": {}
   },
   "forwardPorts": [
     4000
@@ -32,7 +31,7 @@
     }
   ],
   "containerEnv": {
-    "CHROME_PATH": "/usr/bin/google-chrome-stable",
+    "CHROME_PATH": "/usr/local/bin/chrome",
     "LANG": "C.UTF-8",
     "LC_ALL": "C.UTF-8",
     "MISE_DATA_DIR": "/mnt/mise-data",

@@ -48,7 +48,9 @@ jobs:
           imageTag: latest
           push: ${{ github.ref == 'refs/heads/main' && 'always' || 'never' }}
 
-      - name: Run Lighthouse CI in devcontainer
+      - name: Run Lighthouse CI in devcontainer (extra Chrome flags)
+        id: lighthouse-extra-flags
+        continue-on-error: true
         uses: devcontainers/ci@v0.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -67,3 +69,37 @@ jobs:
             # runners use a nested devcontainer with constrained sandbox/shared
             # memory behavior, so Chrome needs extra CI-only launch flags here.
             mise exec -- npx lhci autorun --collect.settings.chromeFlags="--no-sandbox --disable-dev-shm-usage"
+
+      - name: Run Lighthouse CI in devcontainer (default Chrome flags)
+        id: lighthouse-default-flags
+        if: ${{ always() }}
+        continue-on-error: true
+        uses: devcontainers/ci@v0.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+        with:
+          imageName: ${{ steps.lighthouse-image-name.outputs.name }}
+          imageTag: latest
+          env: |
+            CI=true
+            GITHUB_TOKEN
+            LHCI_GITHUB_APP_TOKEN
+          runCmd: |
+            mise exec -- npm install --no-save --no-package-lock --no-audit --no-fund @lhci/cli@${{ env.LHCI_VER }}
+            mise exec -- bundle exec jekyll build
+            mise exec -- npx lhci autorun
+
+      - name: Summarize Lighthouse comparison
+        if: ${{ always() }}
+        run: |
+          {
+            echo '| Lighthouse variant | Result |'
+            echo '| --- | --- |'
+            echo '| Extra flags (`--no-sandbox --disable-dev-shm-usage`) | ${{ steps.lighthouse-extra-flags.outcome }} |'
+            echo '| Default Chrome flags | ${{ steps.lighthouse-default-flags.outcome }} |'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail if baseline Lighthouse run fails
+        if: ${{ always() && steps.lighthouse-extra-flags.outcome != 'success' }}
+        run: exit 1
