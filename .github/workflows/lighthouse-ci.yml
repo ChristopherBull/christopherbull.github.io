@@ -72,7 +72,6 @@ jobs:
 
       - name: Run Lighthouse CI in devcontainer (default Chrome flags)
         id: lighthouse-default-flags
-        if: ${{ always() }}
         continue-on-error: true
         uses: devcontainers/ci@v0.3
         env:
@@ -101,5 +100,5 @@ jobs:
           EOF
 
       - name: Fail if baseline Lighthouse run fails
-        if: ${{ always() && steps.lighthouse-extra-flags.outcome != 'success' }}
+        if: ${{ always() && (steps.lighthouse-extra-flags.outcome == 'failure' || steps.lighthouse-extra-flags.outcome == 'cancelled') }}
         run: exit 1
