@@ -5,6 +5,8 @@ on:
     branches:
       - main
   pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -62,5 +64,6 @@ jobs:
             mise exec -- npm install --no-save --no-package-lock --no-audit --no-fund @lhci/cli@${{ env.LHCI_VER }}
             mise exec -- bundle exec jekyll build
             # This workflow only runs in GitHub Actions, where hosted Ubuntu
-            # runners block Chrome's sandbox inside this nested devcontainer.
-            mise exec -- npx lhci autorun --collect.settings.chromeFlags="--no-sandbox"
+            # runners use a nested devcontainer with constrained sandbox/shared
+            # memory behavior, so Chrome needs extra CI-only launch flags here.
+            mise exec -- npx lhci autorun --collect.settings.chromeFlags="--no-sandbox --disable-dev-shm-usage"
