@@ -48,13 +48,19 @@ jobs:
 
       - name: Run Lighthouse CI in devcontainer
         uses: devcontainers/ci@v0.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
         with:
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
+          env: |
+            CI=true
+            GITHUB_TOKEN
+            LHCI_GITHUB_APP_TOKEN
           runCmd: |
             mise exec -- npm install --no-save --no-package-lock --no-audit --no-fund @lhci/cli@${{ env.LHCI_VER }}
             mise exec -- bundle exec jekyll build
-            CI=true \
-            GITHUB_TOKEN='${{ secrets.GITHUB_TOKEN }}' \
-            LHCI_GITHUB_APP_TOKEN='${{ secrets.LHCI_GITHUB_APP_TOKEN }}' \
-            mise exec -- npx lhci autorun --collect.settings.chromeFlags='--no-sandbox'
+            # This workflow only runs in GitHub Actions, where hosted Ubuntu
+            # runners block Chrome's sandbox inside this nested devcontainer.
+            mise exec -- npx lhci autorun --collect.settings.chromeFlags="--no-sandbox"
