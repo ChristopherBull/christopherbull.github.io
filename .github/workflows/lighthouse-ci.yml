@@ -25,45 +25,59 @@ jobs:
           # https://github.com/GoogleChrome/lighthouse-ci/issues/172
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
-      - name: Extract Node version from .mise.toml
-        id: node_version
-        run: echo "version=$(sed -n 's/^[[:space:]]*node[[:space:]]*=[[:space:]]*{[[:space:]]*version[[:space:]]*=[[:space:]]*\"\([^\"]*\)\".*/\1/p' .mise.toml)" >> "$GITHUB_OUTPUT"
+      - name: Extract tool versions
+        id: versions
+        run: |
+          python3 <<'PY' >> "$GITHUB_OUTPUT"
+          import pathlib
+          import re
+          import tomllib
 
-      - name: Extract Ruby version from .mise.toml
-        id: ruby_version
-        run: echo "version=$(sed -n 's/^[[:space:]]*ruby[[:space:]]*=[[:space:]]*{[[:space:]]*version[[:space:]]*=[[:space:]]*\"\([^\"]*\)\".*/\1/p' .mise.toml)" >> "$GITHUB_OUTPUT"
+          mise = tomllib.loads(pathlib.Path(".mise.toml").read_text())
+          lock = pathlib.Path("Gemfile.lock").read_text()
+          bundler = re.search(r"^BUNDLED WITH\s*\n\s*([^\s]+)\s*$", lock, re.MULTILINE)
 
-      - name: Extract Bundler version from Gemfile.lock
-        id: bundler_version
-        run: echo "version=$(awk '/^BUNDLED WITH$/ {getline; gsub(/^[[:space:]]+|[[:space:]]+$/, \"\"); print; exit}' Gemfile.lock)" >> "$GITHUB_OUTPUT"
+          versions = {
+              "node": mise["tools"]["node"]["version"],
+              "ruby": mise["tools"]["ruby"]["version"],
+              "bundler": bundler.group(1) if bundler else "",
+          }
+
+          missing = [name for name, version in versions.items() if not version]
+          if missing:
+              raise SystemExit(f"Missing version(s): {', '.join(missing)}")
+
+          for name, version in versions.items():
+              print(f"{name}={version}")
+          PY
 
       - name: Use Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: ${{ steps.node_version.outputs.version }}
+          node-version: ${{ steps.versions.outputs.node }}
           cache: npm
 
       - name: Use Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ steps.ruby_version.outputs.version }}
+          ruby-version: ${{ steps.versions.outputs.ruby }}
 
       - name: Cache bundled gems
         uses: actions/cache@v4
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ steps.ruby_version.outputs.version }}-${{ hashFiles('Gemfile.lock') }}
+          key: ${{ runner.os }}-gems-${{ steps.versions.outputs.ruby }}-${{ hashFiles('Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-gems-${{ steps.ruby_version.outputs.version }}-
+            ${{ runner.os }}-gems-${{ steps.versions.outputs.ruby }}-
 
       - name: Install Ruby dependencies
         run: |
-          gem install bundler -v "${{ steps.bundler_version.outputs.version }}"
-          bundle _${{ steps.bundler_version.outputs.version }}_ config set --local path 'vendor/bundle'
-          bundle _${{ steps.bundler_version.outputs.version }}_ install --jobs 4 --retry 3
+          gem install bundler -v "${{ steps.versions.outputs.bundler }}"
+          bundle _${{ steps.versions.outputs.bundler }}_ config set --local path 'vendor/bundle'
+          bundle _${{ steps.versions.outputs.bundler }}_ install --jobs 4 --retry 3
 
       - name: Build site
-        run: bundle _${{ steps.bundler_version.outputs.version }}_ exec jekyll build
+        run: bundle _${{ steps.versions.outputs.bundler }}_ exec jekyll build
 
       - name: Install Lighthouse CI
         run: npm install --no-save @lhci/cli@$LHCI_VER
