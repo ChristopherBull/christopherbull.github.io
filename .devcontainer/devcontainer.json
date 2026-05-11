@@ -1,6 +1,8 @@
 {
   "name": "dev-christopherbull.github.io",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
     "ghcr.io/devcontainers-extra/features/mise:1": {}
   },
@@ -30,7 +32,9 @@
     }
   ],
   "containerEnv": {
-    "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}",
+    "CHROME_PATH": "/usr/bin/google-chrome-stable",
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
     "MISE_DATA_DIR": "/mnt/mise-data",
     // Disable GPG signature verification for Node installation. Mise does not handle
     // GPG key verification automatically, so keys would otherwise require manual
@@ -38,6 +42,9 @@
     "MISE_NODE_GPG_VERIFY": "0"
   },
   "remoteEnv": {
+    // Keep the GitHub token as a runtime-only value so it is available in local
+    // and CI containers without being baked into the container image metadata.
+    "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}",
     "PATH": "${containerEnv:PATH}:/mnt/mise-data/shims"
   },
   // Lifecycle commands
