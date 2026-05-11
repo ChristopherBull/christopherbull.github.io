@@ -4,6 +4,11 @@
       "version": "1.0.0",
       "resolved": "ghcr.io/devcontainers-extra/features/mise@sha256:5c389ab1e3c8e44e5e0ff119f6868d54dbb781bc860bd8587dc66209cb8c4a8c",
       "integrity": "sha256:5c389ab1e3c8e44e5e0ff119f6868d54dbb781bc860bd8587dc66209cb8c4a8c"
+    },
+    "ghcr.io/kreemer/features/chrometesting:1": {
+      "version": "1.0.1",
+      "resolved": "ghcr.io/kreemer/features/chrometesting@sha256:8c36da43f778161aa80cee4f73396a62cb98f070375bb1e5c7ed7688b395a604",
+      "integrity": "sha256:8c36da43f778161aa80cee4f73396a62cb98f070375bb1e5c7ed7688b395a604"
     }
   }
 }
