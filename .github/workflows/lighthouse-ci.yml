@@ -41,6 +41,17 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Show workflow SHA context
+        run: |
+          echo "github.event_name=${{ github.event_name }}"
+          echo "github.sha=${{ github.sha }}"
+          echo "github.ref=${{ github.ref }}"
+          echo "pr.head.sha=${{ github.event.pull_request.head.sha }}"
+          echo "GITHUB_EVENT_NAME=$GITHUB_EVENT_NAME"
+          echo "GITHUB_SHA=$GITHUB_SHA"
+          echo "GITHUB_REF=$GITHUB_REF"
+          git rev-parse HEAD
+
         # Pre-build the dev container image and push it to GHCR to speed up
         # subsequent runs. This image is used in the next step to run
         # Lighthouse CI. Separating the build/push from the test step ensures
