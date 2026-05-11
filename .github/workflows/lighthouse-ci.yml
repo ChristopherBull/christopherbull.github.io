@@ -95,10 +95,10 @@ jobs:
           cat <<'EOF' >> "$GITHUB_STEP_SUMMARY"
           | Lighthouse variant | Result |
           | --- | --- |
-          | Baseline extra Chrome flags (`--no-sandbox --disable-dev-shm-usage`) | ${{ steps.lighthouse-baseline.outcome }} |
+          | With extra Chrome flags (`--no-sandbox --disable-dev-shm-usage`) | ${{ steps.lighthouse-baseline.outcome }} |
           | Default Chrome flags | ${{ steps.lighthouse-default.outcome }} |
           EOF
 
       - name: Fail if baseline Lighthouse run fails
-        if: ${{ always() && contains(fromJSON('["failure", "cancelled"]'), steps.lighthouse-baseline.outcome) }}
+        if: ${{ always() && (steps.lighthouse-baseline.outcome == 'failure' || steps.lighthouse-baseline.outcome == 'cancelled') }}
         run: exit 1
