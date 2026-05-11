@@ -4,6 +4,13 @@ module.exports = {
       url: ['http://localhost:4000/'],
       startServerCommand: 'bundle exec jekyll serve',
       settings: {
+        ...(process.env.CI
+          ? {
+              // GitHub-hosted Ubuntu runners block Chrome's sandbox in nested
+              // devcontainers, so disable it for CI Lighthouse runs.
+              chromeFlags: '--no-sandbox',
+            }
+          : {}),
         // Skip Progressive Web App audit in final report
         onlyCategories: [
           'performance',
