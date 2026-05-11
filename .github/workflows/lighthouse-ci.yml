@@ -46,7 +46,7 @@ jobs:
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           cacheFrom: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
-          push: ${{ github.ref == 'refs/heads/main' }}
+          push: ${{ github.ref == 'refs/heads/main' && 'always' || 'never' }}
 
       - name: Run Lighthouse CI in devcontainer
         uses: devcontainers/ci@v0.3
