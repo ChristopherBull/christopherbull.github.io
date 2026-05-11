@@ -93,12 +93,12 @@ jobs:
       - name: Summarize Lighthouse comparison
         if: ${{ always() }}
         run: |
-          {
-            echo '| Lighthouse variant | Result |'
-            echo '| --- | --- |'
-            echo '| Extra flags (`--no-sandbox --disable-dev-shm-usage`) | ${{ steps.lighthouse-extra-flags.outcome }} |'
-            echo '| Default Chrome flags | ${{ steps.lighthouse-default-flags.outcome }} |'
-          } >> "$GITHUB_STEP_SUMMARY"
+          cat <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          | Lighthouse variant | Result |
+          | --- | --- |
+          | Extra flags (`--no-sandbox --disable-dev-shm-usage`) | ${{ steps.lighthouse-extra-flags.outcome }} |
+          | Default Chrome flags | ${{ steps.lighthouse-default-flags.outcome }} |
+          EOF
 
       - name: Fail if baseline Lighthouse run fails
         if: ${{ always() && steps.lighthouse-extra-flags.outcome != 'success' }}
