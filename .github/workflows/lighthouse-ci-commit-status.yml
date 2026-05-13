@@ -1,0 +1,40 @@
+name: Lighthouse (commit status)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lighthouse:
+    name: Audit
+    runs-on: ubuntu-latest
+    env:
+      LHCI_VER: 0.15.x
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # Fix for LHCI status checks not appearing for commits/pull_reqs
+          # https://github.com/GoogleChrome/lighthouse-ci/issues/172
+          ref: ${{ github.event.pull_request.head.sha }}
+      
+      - name: Setup Mise (Node.js & Ruby)
+        uses: jdx/mise-action@v4
+        with:
+          cache: true
+
+      - name: Install build dependencies
+        run: bundle install
+      
+      - name: Build site
+        run: bundle exec jekyll build
+      
+      - name: Run the Lighthouse CI
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+        run: |
+          npm install @lhci/cli@$LHCI_VER
+          npx lhci autorun
