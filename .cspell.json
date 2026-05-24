@@ -165,5 +165,14 @@
         "qlty",
         "unminified",
         "WCAG"
+    ],
+    "overrides": [
+        {
+            "filename": "AGENTS.md",
+            "words": [
+                "christopherbull",
+                "lighthouserc"
+            ]
+        }
     ]
 }
