@@ -44,12 +44,16 @@ fi
 #------------------------------
 
 print_command "Setting up node_modules permissions..." "🔧"
-NODE_MODULES_OWNER="$(stat -c '%U:%G' /workspaces/christopherbull.github.io/node_modules)"
-if [[ "$NODE_MODULES_OWNER" != "vscode:vscode" ]]; then
-  sudo chown -R vscode:vscode "/workspaces/christopherbull.github.io/node_modules"
-  print_command "node_modules permissions are set up!" "✅"
+if [[ -d /workspaces/christopherbull.github.io/node_modules ]]; then
+  NODE_MODULES_OWNER="$(stat -c '%U:%G' /workspaces/christopherbull.github.io/node_modules)"
+  if [[ "$NODE_MODULES_OWNER" != "vscode:vscode" ]]; then
+    sudo chown -R vscode:vscode "/workspaces/christopherbull.github.io/node_modules"
+    print_command "node_modules permissions are set up!" "✅"
+  else
+    print_command "node_modules permissions already set; skipping chown." "✅"
+  fi
 else
-  print_command "node_modules permissions already set; skipping chown." "✅"
+  print_command "node_modules does not exist yet; skipping." "⏭️"
 fi
 
 #------------------------------
@@ -57,12 +61,16 @@ fi
 #------------------------------
 
 print_command "Setting up _site permissions..." "🔧"
-SITE_OWNER="$(stat -c '%U:%G' /workspaces/christopherbull.github.io/_site)"
-if [[ "$SITE_OWNER" != "vscode:vscode" ]]; then
-  sudo chown -R vscode:vscode "/workspaces/christopherbull.github.io/_site"
-  print_command "_site permissions are set up!" "✅"
+if [[ -d /workspaces/christopherbull.github.io/_site ]]; then
+  SITE_OWNER="$(stat -c '%U:%G' /workspaces/christopherbull.github.io/_site)"
+  if [[ "$SITE_OWNER" != "vscode:vscode" ]]; then
+    sudo chown -R vscode:vscode "/workspaces/christopherbull.github.io/_site"
+    print_command "_site permissions are set up!" "✅"
+  else
+    print_command "_site permissions already set; skipping chown." "✅"
+  fi
 else
-  print_command "_site permissions already set; skipping chown." "✅"
+  print_command "_site does not exist yet; skipping." "⏭️"
 fi
 
 #------------------------------
@@ -70,12 +78,16 @@ fi
 #------------------------------
 
 print_command "Setting up vendor/bundle permissions..." "🔧"
-VENDOR_OWNER="$(stat -c '%U:%G' /workspaces/christopherbull.github.io/vendor/bundle)"
-if [[ "$VENDOR_OWNER" != "vscode:vscode" ]]; then
-  sudo chown -R vscode:vscode "/workspaces/christopherbull.github.io/vendor/bundle"
-  print_command "vendor/bundle permissions are set up!" "✅"
+if [[ -d /workspaces/christopherbull.github.io/vendor/bundle ]]; then
+  VENDOR_OWNER="$(stat -c '%U:%G' /workspaces/christopherbull.github.io/vendor/bundle)"
+  if [[ "$VENDOR_OWNER" != "vscode:vscode" ]]; then
+    sudo chown -R vscode:vscode "/workspaces/christopherbull.github.io/vendor/bundle"
+    print_command "vendor/bundle permissions are set up!" "✅"
+  else
+    print_command "vendor/bundle permissions already set; skipping chown." "✅"
+  fi
 else
-  print_command "vendor/bundle permissions already set; skipping chown." "✅"
+  print_command "vendor/bundle does not exist yet; skipping." "⏭️"
 fi
 
 #------------------------------
