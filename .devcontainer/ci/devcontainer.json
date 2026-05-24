@@ -12,10 +12,7 @@
     "LANG": "C.UTF-8",
     "LC_ALL": "C.UTF-8",
 
-    "MISE_NODE_GPG_VERIFY": "0",
-
-    "MISE_VERBOSE": "1",
-    "MISE_DEBUG": "1"
+    "MISE_NODE_GPG_VERIFY": "0"
   },
 
   "remoteEnv": {
