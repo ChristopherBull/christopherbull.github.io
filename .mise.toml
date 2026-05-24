@@ -2,8 +2,8 @@
 ruby.compile = false
 
 [tools]
-node = { version = "24", postinstall = "mise exec -- npm ci" }
-ruby = { version = "3.3.9", postinstall = "mise exec -- bundle config set --local path 'vendor/bundle'; mise exec -- bundle install" }
+node = { version = "24", postinstall = "npm ci" }
+ruby = { version = "3.3.9", postinstall = "bundle config set --local path 'vendor/bundle'; bundle install" }
 
 [tasks.serve]
 description = "Build and serve the site locally (binds 0.0.0.0 for devcontainer)"
@@ -12,8 +12,8 @@ run = "bundle exec jekyll serve --host 0.0.0.0"
 [tasks.install-deps]
 description = "Install project dependencies from lockfiles"
 run = [
-  "mise exec -- npm ci",
+  "npm ci",
   # `postinstall` runs on tool install/update, but if tools come from cached/mounted volume, then the local bundle vendor may have not been configured.
-  "mise exec -- bundle config set --local path 'vendor/bundle'",
-  "mise exec -- bundle install"
+  "bundle config set --local path 'vendor/bundle'",
+  "bundle install"
 ]

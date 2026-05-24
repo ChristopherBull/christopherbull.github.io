@@ -84,6 +84,9 @@ jobs:
           runCmd: |
             set -euxo pipefail
 
+            echo "=== Clearing stale lock files ==="
+            rm -rf ~/.cache/mise/lockfiles/
+
             echo "=== Mise diagnostics ==="
             mise doctor || true
             mise settings || true
