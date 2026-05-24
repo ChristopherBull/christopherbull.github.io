@@ -5,6 +5,10 @@ ruby.compile = false
 node = { version = "24", postinstall = "mise exec -- npm ci" }
 ruby = { version = "3.3.9", postinstall = "mise exec -- bundle config set --local path 'vendor/bundle'; mise exec -- bundle install" }
 
+[tasks.serve]
+description = "Build and serve the site locally"
+run = "bundle exec jekyll serve --host 0.0.0.0"
+
 [tasks.install-deps]
 description = "Install project dependencies from lockfiles"
 run = [

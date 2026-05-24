@@ -28,7 +28,26 @@
       "source": "mise-data-volume",
       "target": "/mnt/mise-data",
       "type": "volume"
+    },
+    {
+      "source": "jekyll-site-volume",
+      "target": "/workspaces/christopherbull.github.io/_site",
+      "type": "volume"
+    },
+    {
+      "source": "node-modules-volume",
+      "target": "/workspaces/christopherbull.github.io/node_modules",
+      "type": "volume"
+    },
+    {
+      "source": "bundle-vendor-volume",
+      "target": "/workspaces/christopherbull.github.io/vendor/bundle",
+      "type": "volume"
     }
+  ],
+  "tmpfs": [
+    "/workspaces/christopherbull.github.io/.jekyll-cache",
+    "/workspaces/christopherbull.github.io/.sass-cache"
   ],
   "containerEnv": {
     "CHROME_PATH": "/usr/local/bin/chrome",
