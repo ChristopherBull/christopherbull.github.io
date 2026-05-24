@@ -15,7 +15,7 @@ Dev Container (`.devcontainer/devcontainer.json`) is the recommended environment
 ## Code quality
 
 | Command | Tool | Notes |
-|---|---|---|
+| --- | --- | --- |
 | `npm run lint` | markdownlint-cli2 | MD013 (line length) disabled in `.markdownlint-cli2.jsonc` |
 | `npm run spell` | cspell | Custom dictionaries in `.cspell.json` |
 | `npx commitlint --edit` | commitlint | Enforces Conventional Commits via Husky commit-msg hook |
