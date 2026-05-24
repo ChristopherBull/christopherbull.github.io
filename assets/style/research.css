@@ -2,7 +2,7 @@
   margin-top: 0.5em;
 }
 
-.research-values {
+.values-row {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
@@ -14,12 +14,12 @@
   border-radius: 0.5rem;
 }
 
-.research-values div {
+.values-row div {
   flex: 1 1 200px;
   text-align: center;
 }
 
-.research-values i {
+.values-row i {
   color: #007acc;
   margin-bottom: 0.5rem;
 }

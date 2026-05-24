@@ -27,3 +27,9 @@ research:
         url: /research/supervision/#current
       - title: Completed
         url: /research/supervision/#completed
+
+teaching:
+  - title: Teaching Overview
+    url: /teaching/
+  - title: Course History
+    url: /teaching/courses/

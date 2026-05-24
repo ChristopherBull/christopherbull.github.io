@@ -17,7 +17,7 @@ This includes **assistive and diagnostic** tools, **systems** for clinicians, an
 
 ## Research Values
 
-<div class="research-values">
+<div class="values-row">
   <div>
     <i class="fas fa-handshake fa-1.5x" aria-hidden="true"></i>
     <strong>Co-Design</strong><br>

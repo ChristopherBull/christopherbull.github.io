@@ -1,56 +1,142 @@
 ---
 layout: single
-title: Teaching
+title: <i class="fas fa-chalkboard-teacher fa-fw headingIcon" aria-hidden="true"></i>Teaching
 permalink: /teaching/
-toc: true
-toc_sticky: true
+sidebar:
+  nav: teaching
+mermaid: true
+page_css:
+  - /assets/style/research.css
 ---
 
 <!-- markdownlint-disable MD033 -->
 
-I am committed to high-quality teaching and promote studio education, or Studio-Based Learning (SBL), a teaching method I [researched and helped to successfully implement](http://www.research.lancs.ac.uk/portal/en/publications/studios-in-software-engineering-education(a6a4d34e-cb6e-4eba-b558-03a8a10d2831).html) throughout Software Engineering at Lancaster University. Studio-Based Learning is a hands-on project- and problem-based teaching method which revolves around coaching students, inspired by architecture/design/art studios. It particularly encourages reflective practice, peer-learning, intra- and inter-group collaboration, multi-discipline teams, and teaches numerous skills for future Software Engineering leaders. Studio education is a strong approach for multi-disciplinary teams and thinking broadly about problems. I have been awarded a Best Paper award in this area ([CSEE&T 2014](https://conferences.computer.org/cseet/)) and continue to engage in both an educational and research perspective (Distinguished Reviewer Award, CSEE&T 2020).
+I teach computing as a hands-on, studio-based practice, and I research how generative AI is reshaping the way students learn to build software. My teaching and my research feed each other: insights from working with student teams flow into published findings, and those findings shape how I run my modules.
 
-I have experience teaching on a variety of undergraduate modules and have provided supervisory/mentorship roles to several students.
+## Teaching Values
 
-I take equality, equity, and diversity very seriously. I provide my position and some of my actions on a [dedicated page](../equality.md). I am also more than happy to be [contacted](../index.md#contact-me) in relation to this.
+<div class="values-row">
+  <div>
+    <i class="fas fa-drafting-compass fa-1.5x" aria-hidden="true"></i>
+    <strong>Studio-Based Learning</strong><br>
+    Architecture-studio-inspired teaching: coaching, peer learning, reflective practice, and project-led work in multi-disciplinary teams.
+  </div>
+  <div>
+    <i class="fas fa-layer-group fa-1.5x" aria-hidden="true"></i>
+    <strong>Scaffolding &amp; Fading</strong><br>
+    Providing scaffolded support and progressively reducing it as students grow in independence.
+  </div>
+  <div>
+    <i class="fas fa-compass fa-1.5x" aria-hidden="true"></i>
+    <strong>Critical, Adaptive Practice</strong><br>
+    Graduates who can critically evaluate the tools reshaping their profession, not just use them.
+  </div>
+</div>
 
-## <i class="fas fa-chalkboard-teacher fa-fw headingIcon" aria-hidden="true"></i>Taught courses
+> "Knowing what questions to ask (or how to iterate on a question) is a skill."<br>
+> <small>&mdash; <a href="https://doi.org/10.1109/MS.2023.3300574">Bull &amp; Kharrufa, <em>IEEE Software</em> (2024)</a></small>
+{: .notice--info}
 
-### Current Courses
+## Two Pillars of My Teaching
 
-- [CSC2033: Software Engineering Team Project](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC2033) _[2021+]_
-- [CSC3131: Development and Operations of Systems](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC3131) _[2021, 2025+]_
+I teach software engineering as a project-based practice, integrating Human-Computer Interaction to ground students' thinking about users and systems. Two pedagogical commitments shape how I approach it:
 
-### Past Courses
+### <i class="fas fa-drafting-compass fa-fw headingIcon" aria-hidden="true"></i>Studio-Based Learning
 
-**Studio-based Teaching:**
+I am committed to **Studio-Based Learning (SBL)** — a hands-on, project- and problem-based teaching method inspired by architecture, design, and art studios. Studio teaching centres on coaching rather than lecturing, peer learning, reflective practice, and multi-disciplinary teamwork. It is particularly well-suited to software engineering, where collaboration, judgement, and adapting to real-world constraints matter at least as much as technical knowledge.
 
-- SCC.331: Software Design Studio Project III _[2014, 2019]_
-- SCC.230: Software Design Studio Project I (Core Studio) _[2013-19]_
-- SCC.330: Software Design Studio Project II _[2014]_
+I [researched and helped to successfully implement](http://www.research.lancs.ac.uk/portal/en/publications/studios-in-software-engineering-education(a6a4d34e-cb6e-4eba-b558-03a8a10d2831).html) the studio approach throughout Software Engineering at Lancaster University, and I continue to engage with it both as an educator and a researcher. My work in this area was recognised with a **Best Paper award at [CSEE&amp;T 2014](https://conferences.computer.org/cseet/)**.
 
-**Lecture & Lab Practicals:**
+<a href="/research/studio-education/" class="btn btn--primary">Studio-Based Learning research <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 
-- [CSC8428: Software Design Lifecycle](https://www.ncl.ac.uk/module-catalogue/module.php?code=CSC8428) _[2023]_
-- CSc.242: Software Engineering _[2013]_
-- Guest lectures:
-  - "Responsible Software Engineering and Practical Implications in Health" (SCC.204: Software Design) _[Dec 2019]_
-  - "Digital Health Innovation Projects and Ethical Aspects" (MSCI528: Digital Innovation) _[Dec 2019]_
+### <i class="fas fa-robot fa-fw headingIcon" aria-hidden="true"></i>Teaching with Generative AI in Computing Education
 
-**Seminars/Tutorials:**
+Generative AI is changing what it means to learn to program. In an [IEEE Software article](https://doi.org/10.1109/MS.2023.3300574) with [Ahmed Kharrufa](https://openlab.ncl.ac.uk/people/ahmed-kharrufa/), I argued that the right pedagogical response is **integration with critical judgement**, not avoidance. Treating GenAI as a forbidden tool misses the chance to teach the harder, more durable skill: *how* and *when* to use these tools well.
 
-- “Masterclass – DevOps and Continuous Integration” (SCC.330) _[2020]_
-- "Introduction to Android Development" (SCC.230) _[2014-17]_
-- SCC.204: Software Design _[2011]_
+In a [follow-up study](https://doi.org/10.1145/3779296) with my colleagues, we found that GenAI in a 2nd-year software engineering team project plays three distinct **roles** for students: as an *educator* (explanations, worked examples, mentor), as a *peer* (brainstorming, reviewing code and documents, bridging the skills gap within teams), and as an *assistant* (boilerplate, tests, bug fixing). We proposed a **design space** (roles &times; support-ability patterns &times; transparency) to help educators and tool-builders maximise the learning benefits while mitigating the risks. These ideas directly shape how I run my software engineering team-project modules.
 
-**Lab Practicals:**
+<a href="/research/gen-ai-comp-education/" class="btn btn--primary">Generative AI in Computing Education research <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 
-- SCC.110: Introduction to Programming _[2010-14, 2016]_
-- CSc.242: Software Engineering _[2013]_
-- SCC.204: Software Design _[2011-13]_
-- CSc.241: Concurrent Programming and Operating Systems _[2010]_
-- CSc.150: Web Technologies _[2010]_
+## How My Teaching and Research Connect
 
-**Volunteer Instructor (Code First: Girls):**
+```mermaid
+---
+title: Teaching Foundations, Practice, and Outcomes
+config:
+    flowchart:
+        curve: cardinal
+        useMaxWidth: true
+        htmlLabels: true
+        nodeSpacing: 25
+        rankSpacing: 50
+---
+flowchart LR
+    accTitle: Teaching foundations, practice, and outcomes
+    accDescr: Diagram showing how pedagogical foundations (Studio-Based Learning, Scaffolding and Fading, Reflective Practice) and research-informed lenses (Roles of AI, Support-Ability Patterns, Transparency) feed into teaching practice (coaching, project-led modules, peer reviews), which graduates critical, adaptive, future-ready problem solvers.
 
-- Introduction to Web Development (evening classes) _[2018]_
+    subgraph F["Pedagogical Foundations"]
+        direction TB
+        SBL[Studio-Based Learning] ~~~
+        SF[Scaffolding & Fading] ~~~
+        RP[Reflective Practice]
+    end
+
+    subgraph R["Informed by My Research"]
+        direction TB
+        PD[Pedagogical Design for AI Tools] ~~~
+        HF[Human Factors in Computing Education] ~~~
+        SBR[Studio-Based Learning research]
+    end
+
+    subgraph P["In Practice"]
+        direction TB
+        C[Coaching, not Lecturing] ~~~
+        PJ[Project-Led Modules] ~~~
+        PV[Peer Code & Design Reviews] ~~~
+        PA[Process-Focused Assessment] ~~~
+        ASP[Authentic Software Practices]
+    end
+
+    subgraph O["Graduates Who Are…"]
+        direction TB
+        TC[Tool-Critical Engineers] ~~~
+        MD[Multi-Disciplinary Collaborators] ~~~
+        REF[Reflective Practitioners] ~~~
+        FR[Future-Ready Problem Solvers]
+    end
+
+    F e1@--> P
+    R e2@--> P
+    P e3@--> O
+
+    classDef foundation fill:#f3e5f5,stroke:#7b1fa2,stroke-width:0.08em,color:#1a1a1a,font-size:1em,rx:0.65em,ry:0.65em;
+    classDef research fill:#fff3e0,stroke:#f57c00,stroke-width:0.08em,color:#1a1a1a,font-size:1em,rx:0.65em,ry:0.65em;
+    classDef practice fill:#e3f2fd,stroke:#1976d2,stroke-width:0.08em,color:#1a1a1a,font-size:1em,rx:0.65em,ry:0.65em;
+    classDef outcome fill:#e8f5e9,stroke:#388e3c,stroke-width:0.08em,color:#1a1a1a,font-size:1em,rx:0.65em,ry:0.65em;
+    classDef subgraphStyle fill:#fafafa,stroke:#bbb,stroke-width:0.125em,font-size:1.1em,font-weight:bold,rx:0.75em,ry:0.75em;
+
+    class SBL,SF,RP foundation;
+    class PD,HF,SBR research;
+    class C,PJ,PV,PA,ASP practice;
+    class TC,MD,REF,FR outcome;
+    class F,R,P,O subgraphStyle;
+
+    classDef animate stroke-dasharray: 9,5,stroke-dashoffset: 900,animation: dash 60s linear infinite;
+    class e1,e2,e3 animate;
+```
+
+<i class="fas fa-award fa-fw" aria-hidden="true"></i> Active in the wider computing education research community as a regular program committee member and peer reviewer, recognised with a **Distinguished Reviewer Award at CSEE&amp;T 2020**.
+{: .notice}
+
+## Equality, Equity &amp; Diversity
+
+I take equality, equity, and diversity seriously in my teaching and supervision. I set out my position and the actions I am taking [on a dedicated page](/equality.html), and I am happy to be [contacted](/profile/#contacting-me) about it.
+{: .notice}
+
+## Explore Further
+
+<div class="btn-group">
+  <a href="/research/themes/#human-factors-in-computing-education" class="btn btn--primary"><i class="fas fa-laptop-code fa-fw headingIcon" aria-hidden="true"></i>Computing Education Research</a>
+  <a href="/research/gen-ai-comp-education/" class="btn btn--primary"><i class="fas fa-robot fa-fw headingIcon" aria-hidden="true"></i>Generative AI Project</a>
+  <a href="/teaching/courses/" class="btn btn--primary"><i class="fas fa-chalkboard fa-fw headingIcon" aria-hidden="true"></i>Course History</a>
+</div>
