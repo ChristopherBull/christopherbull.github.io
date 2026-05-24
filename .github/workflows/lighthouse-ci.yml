@@ -61,7 +61,7 @@ jobs:
       - name: Pre-build and push dev container image
         uses: devcontainers/ci@v0.3
         with:
-          configFile: .devcontainer/devcontainer.ci.json
+          configFile: .devcontainer/ci/devcontainer.json
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           cacheFrom: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
@@ -73,7 +73,7 @@ jobs:
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
         with:
-          configFile: .devcontainer/devcontainer.ci.json
+          configFile: .devcontainer/ci/devcontainer.json
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
 
