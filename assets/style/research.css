@@ -32,6 +32,60 @@
   justify-content: center;
 }
 
+/* Module list (used on /teaching/courses/) */
+
+.module-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0 1.75rem 0;
+  border-top: 1px solid #d8dde3;
+  border-bottom: 1px solid #d8dde3;
+}
+
+.module-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #ececec;
+  line-height: 1.45;
+}
+
+.module-list li:last-child {
+  border-bottom: none;
+}
+
+.module-list .module-title {
+  flex: 1 1 0%;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.module-list .module-context {
+  color: #888;
+  font-size: 0.88em;
+}
+
+.module-list .module-tag {
+  flex: 0 0 auto;
+  display: inline-block;
+  padding: 0.05rem 0.55rem;
+  font-size: 0.72em;
+  font-weight: 500;
+  background-color: #eef1f5;
+  color: #4a5568;
+  border-radius: 1rem;
+  white-space: nowrap;
+}
+
+.module-list .module-year {
+  flex: 0 0 auto;
+  color: #888;
+  font-size: 0.85em;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
 /* Shared research card layout (projects + publications) */
 
 .projectGrid {

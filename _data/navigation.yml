@@ -31,5 +31,14 @@ research:
 teaching:
   - title: Teaching Overview
     url: /teaching/
-  - title: Course History
+  - title: Modules & Approaches
     url: /teaching/courses/
+    children:
+      - title: Project-Led
+        url: /teaching/courses/#project-led-modules
+      - title: Studio-Based
+        url: /teaching/courses/#studio-based-modules
+      - title: Flipped Teaching
+        url: /teaching/courses/#flipped-teaching
+      - title: All Teaching
+        url: /teaching/courses/#all-teaching

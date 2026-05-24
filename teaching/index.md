@@ -138,5 +138,5 @@ I take equality, equity, and diversity seriously in my teaching and supervision.
 <div class="btn-group">
   <a href="/research/themes/#human-factors-in-computing-education" class="btn btn--primary"><i class="fas fa-laptop-code fa-fw headingIcon" aria-hidden="true"></i>Computing Education Research</a>
   <a href="/research/gen-ai-comp-education/" class="btn btn--primary"><i class="fas fa-robot fa-fw headingIcon" aria-hidden="true"></i>Generative AI Project</a>
-  <a href="/teaching/courses/" class="btn btn--primary"><i class="fas fa-chalkboard fa-fw headingIcon" aria-hidden="true"></i>Course History</a>
+  <a href="/teaching/courses/" class="btn btn--primary"><i class="fas fa-chalkboard fa-fw headingIcon" aria-hidden="true"></i>Modules & Approaches</a>
 </div>
