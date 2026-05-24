@@ -29,6 +29,18 @@ jobs:
           # https://github.com/GoogleChrome/lighthouse-ci/issues/172
           ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
 
+      - name: Restore cached dependencies
+        uses: actions/cache@v5
+        with:
+          path: |
+            vendor/bundle
+            .cache/mise
+            !.cache/mise/lockfiles
+            .cache/npm
+          key: lhci-${{ hashFiles('Gemfile.lock', 'package-lock.json', '.mise.toml') }}
+          restore-keys: |
+            lhci-
+
       - name: Compute lowercase lighthouse image name
         id: lighthouse-image-name
         # GHCR rejects image names containing uppercase letters.
@@ -84,8 +96,13 @@ jobs:
           runCmd: |
             set -euxo pipefail
 
+            echo "=== Setting up dependency caches ==="
+            export MISE_CACHE_DIR="${PWD}/.cache/mise"
+            export npm_config_cache="${PWD}/.cache/npm"
+            mkdir -p "${MISE_CACHE_DIR}"
+
             echo "=== Clearing stale lock files ==="
-            rm -rf ~/.cache/mise/lockfiles/
+            rm -rf "${MISE_CACHE_DIR}/lockfiles/"
 
             echo "=== Mise diagnostics ==="
             mise doctor || true
