@@ -18,14 +18,28 @@ jobs:
   lighthouse:
     name: Audit
     runs-on: ubuntu-latest
+
     env:
       LHCI_VER: 0.15.x
+
     steps:
       - uses: actions/checkout@v6
         with:
           # Fix for LHCI status checks not appearing for commits/pull_reqs
           # https://github.com/GoogleChrome/lighthouse-ci/issues/172
           ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+
+      - name: Restore cached dependencies
+        uses: actions/cache@v5
+        with:
+          path: |
+            vendor/bundle
+            .cache/mise
+            !.cache/mise/lockfiles
+            .cache/npm
+          key: lhci-${{ hashFiles('Gemfile.lock', 'package-lock.json', '.mise.toml') }}
+          restore-keys: |
+            lhci-
 
       - name: Compute lowercase lighthouse image name
         id: lighthouse-image-name
@@ -59,6 +73,7 @@ jobs:
       - name: Pre-build and push dev container image
         uses: devcontainers/ci@v0.3
         with:
+          configFile: .devcontainer/ci/devcontainer.json
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           cacheFrom: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
@@ -70,23 +85,48 @@ jobs:
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
         with:
+          configFile: .devcontainer/ci/devcontainer.json
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
+
           env: |
             CI=true
             LHCI_GITHUB_APP_TOKEN
+
           runCmd: |
+            set -euxo pipefail
+
+            echo "=== Setting up dependency caches ==="
+            export MISE_CACHE_DIR="${PWD}/.cache/mise"
+            export npm_config_cache="${PWD}/.cache/npm"
+            mkdir -p "${MISE_CACHE_DIR}"
+
+            echo "=== Clearing stale lock files ==="
+            rm -rf "${MISE_CACHE_DIR}/lockfiles/"
+
+            echo "=== Mise diagnostics ==="
+            mise doctor || true
+            mise settings || true
+
+            echo "=== Installing toolchains ==="
+            mise install
+
+            echo "=== Installing project dependencies ==="
+            mise run install-deps
+
+            echo "=== Installing Lighthouse CI ==="
             mise exec -- npm install --no-save --no-package-lock --no-audit --no-fund @lhci/cli@${{ env.LHCI_VER }}
+
+            echo "=== Building Jekyll site ==="
             mise exec -- bundle exec jekyll build
-            # Test debug info to help diagnose LHCI issues in CI:
-            echo "GITHUB_EVENT_NAME=$GITHUB_EVENT_NAME"
-            echo "GITHUB_SHA=$GITHUB_SHA"
-            echo "GITHUB_REF=$GITHUB_REF"
-            git rev-parse HEAD
-            # This workflow only runs in GitHub Actions, where hosted Ubuntu
-            # runners use a nested devcontainer with constrained sandbox/shared
-            # memory behavior, so Chrome needs extra CI-only launch flags here.
-            # Note: Unsetting `GITHUB_TOKEN` is needed to prevent LHCI from
-            # trying to use it for GitHub API calls, which would fail due to
-            # the token's limited permissions.
-            env -u GITHUB_TOKEN mise exec -- npx lhci autorun --collect.settings.chromeFlags="--no-sandbox --disable-dev-shm-usage"
+
+            echo "=== Running Lighthouse CI ==="
+
+            # Hosted runners use nested containerisation with restricted
+            # sandbox/shared-memory behaviour, requiring extra Chrome flags.
+            #
+            # Unsetting GITHUB_TOKEN prevents LHCI attempting GitHub API
+            # operations using the default workflow token.
+            env -u GITHUB_TOKEN mise exec -- \
+              npx lhci autorun \
+              --collect.settings.chromeFlags="--no-sandbox --disable-dev-shm-usage"
