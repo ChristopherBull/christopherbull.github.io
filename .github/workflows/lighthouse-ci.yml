@@ -18,8 +18,10 @@ jobs:
   lighthouse:
     name: Audit
     runs-on: ubuntu-latest
+
     env:
       LHCI_VER: 0.15.x
+
     steps:
       - uses: actions/checkout@v6
         with:
@@ -59,6 +61,7 @@ jobs:
       - name: Pre-build and push dev container image
         uses: devcontainers/ci@v0.3
         with:
+          configFile: .devcontainer/devcontainer.ci.json
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           cacheFrom: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
@@ -70,23 +73,46 @@ jobs:
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
         with:
+          configFile: .devcontainer/devcontainer.ci.json
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
           imageTag: latest
+
           env: |
             CI=true
             LHCI_GITHUB_APP_TOKEN
+
           runCmd: |
+            set -euxo pipefail
+
+            echo "=== Mise diagnostics ==="
+            mise doctor || true
+            mise settings || true
+
+            echo "=== Installing toolchains ==="
+            mise install
+
+            echo "=== Installing project dependencies ==="
+            mise run install-deps
+
+            echo "=== Installing Lighthouse CI ==="
             mise exec -- npm install --no-save --no-package-lock --no-audit --no-fund @lhci/cli@${{ env.LHCI_VER }}
+
+            echo "=== Building Jekyll site ==="
             mise exec -- bundle exec jekyll build
-            # Test debug info to help diagnose LHCI issues in CI:
+
+            echo "=== GitHub Actions context ==="
             echo "GITHUB_EVENT_NAME=$GITHUB_EVENT_NAME"
             echo "GITHUB_SHA=$GITHUB_SHA"
             echo "GITHUB_REF=$GITHUB_REF"
             git rev-parse HEAD
-            # This workflow only runs in GitHub Actions, where hosted Ubuntu
-            # runners use a nested devcontainer with constrained sandbox/shared
-            # memory behavior, so Chrome needs extra CI-only launch flags here.
-            # Note: Unsetting `GITHUB_TOKEN` is needed to prevent LHCI from
-            # trying to use it for GitHub API calls, which would fail due to
-            # the token's limited permissions.
-            env -u GITHUB_TOKEN mise exec -- npx lhci autorun --collect.settings.chromeFlags="--no-sandbox --disable-dev-shm-usage"
+
+            echo "=== Running Lighthouse CI ==="
+
+            # Hosted runners use nested containerisation with restricted
+            # sandbox/shared-memory behaviour, requiring extra Chrome flags.
+            #
+            # Unsetting GITHUB_TOKEN prevents LHCI attempting GitHub API
+            # operations using the default workflow token.
+            env -u GITHUB_TOKEN mise exec -- \
+              npx lhci autorun \
+              --collect.settings.chromeFlags="--no-sandbox --disable-dev-shm-usage"

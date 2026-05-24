@@ -1,0 +1,27 @@
+{
+  "name": "ci-christopherbull.github.io",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+  "features": {
+    "ghcr.io/devcontainers-extra/features/mise:1": {},
+    "ghcr.io/kreemer/features/chrometesting:1": {}
+  },
+
+  "containerEnv": {
+    "CHROME_PATH": "/usr/local/bin/chrome",
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+
+    "MISE_NODE_GPG_VERIFY": "0",
+
+    "MISE_VERBOSE": "1",
+    "MISE_DEBUG": "1"
+  },
+
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/root/.local/share/mise/shims"
+  },
+
+  "onCreateCommand": ".devcontainer/scripts/onCreate.sh",
+  "postCreateCommand": ""
+}
