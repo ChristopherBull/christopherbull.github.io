@@ -103,12 +103,6 @@ jobs:
             echo "=== Building Jekyll site ==="
             mise exec -- bundle exec jekyll build
 
-            echo "=== GitHub Actions context ==="
-            echo "GITHUB_EVENT_NAME=$GITHUB_EVENT_NAME"
-            echo "GITHUB_SHA=$GITHUB_SHA"
-            echo "GITHUB_REF=$GITHUB_REF"
-            git rev-parse HEAD
-
             echo "=== Running Lighthouse CI ==="
 
             # Hosted runners use nested containerisation with restricted
