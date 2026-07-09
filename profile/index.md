@@ -52,9 +52,9 @@ _Equality, Diversity, and Inclusivity_: As Director of EDI, I welcome conversati
 Advance HE-trained external examiner; listed in the [External Examiners Directory](https://www.advance-he.ac.uk/programmes-events/external-examiners#directory).
 
 - **MA/MSc Creative Computing (Modular)**<br>
-University of the Arts London | 2022–2027
+University of the Arts London | 2022–2026
 - **MA Internet Equalities**<br>
-University of the Arts London | 2024–2027
+University of the Arts London | 2024–2026
 
 ## <i class="fas fa-id-card-clip fa-fw headingIcon" aria-hidden="true"></i>Professional Recognitions
 
