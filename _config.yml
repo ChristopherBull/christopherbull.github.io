@@ -3,14 +3,14 @@ locale: en-GB
 name: Dr Christopher Bull
 title: Christopher Bull
 subtitle: Researcher of Human-Centred Digital Health and Computing Education
-logo: /assets/images/Chris_Bull_2018_100px.webp
-og_image: /assets/images/Chris_Bull_2018_500px.webp
+logo: /assets/images/Chris_Bull_2026-Jul_100px.webp
+og_image: /assets/images/Chris_Bull_2026-Jul_500px.webp
 og_image_alt: Photo of Dr Christopher Bull
 description: Dr Christopher Bull is a Lecturer and Researcher in Digital Health, HCI, and Software Engineering.
 show_downloads: false
 author:
   name: Dr Christopher Bull
-  avatar: /assets/images/Chris_Bull_2018_500px.webp
+  avatar: /assets/images/Chris_Bull_2026-Jul_500px.webp
   fediverse: "@ChrisBull@fediscience.org"
   # bio: I am a researcher. # Note: Markdown is allowed
   location: <a href="https://www.openstreetmap.org/way/514605389#map=19/54.973558/-1.625226">Newcastle, UK</a>
