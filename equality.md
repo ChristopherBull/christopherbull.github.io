@@ -5,7 +5,7 @@ permalink: /equality.html
 toc: true
 ---
 
-I am strongly committed to engaging with and supporting equality, diversity, and inclusivity (EDI). My core values revolve around treating others equitably, both in my professional and personal life.
+I am strongly committed to engaging with and supporting equality, diversity, and inclusivity (EDI). My core values revolve around treating others equitably, both in my professional and personal life. I previously served as Director of EDI within Newcastle University's School of Computing (2023–2026).
 
 I am also an LGBTQIA+ ally. As an ally, I support and champion LGBTQIA+ people and I believe they should enjoy full equality. I aim to challenge homophobia, biphobia and transphobia in any workplace and I am available to listen to and support LGBTQIA+ students and colleagues.
 
@@ -15,7 +15,7 @@ I encourage my students, colleagues, and other professional peers to reach out a
 
 ### Newcastle University
 
-Newcastle has a range of [services available to students](https://www.ncl.ac.uk/students/) and is also [dedicated to improving EDI](https://www.ncl.ac.uk/who-we-are/equality/). I am the Lead for Student EDI on the Equality, Diversity and Inclusion committee within Newcastle University's School of Computing. In this role I am responsible for ensuring the EDI committee's remit is being considered and actioned for students.
+Newcastle has a range of [services available to students](https://www.ncl.ac.uk/students/) and is also [dedicated to improving EDI](https://www.ncl.ac.uk/who-we-are/equality/).
 
 ### Other Affiliations
 

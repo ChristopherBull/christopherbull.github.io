@@ -13,7 +13,7 @@ page_css:
 
 I am a **Lecturer in Computing Science** at [Newcastle University](https://www.ncl.ac.uk/computing/), based in [Open Lab](https://openlab.ncl.ac.uk/). My work centres on digital health, human-computer interaction, and computing education.
 
-I also serve as the **Director of Equality, Diversity, and Inclusivity (EDI)** within the School of Computing, leading on both strategic and operational matters to foster an inclusive environment.
+I also serve as **Deputy Head of School**. I previously served as the **Director of Equality, Diversity, and Inclusivity (EDI)** within the School of Computing (2023–2026), leading on both strategic and operational matters to foster an inclusive environment.
 
 ## <i class="far fa-envelope fa-fw headingIcon" aria-hidden="true"></i>Contacting Me
 
@@ -23,7 +23,7 @@ _Research_: I am open to speculative and collaborative opportunities. Check out 
 
 _Reference requests_: Please read my [reference request policy](/reference-request/) to ensure that I can write you a prompt letter.
 
-_Equality, Diversity, and Inclusivity_: As Director of EDI, I welcome conversations about EDI matters. Read my [equality statement](/equality.html) or contact me directly.
+_Equality, Diversity, and Inclusivity_: As former Director of EDI, I welcome conversations about EDI matters. Read my [equality statement](/equality.html) or contact me directly.
 
 ## <i class="fas fa-users fa-fw headingIcon" aria-hidden="true"></i>Academic Service
 
