@@ -87,6 +87,12 @@ jobs:
           # workflow's own token (see `permissions.statuses` above), instead of
           # LHCI's hosted GitHub App proxy, which started returning 404s.
           LHCI_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # LHCI derives the repo slug/commit hash by running git inside the
+          # devcontainer, but devcontainers/ci doesn't forward GITHUB_REPOSITORY/
+          # GITHUB_SHA there, so pin them explicitly via LHCI's manual overrides
+          # to avoid mismatched values causing 404s on the status API.
+          LHCI_BUILD_CONTEXT__GITHUB_REPO_SLUG: ${{ github.repository }}
+          LHCI_BUILD_CONTEXT__CURRENT_HASH: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
           # Read-only PAT (no repo permissions) used only to raise mise's
           # GitHub API rate limit when resolving tool versions - not for auth.
           MISE_GITHUB_TOKEN: ${{ secrets.MISE_GITHUB_TOKEN }}
@@ -98,6 +104,8 @@ jobs:
           env: |
             CI=true
             LHCI_GITHUB_TOKEN
+            LHCI_BUILD_CONTEXT__GITHUB_REPO_SLUG
+            LHCI_BUILD_CONTEXT__CURRENT_HASH
             MISE_GITHUB_TOKEN
 
           runCmd: |
