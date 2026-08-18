@@ -84,6 +84,9 @@ jobs:
         uses: devcontainers/ci@v0.3
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+          # Read-only PAT (no repo permissions) used only to raise mise's
+          # GitHub API rate limit when resolving tool versions - not for auth.
+          MISE_GITHUB_TOKEN: ${{ secrets.MISE_GITHUB_TOKEN }}
         with:
           configFile: .devcontainer/ci/devcontainer.json
           imageName: ${{ steps.lighthouse-image-name.outputs.name }}
@@ -92,6 +95,7 @@ jobs:
           env: |
             CI=true
             LHCI_GITHUB_APP_TOKEN
+            MISE_GITHUB_TOKEN
 
           runCmd: |
             set -euxo pipefail

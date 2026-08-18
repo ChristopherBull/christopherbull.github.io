@@ -60,9 +60,11 @@
     "MISE_NODE_GPG_VERIFY": "0"
   },
   "remoteEnv": {
-    // Keep the GitHub token as a runtime-only value so it is available in local
-    // and CI containers without being baked into the container image metadata.
-    "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}",
+    // Use mise's own token variable (not GITHUB_TOKEN/GH_TOKEN) so mise gets a
+    // higher GitHub API rate limit without gh/git also picking it up for auth -
+    // gh always prefers GITHUB_TOKEN/GH_TOKEN over an interactive login, and this
+    // token is not scoped for pushing, which breaks `git push` over HTTPS.
+    "MISE_GITHUB_TOKEN": "${localEnv:MISE_GITHUB_TOKEN}",
     "PATH": "${containerEnv:PATH}:/mnt/mise-data/shims"
   },
   // Lifecycle commands
