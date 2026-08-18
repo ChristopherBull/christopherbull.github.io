@@ -83,7 +83,10 @@ jobs:
       - name: Run Lighthouse CI in devcontainer
         uses: devcontainers/ci@v0.3
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+          # Posts the commit status directly via the GitHub REST API using the
+          # workflow's own token (see `permissions.statuses` above), instead of
+          # LHCI's hosted GitHub App proxy, which started returning 404s.
+          LHCI_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Read-only PAT (no repo permissions) used only to raise mise's
           # GitHub API rate limit when resolving tool versions - not for auth.
           MISE_GITHUB_TOKEN: ${{ secrets.MISE_GITHUB_TOKEN }}
@@ -94,7 +97,7 @@ jobs:
 
           env: |
             CI=true
-            LHCI_GITHUB_APP_TOKEN
+            LHCI_GITHUB_TOKEN
             MISE_GITHUB_TOKEN
 
           runCmd: |
@@ -128,9 +131,6 @@ jobs:
 
             # Hosted runners use nested containerisation with restricted
             # sandbox/shared-memory behaviour, requiring extra Chrome flags.
-            #
-            # Unsetting GITHUB_TOKEN prevents LHCI attempting GitHub API
-            # operations using the default workflow token.
-            env -u GITHUB_TOKEN mise exec -- \
+            mise exec -- \
               npx lhci autorun \
               --collect.settings.chromeFlags="--no-sandbox --disable-dev-shm-usage"
