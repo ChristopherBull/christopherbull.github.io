@@ -20,12 +20,12 @@
   "devDependencies": {
     "@commitlint/cli": "^21.2.4",
     "@commitlint/config-conventional": "^21.2.4",
-    "@cspell/dict-medicalterms": "^4.1.8",
+    "@cspell/dict-medicalterms": "^4.1.9",
     "@cspell/dict-people-names": "^1.1.16",
-    "@cspell/dict-scientific-terms-gb": "^1.0.6",
-    "@cspell/dict-scientific-terms-us": "^3.1.0",
-    "@cspell/dict-software-terms": "^5.2.2",
-    "cspell": "^10.0.0",
+    "@cspell/dict-scientific-terms-gb": "^1.0.7",
+    "@cspell/dict-scientific-terms-us": "^3.1.2",
+    "@cspell/dict-software-terms": "^5.4.8",
+    "cspell": "^10.4.0",
     "husky": "^9.1.7",
     "markdownlint-cli2": "^0.22.0"
   }
