@@ -104,6 +104,8 @@ exclude:
   - .qlty
   - docs
   - DEVELOPMENT.md
+  - AGENTS.md
+  - README.md
 watch_exclude:
   - vendor
   - node_modules
