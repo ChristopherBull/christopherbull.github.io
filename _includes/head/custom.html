@@ -3,6 +3,23 @@
 <link rel="me" href="https://fediscience.org/@ChrisBull">
 {% comment %} Preconnect for theme's external JS {% endcomment %}
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
+{% comment %} Critical CSS: reserve space for theme images that have no width/height, to avoid layout shift (CLS). E.g. the masthead logo is 0x0 until decoded; when it arrives it squeezes the title, which re-wraps and shifts the whole page. Keep these here rather than in the non-critical (late-swapped) stylesheet. {% endcomment %}
+<style>
+  .site-logo {
+    flex: none;
+  }
+  .site-logo > img {
+    width: 2rem;
+    height: 2rem;
+    max-width: none;
+    margin-top: .25em;
+    border-radius: .2em;
+  }
+  /* Feature row cards (home page): the theme emits these <img>s without dimensions. */
+  .feature__item .archive__item-teaser img {
+    aspect-ratio: 640 / 428;
+  }
+</style>
 {% comment %} Include my custom CSS for all pages {% endcomment %}
 <link rel="preload" href="/assets/style/all.non-critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/assets/style/all.non-critical.css"></noscript>
