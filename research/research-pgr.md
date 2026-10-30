@@ -235,42 +235,6 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
   </div>
 </details>
 
-<!-- Co-supervised - include icon for awareness -->
-
-<details class="phdCard" itemscope itemtype="https://schema.org/Person">
-  <summary class="phdSummary">
-    <strong itemprop="name">Sami Alghamdi</strong>
-    <meta itemprop="jobTitle" content="PhD Researcher">
-    <meta itemprop="affiliation" content="Newcastle University">
-    <span class="phdTopic" itemprop="description">Design Tools to Support Novice Programming Learners</span>
-    <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
-    <span class="phdIconRow">
-      <i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
-      <span class="phdDivider"></span>
-      <i class="fas fa-hashtag phdIconMethod" aria-hidden="true"></i>
-      <i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
-      <span class="phdDivider"></span>
-      <i class="fas fa-graduation-cap phdIconContext" aria-hidden="true"></i>
-    </span>
-  </summary>
-  <div class="phdDetails">
-    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Open Lab profile</a></p>
-    <strong>Research Theme</strong>
-    <ul>
-      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#human-factors-in-computing-education" aria-label="View Human Factors in Computing Education theme"><i class="fas fa-laptop-code" aria-hidden="true"></i><span>Human Factors in Computing Education</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
-    </ul>
-    <strong>Methods</strong>
-    <ul>
-      <li class="phdMethod"><i class="fas fa-hashtag"></i> Survey / Social Media Analysis</li>
-      <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
-    </ul>
-    <strong>Context</strong>
-    <ul>
-      <li class="phdContext"><i class="fas fa-graduation-cap"></i> Education</li>
-    </ul>
-  </div>
-</details>
-
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
   <summary class="phdSummary">
     <strong itemprop="name">Chinomnso Ekwedike</strong>
@@ -379,6 +343,43 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
 ### Completed
 
 <div class="phdGrid">
+<details class="phdCard" itemscope itemtype="https://schema.org/Person">
+  <summary class="phdSummary">
+    <strong itemprop="name">Sami Alghamdi</strong>
+    <meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
+    <meta itemprop="honorificSuffix" content="PhD">
+    <meta itemprop="alumniOf" content="Newcastle University">
+    <span class="phdTopic" itemprop="description">Design Tools to Support Novice Programming Learners</span>
+    <span class="phdGraduated">2026 <i class="fas fa-calendar" aria-hidden="true"></i></span>
+    <span class="phdCoSupervised">co-supervised <i class="fas fa-user-friends" aria-hidden="true"></i></span>
+    <span class="phdIconRow">
+      <i class="fas fa-laptop-code phdIconTheme" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-hashtag phdIconMethod" aria-hidden="true"></i>
+      <i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
+      <span class="phdDivider"></span>
+      <i class="fas fa-graduation-cap phdIconContext" aria-hidden="true"></i>
+    </span>
+  </summary>
+  <div class="phdDetails">
+    <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/sami-alghamdi/">Open Lab profile</a></p>
+    <strong>Thesis</strong>
+    <p itemprop="subjectOf" itemscope itemtype="https://schema.org/Thesis"><em itemprop="name">Exploring the Support for Informal Programming Learners’ Self-Regulation in Social Media–Rich Contexts</em></p>
+    <strong>Research Theme</strong>
+    <ul>
+      <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#human-factors-in-computing-education" aria-label="View Human Factors in Computing Education theme"><i class="fas fa-laptop-code" aria-hidden="true"></i><span>Human Factors in Computing Education</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
+    </ul>
+    <strong>Methods</strong>
+    <ul>
+      <li class="phdMethod"><i class="fas fa-hashtag"></i> Survey / Social Media Analysis</li>
+      <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
+    </ul>
+    <strong>Context</strong>
+    <ul>
+      <li class="phdContext"><i class="fas fa-graduation-cap"></i> Education</li>
+    </ul>
+  </div>
+</details>
 
 <details class="phdCard" itemscope itemtype="https://schema.org/Person">
   <summary class="phdSummary">
@@ -434,6 +435,8 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
   </summary>
   <div class="phdDetails">
     <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/viana-nijia-zhang/">Open Lab profile</a></p>
+    <strong>Thesis</strong>
+    <p itemprop="subjectOf" itemscope itemtype="https://schema.org/Thesis"><em itemprop="name">Designing Chatbots to Support the Emotional Well-being of Working Parents in the UK</em></p>
     <strong>Research Theme</strong>
     <ul>
       <li class="phdTheme"><a class="phdThemeLink" href="/research/themes/#digital-mental-health" aria-label="View Digital Mental Health theme"><i class="fas fa-brain" aria-hidden="true"></i><span>Digital Mental Health</span><i class="fas fa-external-link-alt phdThemeLinkIcon" aria-hidden="true"></i></a></li>
