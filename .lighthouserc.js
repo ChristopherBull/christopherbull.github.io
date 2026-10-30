@@ -29,7 +29,6 @@ module.exports = {
         // Cannot fix due to theme limitations on GitHub Pages
         'non-composited-animations': 'off',
         'unminified-css': 'off',
-        'unsized-images': 'off',
         'unused-css-rules': 'off',
         'unused-javascript': 'off',
         'uses-text-compression': 'off',
