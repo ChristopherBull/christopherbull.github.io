@@ -2,7 +2,13 @@ module.exports = {
   ci: {
     collect: {
       url: ['http://localhost:4000/'],
-      startServerCommand: 'bundle exec jekyll serve',
+      // Serve the already-built `_site` with a compressing static server. GitHub
+      // Pages gzip/brotli-compresses text assets, but `jekyll serve` does not, which
+      // skews the audits (document latency, render-blocking, LCP, TTI).
+      // Requires `jekyll build` to have run first (the workflow does this).
+      startServerCommand:
+        'npx serve --no-clipboard --no-port-switching --listen 4000 _site',
+      startServerReadyPattern: 'Accepting connections',
       settings: {
         // Skip Progressive Web App audit in final report
         onlyCategories: [
@@ -26,6 +32,8 @@ module.exports = {
         canonical: 'off',
         'uses-http2': 'off',
         'uses-long-cache-ttl': 'off',
+        // Newer insight equivalent of `uses-long-cache-ttl`: the local server does not send GitHub Pages' cache headers. (The theme also loads Font Awesome from jsDelivr `@latest`, which only gets a 7-day TTL.)
+        'cache-insight': 'off',
         // Cannot fix due to theme limitations on GitHub Pages
         'non-composited-animations': 'off',
         'unminified-css': 'off',

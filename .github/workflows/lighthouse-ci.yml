@@ -21,6 +21,7 @@ jobs:
 
     env:
       LHCI_VER: 0.15.x
+      SERVE_VER: 14.x
 
     steps:
       - uses: actions/checkout@v7
@@ -129,8 +130,8 @@ jobs:
             echo "=== Installing project dependencies ==="
             mise run install-deps
 
-            echo "=== Installing Lighthouse CI ==="
-            mise exec -- npm install --no-save --no-package-lock --no-audit --no-fund @lhci/cli@${{ env.LHCI_VER }}
+            echo "=== Installing Lighthouse CI and static server ==="
+            mise exec -- npm install --no-save --no-package-lock --no-audit --no-fund @lhci/cli@${{ env.LHCI_VER }} serve@${{ env.SERVE_VER }}
 
             echo "=== Building Jekyll site ==="
             mise exec -- bundle exec jekyll build
