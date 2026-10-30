@@ -387,7 +387,7 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
     <meta itemprop="jobTitle" content="PhD Researcher (Graduated)">
     <meta itemprop="honorificSuffix" content="PhD">
     <meta itemprop="alumniOf" content="Newcastle University">
-    <span class="phdTopic" itemprop="description">Designing Digital Technology to Empower Climate-Sensitive Food Purchases</span>
+    <span class="phdTopic" itemprop="description">Digital Tools for Climate-Sensitive Food Shopping</span>
     <span class="phdGraduated">2025 <i class="fas fa-calendar" aria-hidden="true"></i></span>
     <span class="phdIconRow">
       <i class="fas fa-pencil-ruler phdIconMethod" aria-hidden="true"></i>
@@ -400,6 +400,8 @@ I welcome enquiries from prospective **self-funded PhD applicants** whose propos
   </summary>
   <div class="phdDetails">
     <p><i class="fas fa-globe" aria-hidden="true"></i> <a itemprop="url" href="https://openlab.ncl.ac.uk/people/remco-benthem-de-grave/">Open Lab profile</a></p>
+    <strong>Thesis</strong>
+    <p itemprop="subjectOf" itemscope itemtype="https://schema.org/Thesis"><em itemprop="name">Designing Digital Technology to Empower Climate-Sensitive Food Purchases</em></p>
     <strong>Methods</strong>
     <ul>
       <li class="phdMethod"><i class="fas fa-pencil-ruler"></i> Co-design / Participatory Design</li>
