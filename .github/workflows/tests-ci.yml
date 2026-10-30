@@ -12,14 +12,11 @@ jobs:
     name: Spelling
     runs-on: ubuntu-slim
     steps:
-      - uses: actions/checkout@v6
-      - name: Extract Node version from .mise.toml
-        id: node_version
-        run: echo "version=$(sed -n 's/^[[:space:]]*node[[:space:]]*=[[:space:]]*\"\(.*\)\"/\1/p' .mise.toml)" >> $GITHUB_OUTPUT
+      - uses: actions/checkout@v7
       - name: Use Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
-          node-version: ${{ steps.node_version.outputs.version }}
+          node-version-file: .mise.toml
           cache: npm
       - name: Install dependencies
         run: npm ci
@@ -32,14 +29,11 @@ jobs:
     # Wait for first job (for dep cache)
     needs: spelling
     steps:
-      - uses: actions/checkout@v6
-      - name: Extract Node version from .mise.toml
-        id: node_version
-        run: echo "version=$(sed -n 's/^[[:space:]]*node[[:space:]]*=[[:space:]]*\"\(.*\)\"/\1/p' .mise.toml)" >> $GITHUB_OUTPUT
+      - uses: actions/checkout@v7
       - name: Use Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
-          node-version: ${{ steps.node_version.outputs.version }}
+          node-version-file: .mise.toml
           cache: npm
       - name: Install dependencies
         run: npm ci
