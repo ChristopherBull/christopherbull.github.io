@@ -17,3 +17,17 @@ run = [
   "bundle config set --local path 'vendor/bundle'",
   "bundle install"
 ]
+
+[tasks.check-deps]
+description = "List outdated dependencies and run security audits (npm + Ruby)"
+# Each tool exits non-zero when it finds something, so run them all and fail at the end rather than stopping at the first.
+# bundler-audit is run via `gem exec` to avoid adding it to the Gemfile (which would be deployed with the site's dependencies).
+run = '''
+status=0
+echo "==> mise outdated"; mise outdated --bump || true
+echo "==> npm outdated";   npm outdated || true
+echo "==> bundle outdated"; bundle outdated || true
+echo "==> npm audit";       npm audit || status=1
+echo "==> bundler-audit";   gem exec bundler-audit check --update || status=1
+exit $status
+'''
